@@ -6,6 +6,7 @@ Furthermore animated textures should also be kept at a minimum for the same reas
 * There is a base texture for every toolpart, which will be colored or used to generate the other textures
 * There are additional base textures (currently only contrast) which are used instead of the base texture for some materials
 * Each material can have a custom texture by appending a _materialid suffix to the texture name. E.g. "axe_head_flint". Material IDs usually match the english name in lowercase.
+* Some materials use block textures during their generation. In that case it's enough to provide a texture for the block. So if your resource pack has a new netherrack texture, the parts will automatically use it.
 
 ### GUI Textures:
 * Tinkers generates outline textures to use in some GUIs.
