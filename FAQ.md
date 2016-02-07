@@ -17,3 +17,7 @@ Always talk to me first before working on pull requests. Pull requests will only
 * _When will you update X? Why was X removed in 1.8?_
 
 1.8 and onward is a long term project which changes many things about Tinkers' while keeping the core the same. If something is not present in the new version it either was removed by design, or it simply didn't get reimplemented since other things were more important.
+
+* _Armor?_
+
+No.
