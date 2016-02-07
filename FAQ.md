@@ -8,6 +8,7 @@ I don't take suggestions. I might consider things in the overall context, but ge
 
 This can have several reasons: Unsupported version, missing information, outdated versions or it was a suggestion and not an issue.
 In general issues will be closed after about 2 weeks without activity unless their issue has not been resolved and all needed information is present.
+Any 1.7.10 related things will be closed. No more work will be done on the 1.7.10 branch in favor of the reworked version.
 
 * _Why did my pull request get rejected?_
 
