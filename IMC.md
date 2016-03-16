@@ -6,7 +6,7 @@ Tinkers' Construct allows you to integrate your mod partially through IMCs. This
 
 The integration works via Oredict, so everything has to be oredicted. You just supply the liquid and the Oredict-suffix.
 
-``java
+`
   // create fluid.
   // You don't need to add textures for the fluid, just create a Fluid Class that overwrites getColor
   // and pass the following as still and flowing ResourceLocation:
@@ -29,7 +29,7 @@ The integration works via Oredict, so everything has to be oredicted. You just s
   
   // send the NBT to TCon
   FMLInterModComms.sendMessage("tconstruct", "integrateSmeltery", tag);
-``
+`
 
 ## Adding Alloys
 
