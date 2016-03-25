@@ -2,7 +2,7 @@
 
 * _I suggested X, why did you close the issue?_
 
-I don't take suggestions. I might consider things in the overall context, but generally suggestions will just be closed. Tinkers' Constructs mechanics are designed to work as is. New tools or weapons would either be added if they fulfill a missing demand and nothing more important is to be done.
+I don't take suggestions. I might consider things in the overall context, but generally suggestions will just be closed to keep the issue tracker clean. Tinkers' Constructs mechanics are designed to work as is. New tools or weapons would either be added if they fulfill a missing demand and nothing more important is to be done.
 
 * _Why did my issue get closed?_
 
