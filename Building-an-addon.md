@@ -15,7 +15,9 @@ First you need to add our maven repo to your **build.gradle**:
 Then you need to tell it to get TiC from there:
 
     dependencies {
-        deobfCompile "slimeknights:TConstruct:1.9-<build>"
+        deobfCompile "slimeknights.mantle:Mantle:1.9-<mantle_build>"
+        deobfCompile "slimeknights:TConstruct:1.9-<tic_build>"
     }
 
-The build corresponds to the latest release and its jenkins build. You can find the latest build on the [release](https://github.com/SlimeKnights/TinkersConstruct/releases) page. As the time of writing the build would be "2.3.0.jenkins193"
+Mantle is needed for TiC, you can find the mantle_build [here](https://github.com/SlimeKnights/TinkersConstruct/blob/master/build.properties#L6) in TiCs build info.
+The tic_build corresponds to the latest release and its jenkins build. You can find the latest build on the [release](https://github.com/SlimeKnights/TinkersConstruct/releases) page. As the time of writing the build would be "2.3.0.jenkins193"
