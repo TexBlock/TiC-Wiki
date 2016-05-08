@@ -3,6 +3,7 @@
 To get TiC into your dev environment you need to add it as a dependency.
 
 First you need to add our maven repo to your build.gradle:
+
     repositories {
         ...
         maven {
