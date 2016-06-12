@@ -72,6 +72,7 @@ This IMC allows you to prevent specific items from being melted down.
 You can add a drying rack recipe via IMC. Input can either be an itemstack, or an oredictionary entry. Time is given in seconds.
 
 Via Itemstack:
+
     // Adding it via Itemstack: Turns vanilla gold ore into a gold block in 3 minutes
     NBTTagCompound tagCompound = new NBTTagCompound();
     tagCompound.setTag("input", new ItemStack(Blocks.GOLD_ORE).writeToNBT(new NBTTagCompound()));
@@ -80,6 +81,7 @@ Via Itemstack:
     FMLInterModComms.sendMessage(Util.MODID, "addDryingRecipe", tagCompound);
 
 Via oredict:
+
     // Adding it via oredict: Turns all iron ore oredicts into iron blocks in 3 minutes
     NBTTagCompound tagCompound = new NBTTagCompound();
     tagCompound.setString("input", "oreIron");
