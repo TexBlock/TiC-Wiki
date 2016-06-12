@@ -66,3 +66,22 @@ This IMC allows you to prevent specific items from being melted down.
     // You cannot blacklist ingots, blocks, ores, and a few other selected general item types
     FMLInterModComms.sendMessage("tconstruct", "blacklistMelting", new ItemStack(Blocks.wool, 1, OreDictionary.WILDCARD_VALUE));
     FMLInterModComms.sendMessage("tconstruct", "blacklistMelting", "specialItemUnobtanium);
+
+## Drying Rack Integration
+
+You can add a drying rack recipe via IMC. Input can either be an itemstack, or an oredictionary entry. Time is given in seconds.
+
+    // Adding it via Itemstack: Turns vanilla gold ore into a gold block in 3 minutes
+    NBTTagCompound tagCompound = new NBTTagCompound();
+    tagCompound.setTag("input", new ItemStack(Blocks.GOLD_ORE).writeToNBT(new NBTTagCompound()));
+    tagCompound.setTag("output", new ItemStack(Blocks.GOLD_BLOCK).writeToNBT(new NBTTagCompound()));
+    tagCompound.setInteger("time", 60*3);
+    FMLInterModComms.sendMessage(Util.MODID, "addDryingRecipe", tagCompound);
+
+
+    // Adding it via oredict: Turns all iron ore oredicts into iron blocks in 3 minutes
+    NBTTagCompound tagCompound = new NBTTagCompound();
+    tagCompound.setString("input", "oreIron");
+    tagCompound.setTag("output", new ItemStack(Blocks.IRON_BLOCK).writeToNBT(new NBTTagCompound()));
+    tagCompound.setInteger("time", 60*3);
+    FMLInterModComms.sendMessage(Util.MODID, "addDryingRecipe", tagCompound);
