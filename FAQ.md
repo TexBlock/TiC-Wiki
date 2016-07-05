@@ -21,3 +21,7 @@ Always talk to me first before working on pull requests. Pull requests will only
 * _Armor?_
 
 No.
+
+* _I'm getting a "dangerous alternative prefix 'tconstruct'"_
+
+No reason to worry, this is intended. TCon only registers some of its things (fluid blocks for example) if the required things are present. This allows us to e.g. only have molten copper if there actually is copper in the game, saving a lot of texture space. The only place to do that is during the oredict event. Forge complains because we're adding TCon blocks while it's not TCons turn to add things. So normally it'd be an error, since it means you're registering blocks and the like wrong, but in this case it's intended.
