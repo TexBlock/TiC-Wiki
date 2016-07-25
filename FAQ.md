@@ -53,3 +53,7 @@ I'd love to, but I don't have any means of getting them. Also considering pullin
 * _Will Traveler's Gear be returning?_
 
 No plans from my side. There simply are more important things to work on.
+
+* _When?_
+
+No.
