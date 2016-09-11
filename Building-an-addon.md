@@ -1,4 +1,4 @@
-_**The current version is 1.9-2.3.0.jenkins193**_
+_**The current version is 1.9-2.5.0.jenkins345**_
 
 To get TiC into your dev environment you need to add it as a dependency.
 
