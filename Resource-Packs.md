@@ -28,7 +28,7 @@ Second in TiCs resources
 Third in minecrafts resources
 
 Available Generators (case sensitive):
-* **colored** - This is the default, just colors the texture. This does not actually create a new texture in the texturemap, reducing vram required
+* **colored** - This is the default, just colors the texture. This does not actually create a new texture in the texturemap, reducing vram required. Color value is in hex.
 * multicolor - Uses a different color for dark-, bright- and mid-tones
 * inverse_multicolor - The negative of multicolor
 * block - Generates the tools from a block-texture
