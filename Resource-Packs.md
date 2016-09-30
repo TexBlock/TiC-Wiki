@@ -22,6 +22,11 @@ Furthermore animated textures should also be kept at a minimum for the same reas
 ### Material Texture Generators:
 There are several algorithms implemented in TiC, that are used to automatically generate the tool textures from the base textures, which are present in png format. You can find them in the materials folder, the filename being the material identifier. Each file has a type, defining the generator, and can have a suffix if another base texture should be used. For parameters see existing files. If you encounter a type not listed here means that an addon adds its own generators, which will only work when the addon is present!
 
+TiC will try to find the json in 3 different mod-domains:
+First in the resources of the mod that registered the material
+Second in TiCs resources
+Third in minecrafts resources
+
 Available Generators (case sensitive):
 * **colored** - This is the default, just colors the texture. This does not actually create a new texture in the texturemap, reducing vram required
 * multicolor - Uses a different color for dark-, bright- and mid-tones
