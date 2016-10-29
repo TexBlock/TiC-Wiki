@@ -7,12 +7,10 @@
 
 SimpleRetrogen Mark for copy'n'paste:
 
-`
-TiC {
-    S:worldGens <
-slimeknights.tconstruct.shared.worldgen.NetherOreGenerator
-slimeknights.tconstruct.world.worldgen.SlimeIslandGenerator
-slimeknights.tconstruct.world.worldgen.MagmaSlimeIslandGenerator
-     >
-}
-`
+    TiC {
+        S:worldGens <
+    slimeknights.tconstruct.shared.worldgen.NetherOreGenerator
+    slimeknights.tconstruct.world.worldgen.SlimeIslandGenerator
+    slimeknights.tconstruct.world.worldgen.MagmaSlimeIslandGenerator
+         >
+    }
