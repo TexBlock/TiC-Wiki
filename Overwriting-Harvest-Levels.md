@@ -1,3 +1,5 @@
+Supported since TiC 2.6.1
+
 The harvest level names displayed in TiC can be overwritten by providing a localization file (via Resource Pack) with the following entries:
 
 `ui.mininglevel.X=Unobtanium`
