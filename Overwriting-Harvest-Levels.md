@@ -18,4 +18,4 @@ where X stands for the corresponding harvest level.
 
 ## Custom Colors for the Harvest Levels
 
-It's a bit technical, but [https://github.com/SlimeKnights/TinkersConstruct/issues/3370](this) issue shows how to use the internal color codes in text in language strings.
+It's a bit technical, but (this)[https://github.com/SlimeKnights/TinkersConstruct/issues/3370] issue shows how to use the internal color codes in text in language strings.
