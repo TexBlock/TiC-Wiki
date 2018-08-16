@@ -18,6 +18,8 @@ Always talk to me first before working on pull requests. Pull requests will only
 
 1.8 and onward is a long term project which changes many things about Tinkers' while keeping the core the same. If something is not present in the new version it either was removed by design, or it simply didn't get reimplemented since other things were more important.
 
+For more information on specific features, check out [this spreadsheet](https://docs.google.com/spreadsheets/d/1NXCKqD439v_Yy0x4GE4BAoAwNoxR5o4NUPKe_b1vkAw/edit?usp=sharing) of missing 1.7 features.
+
 * _Where did Copper, Aluminum,... go?_
 
 Many many mods come with Copper, Tin,.. and they all have different usages. TiC only used them to make tools. Since pretty much every modpack will have at least one mod with Copper, Tin,.. there is no decisive point to include it in TiC itself. Tinkers', however, integrates all those common materials we know and love if they're present from other mods, so you will not lose out on the tools.
