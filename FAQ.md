@@ -18,10 +18,6 @@ Always talk to me first before working on pull requests. Pull requests will only
 
 1.8 and onward is a long term project which changes many things about Tinkers' while keeping the core the same. If something is not present in the new version it either was removed by design, or it simply didn't get reimplemented since other things were more important.
 
-* _I'm getting a "dangerous alternative prefix 'tconstruct'"_
-
-No reason to worry, this is intended. TCon only registers some of its things (fluid blocks for example) if the required things are present. This allows us to e.g. only have molten copper if there actually is copper in the game, saving a lot of texture space. The only place to do that is during the oredict event. Forge complains because we're adding TCon blocks while it's not TCons turn to add things. So normally it'd be an error, since it means you're registering blocks and the like wrong, but in this case it's intended.
-
 * _Where did Copper, Aluminum,... go?_
 
 Many many mods come with Copper, Tin,.. and they all have different usages. TiC only used them to make tools. Since pretty much every modpack will have at least one mod with Copper, Tin,.. there is no decisive point to include it in TiC itself. Tinkers', however, integrates all those common materials we know and love if they're present from other mods, so you will not lose out on the tools.
@@ -29,6 +25,10 @@ Many many mods come with Copper, Tin,.. and they all have different usages. TiC 
 * _But how do I get Aluminum-Brass now?_
 
 You can use gold (as always), brass (if present) and yes, even aluminum-brass to create casts. Aluminum-brass will be added by TiC if some other mods add both copper and aluminum. Furthermore you can now create and use clay casts which don't require any metal at all.
+
+* _Why won't my casts melt down back into gold?_
+
+Casts can be created from each of gold, brass, and aluminum brass, but does not keep track of which liquid was used to make the cast. As a result, a recipe to melt down casts would alloy easily converting brass, aluminum brass, and gold into each other.
 
 * _Tinkers' Armor and shields?_
 
@@ -50,7 +50,7 @@ I'd love to, but I don't have any means of getting them. Also considering pullin
 
 * _Will Traveler's Gear be returning?_
 
-No plans from my side. There simply are more important things to work on.
+No plans from my side. There simply are more important things to work on. mDiyo has given his blessing to the Twilight Forest developers to add a version of the Traveler's Gear to Twilight Forest though.
 
 * _When?_
 
