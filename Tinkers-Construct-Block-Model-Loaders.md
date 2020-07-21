@@ -186,6 +186,8 @@ For every key in the `textures` array, texture dependencies are generated in the
 
 A single texture can also be overridden by defining a texture with the same name as the base, suffixed with an underscore and one of the above names.
 
+This model will automatically handle texture rotations and horizontal or vertical flips, but does not currently support UV lock.
+
 #### Example
 
 The following JSON:
