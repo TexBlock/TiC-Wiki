@@ -1,5 +1,5 @@
 ### Keys
-`type`: Must be `tconstruct:tool_building`. 
+`type`: Must be `tconstruct:tool_building`.  
 `output`: Full item name of the tool. Must extend ToolCore.
 
 
