@@ -1,6 +1,9 @@
-[[Common JSON Value Types]]
+[[Common JSON Value Types]]  
 
-[[Alloying Recipe JSON]]
-[[Casting Recipe JSON]]
+[[Entity Melting Recipe JSON]]  
+[[Molding Recipe JSON]]  
+[[Alloying Recipe JSON]]  
+[[Casting Recipe JSON]]  
+[[Melting Fuel Recipe JSON]]  
 
-[[Tinker Tool Recipe JSON]]
+[[Tinker Tool Recipe JSON]]  
