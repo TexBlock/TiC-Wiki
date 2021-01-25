@@ -36,6 +36,25 @@ Item casting and material casting share these keys:
       "result": "tconstruct:pickaxe_head"
     }
 
+## Composite Casting
+### Keys
+`type`: Unknown at the time. Presumably `"tconstruct:basin_composite"` or `"tconstruct:table_composite"`.  
+`input`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the input tool part.  
+`fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fluid required to cast the item.  
+`result`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the output tool part.
+`temperature`: Integer. Used to calculate casting time based on part size.
+### Example
+    {
+      "type": "tconstruct:table_composite",
+      "input": "tconstruct:bone",
+      "fluid": {
+        "name": "tconstruct:fruit_juice",
+        "amount": 65536
+      },
+      "result": "tconstruct:bone_hurting_material",
+      "temperature": 1666
+    }
+
 ## Container Filling
 ### Keys
 `type`: Must be either `"tconstruct:basin_filling"` or `"tconstruct:table_filling"`.  
