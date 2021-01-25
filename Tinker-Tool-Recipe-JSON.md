@@ -4,7 +4,7 @@
 
 
 ### Example
-`{
-  "type": "tconstruct:tool_building",
-  "output": "tconstruct:axe"
-}`
+    {
+      "type": "tconstruct:tool_building",
+      "output": "tconstruct:axe"
+    }
