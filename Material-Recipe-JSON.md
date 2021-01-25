@@ -2,7 +2,7 @@
 `type`: Must be `"tconstruct:material"`.  
 `ingredient`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. The item to be associated with the material.  
 `value`: Integer. Defaults to 1. How many baseline "ingots" one `ingredient` is worth.  
-`needed`: Integer. Defaults to 1. How many `ingredient`s are needed to equal one baseline "ingot".  
+`needed`: Integer. Defaults to 1. How many `ingredient`s are needed to equal `value` baseline "ingots".  
 `material`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material to be associated with the item.  
 
 ### Example
