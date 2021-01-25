@@ -1,8 +1,8 @@
 ### Keys
 `type`: Must be `"tconstruct:part_builder"`.  
 `pattern`: [[ResourceLocation|Common-JSON-Value-Types#resourcelocation]]. The location of the pattern.  
-`cost`: Integer. How many baseline "ingots" are needed to make one part.
-`result`: [[IMaterialItem|Common-JSON-Value-Types#imaterialitem]]. The output part.
+`cost`: Integer. How many baseline "ingots" are needed to make one part.  
+`result`: [[IMaterialItem|Common-JSON-Value-Types#imaterialitem]]. The output part.  
 
 ### Example
     {
