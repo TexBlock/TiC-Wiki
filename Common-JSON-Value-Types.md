@@ -69,7 +69,7 @@ Similar to [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]], but cann
 https://mcforge.readthedocs.io/en/latest/concepts/resources/
  
 ## IFluidHandlerItem
-Full item name of a fluid container item. Must extend the IFluidHandlerItem interface.
+Full item name of a fluid container item. Must implement the IFluidHandlerItem capability.
 ### Example
     "container": "minecraft:bucket"
 
