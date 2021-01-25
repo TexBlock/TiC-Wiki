@@ -60,6 +60,9 @@ Similar to [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]], but cann
       "fluid": "tconstruct:molten_electrum",
       "amount": 288
     }
+
+## ResourceLocation
+https://mcforge.readthedocs.io/en/latest/concepts/resources/
  
 ## IFluidHandlerItem
 Full item name of a fluid container item. Must extend the IFluidHandlerItem interface.
