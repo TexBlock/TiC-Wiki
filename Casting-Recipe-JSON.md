@@ -38,3 +38,13 @@ Item casting and material casting share these keys:
 
 ## Container Filling
 ### Keys
+`type`: Must be either `"tconstruct:basin_filling"` or `"tconstruct:table_filling"`.  
+`fluid_amount`: Integer. The amount of fluid required. In millibuckets.  
+`container`: [[IFluidHandlerItem|Common-JSON-Value-Types#ifluidhandleritem]]. The container to be filled.  
+### Example
+    {
+      "type": "tconstruct:table_filling",
+      "fluid_amount": 1000,
+      "container": "minecraft:bucket"
+    }
+
