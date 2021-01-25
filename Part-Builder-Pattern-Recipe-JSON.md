@@ -9,7 +9,7 @@
       "type": "tconstruct:part_builder",
       "pattern": "tconstruct:axe_head",
       "cost": 2,
-      "output": {
+      "result": {
         "item": "tconstruct:axe_head"
       }
     }
