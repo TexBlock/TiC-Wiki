@@ -41,8 +41,8 @@ Item casting and material casting share these keys:
 `type`: Unknown at the time. Presumably `"tconstruct:basin_composite"` or `"tconstruct:table_composite"`.  
 `input`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the input tool part.  
 `fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fluid required to cast the item.  
-`result`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the output tool part.
-`temperature`: Integer. Used to calculate casting time based on part size.
+`result`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the output tool part.  
+`temperature`: Integer. Used to calculate casting time based on part size.  
 ### Example
     {
       "type": "tconstruct:table_composite",
