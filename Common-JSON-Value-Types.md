@@ -24,11 +24,27 @@ Same as [[Ingredient|Common-JSON-Value-Types#ingredient]]. Used for recipe outpu
     "result": {
       "tag": "forge:ingots/invar"
     }
+ 
+## IFluidHandlerItem
+Full item name of a fluid container item. Must extend the IFluidHandlerItem interface.
+### Example
+    "container": "minecraft:bucket"
 
 ## ToolCore
-Full item name of a Tinkers tool.
+Full item name of a Tinkers tool. Must extend the ToolCore class.
 ### Example
     "result": "tconstruct:axe"
+
+## IMaterialItem
+Full item name of a material based item, usually a tool part. Must extend the IMaterialItem interface.
+### Example
+    "result": "tconstruct:pickaxe_head"
+
+## MaterialId
+Full name of a Tinkers material.
+### Example
+    "input": "tconstruct:bone"
+
 
 ## Tick
 1/20th of a second.
