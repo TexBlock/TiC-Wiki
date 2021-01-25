@@ -21,9 +21,9 @@ A fluid recipe input.
 ## EntityIngredient
 An entity. Used for entity melting. The input can be an array of both types and tags.
 ### Keys
-`type`: Full entity type.
-`tag`: Forge entity tag.
-`types`: An array of entity types.
+`type`: Full entity type.  
+`tag`: Forge entity tag.  
+`types`: An array of entity types.  
 ### Example
 
     "entity": {
