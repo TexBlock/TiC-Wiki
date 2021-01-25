@@ -18,11 +18,47 @@ A fluid recipe input.
       "amount": 1000
     }
 
+## EntityIngredient
+An entity. Used for entity melting. The input can be an array of both types and tags.
+### Keys
+`type`: Full entity type.
+`tag`: Forge entity tag.
+`types`: An array of entity types.
+### Example
+
+    "entity": {
+      "type": "minecraft:creeper"
+    }
+
+    "entity": [
+      {
+        "tag": "minecraft:skeletons"
+      },
+      {
+        "type": "minecraft:skeleton_horse"
+      }
+    ]
+
+    "entity": {
+      "types": [
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+      ]
+    }
+
 ## ItemOutput
 Same as [[Ingredient|Common-JSON-Value-Types#ingredient]]. Used for recipe outputs where the exact item output is irrelevant, like ingot casting.
 ### Example
     "result": {
       "tag": "forge:ingots/invar"
+    }
+
+## FluidStack
+Similar to [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]], but cannot take a tag (the fluid must be exact).
+### Example
+    "result": {
+      "fluid": "tconstruct:molten_electrum",
+      "amount": 288
     }
  
 ## IFluidHandlerItem
