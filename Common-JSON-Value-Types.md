@@ -47,7 +47,11 @@ An entity. Used for entity melting. The input can be an array of both types and 
     }
 
 ## ItemOutput
-Same as [[Ingredient|Common-JSON-Value-Types#ingredient]]. Used for recipe outputs where the exact item output is irrelevant, like ingot casting.
+Used for recipe outputs where the exact item output could be irrelevant, like ingot casting.  
+`name`: The item's full name.  
+`tag`: Forge tag. Used when the recipe can have any possible tagged output.  
+`count`: Integer. Defaults to 1. The item count.  
+`nbt`: NBT for the item.
 ### Example
     "result": {
       "tag": "forge:ingots/invar"
