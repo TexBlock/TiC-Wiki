@@ -1,3 +1,4 @@
+Location: `.jar/data/tconstruct/recipes/casting/`
 ## Shared Keys
 Item casting and material casting share these keys:  
 `switch_slots`: Boolean. Defaults to `false`. Set to `true` to force the recipe to put the recipe output into the cast slot.  
@@ -22,6 +23,7 @@ Item casting and material casting share these keys:
     }
 
 ## Material Casting
+Location: `.jar/data/tconstruct/recipes/casting/parts/`
 ### Keys
 `type`: Must be either `"tconstruct:basin_casting_material"` or `"tconstruct:table_casting_material"`.  
 `fluid_amount`: Integer. The amount of fluid required. In millibuckets.  
@@ -56,6 +58,7 @@ Item casting and material casting share these keys:
     }
 
 ## Container Filling
+Location: `.jar/data/tconstruct/recipes/casting/filling/`
 ### Keys
 `type`: Must be either `"tconstruct:basin_filling"` or `"tconstruct:table_filling"`.  
 `fluid_amount`: Integer. The amount of fluid required. In millibuckets.  
