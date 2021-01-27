@@ -19,3 +19,23 @@
       "temperature": 500,
       "time": 50
     }
+
+## Ore Melting
+An extension of item melting. Uses the same keys, but boosts the recipe's output based on the smeltery.
+
+### Keys
+`type`: Must be `"tconstruct:ore_melting"`.  
+
+### Example
+    {
+      "type": "tconstruct:ore_melting",
+      "ingredient": {
+        "tag": "forge:ores/cobalt"
+      },
+      "result": {
+        "fluid": "tconstruct:molten_cobalt",
+        "amount": 144
+      },
+      "temperature": 1300,
+      "time": 112
+    }
