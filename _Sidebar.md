@@ -9,5 +9,6 @@
 * [[World Generators for SimpleRetrogen]]
 
 ### 1.16
+* [Changes from 1.12](https://gist.github.com/KnightMiner/3a164fe6023c24c9e5d66839774c7cdb)
 * [[Recipe JSON List]]
 * [[Tinkers Construct Block Model Loaders]]
