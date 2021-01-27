@@ -1,4 +1,5 @@
 ## Item Melting
+Location: `.jar/data/tconstruct/recipes/melting/`
 ### Keys
 `type`: Must be `"tconstruct:melting"`.  
 `ingredient`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. Item to be melted.  
@@ -21,6 +22,7 @@
     }
 
 ## Ore Melting
+Location: `.jar/data/tconstruct/recipes/melting/`
 An extension of item melting. Uses the same keys, but boosts the recipe's output based on the smeltery.
 
 ### Keys
@@ -41,6 +43,7 @@ An extension of item melting. Uses the same keys, but boosts the recipe's output
     }
 
 ## Material Melting
+Location: `.jar/data/tconstruct/recipes/melting/parts/`
 ### Keys
 `type`: Must be `"tconstruct:material_melting"`.  
 `item`: [[IMaterialItem|Common-JSON-Value-Types#imaterialitem]]. Tool part to melt.  
