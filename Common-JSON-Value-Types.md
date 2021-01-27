@@ -2,7 +2,7 @@
 Vanilla recipe input. Can be either an item stack or a tag.
 
 ## FluidIngredient
-A fluid recipe input.
+A fluid recipe input. The input can be an array of both types and tags.
 ### Keys
 `name`: The fluid's full name.  
 `tag`: Forge tag. Used when the recipe can have multiple possible inputs.  
@@ -13,10 +13,17 @@ A fluid recipe input.
       "amount": 144
     }
 
-    "fluid": {
-      "tag": "forge:fluids/water_or_steam",
-      "amount": 1000
-    }
+    "fluid": [
+      {
+        "name": "minecraft:water",
+        "amount": 1000
+      },
+      {
+        "tag": "forge:fluids/steam",
+        "amount": 1000
+      }
+    ]
+
 
 ## EntityIngredient
 An entity. Used for entity melting. The input can be an array of both types and tags.
