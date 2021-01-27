@@ -1,3 +1,4 @@
+Location: `.jar/data/tconstruct/recipes/smeltery/alloys/`
 ### Keys
 `type`: Must be "tconstruct:alloy".  
 `inputs`: List of [[FluidIngredients|Common-JSON-Value-Types#fluidingredient]]. The fluids that are being alloyed together. Must have at least two entries.  
