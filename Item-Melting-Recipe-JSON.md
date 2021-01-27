@@ -39,3 +39,16 @@ An extension of item melting. Uses the same keys, but boosts the recipe's output
       "temperature": 1300,
       "time": 112
     }
+
+## Material Melting
+### Keys
+`type`: Must be `"tconstruct:material_melting"`.  
+`item`: [[IMaterialItem|Common-JSON-Value-Types#imaterialitem]]. Tool part to melt.  
+`amount`: Integer. The amount of fluid to output.
+
+### Example
+    {
+      "type": "tconstruct:material_melting",
+      "item": "tconstruct:kama_head",
+      "amount": 288
+    }
