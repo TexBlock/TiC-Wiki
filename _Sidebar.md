@@ -6,8 +6,8 @@
 * [[Building an addon]]
 * [[IMC]]
 * [[Overwriting Harvest Levels]]
-* [[Tinkers Construct Block Model Loaders]]
 * [[World Generators for SimpleRetrogen]]
 
 ### 1.16
 * [[Recipe JSON List]]
+* [[Tinkers Construct Block Model Loaders]]
