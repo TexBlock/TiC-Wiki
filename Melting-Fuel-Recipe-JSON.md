@@ -1,3 +1,4 @@
+Location: `.jar/data/tconstruct/recipes/melting/fuel/`
 ### Keys
 `type`: Must be `"tconstruct:melting_fuel"`.  
 `fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fuel fluid.  
