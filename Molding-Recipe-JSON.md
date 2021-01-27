@@ -1,3 +1,4 @@
+Location: `.jar/data/tconstruct/recipes/smeltery/`
 ### Keys
 `type`: Must be either `"tconstruct:molding_basin"` or `"tconstruct:molding_table"`.  
 `material`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. Item placed into the casting implement first.  
