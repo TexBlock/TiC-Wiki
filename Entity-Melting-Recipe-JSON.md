@@ -1,3 +1,5 @@
+Location:
+`.jar/data/tconstruct/recipes/smeltery/entity_melting/`
 ### Keys
 `type`: Must be `"tconstruct:entity_melting"`.  
 `entity`: [[EntityIngredient|Common-JSON-Value-Types#entityingredient]]. The entity to be melted.  
