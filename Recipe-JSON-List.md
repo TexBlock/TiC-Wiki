@@ -1,6 +1,7 @@
 [[Common JSON Value Types]]  
 
 ### Common Recipe Types
+[[Item Melting Recipe JSON]]  
 [[Entity Melting Recipe JSON]]  
 [[Molding Recipe JSON]]  
 [[Alloying Recipe JSON]]  
