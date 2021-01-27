@@ -1,3 +1,4 @@
+Location: `.jar/data/tconstruct/recipes/materials/`
 ### Keys
 `type`: Must be `"tconstruct:material"`.  
 `ingredient`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. The item to be associated with the material.  
