@@ -1,4 +1,3 @@
-Location: `.jar/data/tconstruct/recipes/casting/`
 ## Shared Keys
 Item casting and material casting share these keys:  
 `switch_slots`: Boolean. Defaults to `false`. Set to `true` to force the recipe to put the recipe output into the cast slot.  
@@ -6,6 +5,7 @@ Item casting and material casting share these keys:
 `cast_consumed`: Boolean. Defaults to `false`. Whether the recipe consumes the item in the cast slot.  
 
 ## Item Casting
+Location: `.jar/data/tconstruct/recipes/casting/`
 ### Keys
 `type`: Must be either `"tconstruct:casting_basin"` or `"tconstruct:casting_table"`.  
 `fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fluid required to cast the item.  
