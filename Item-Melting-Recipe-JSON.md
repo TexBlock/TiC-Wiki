@@ -22,7 +22,7 @@ Location: `.jar/data/tconstruct/recipes/smeltery/melting/`
     }
 
 ## Ore Melting
-Location: `.jar/data/tconstruct/recipes/melting/`
+Location: `.jar/data/tconstruct/recipes/smeltery/melting/`
 An extension of item melting. Uses the same keys, but boosts the recipe's output based on the smeltery.
 
 ### Keys
@@ -43,15 +43,15 @@ An extension of item melting. Uses the same keys, but boosts the recipe's output
     }
 
 ## Material Melting
-Location: `.jar/data/tconstruct/recipes/melting/parts/`
+Location: `.jar/data/tconstruct/recipes//tools/parts/melting/`
 ### Keys
 `type`: Must be `"tconstruct:material_melting"`.  
 `item`: [[IMaterialItem|Common-JSON-Value-Types#imaterialitem]]. Tool part to melt.  
-`amount`: Integer. The amount of fluid to output.
+`item_cost`: Integer. The amount of baseline "ingots" to output.
 
 ### Example
     {
       "type": "tconstruct:material_melting",
       "item": "tconstruct:kama_head",
-      "amount": 288
+      "item_cost": 2
     }
