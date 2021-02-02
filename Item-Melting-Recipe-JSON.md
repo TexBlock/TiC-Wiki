@@ -1,5 +1,5 @@
 ## Item Melting
-Location: `.jar/data/tconstruct/recipes/melting/`
+Location: `.jar/data/tconstruct/recipes/smeltery/melting/`
 ### Keys
 `type`: Must be `"tconstruct:melting"`.  
 `ingredient`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. Item to be melted.  
