@@ -4,7 +4,7 @@ Location: `.jar/data/tconstruct/recipes/smeltery/`
 `material`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. Item placed into the casting implement first.  
 `pattern`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. Optional. Item placed into the casting implement second.  
 `pattern_consumed`: Boolean. Defaults to `false`. Whether the pattern is consumed during the molding operation.  
-`result`: [[ItemStack|Common-JSON-Value-Types#itemstack]]. The operation result.  
+`result`: [[ItemOutput|Common-JSON-Value-Types#itemoutput]]. The operation result.  
 
 ### Example
     {
