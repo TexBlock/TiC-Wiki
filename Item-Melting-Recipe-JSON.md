@@ -43,7 +43,7 @@ An extension of item melting. Uses the same keys, but boosts the recipe's output
     }
 
 ## Material Melting
-Location: `.jar/data/tconstruct/recipes//tools/parts/melting/`
+Location: `.jar/data/tconstruct/recipes/tools/parts/melting/`
 ### Keys
 `type`: Must be `"tconstruct:material_melting"`.  
 `item`: [[IMaterialItem|Common-JSON-Value-Types#imaterialitem]]. Tool part to melt.  
