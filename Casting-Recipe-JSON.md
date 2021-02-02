@@ -40,10 +40,10 @@ Location: `.jar/data/tconstruct/recipes/tools/parts/casting/`
 
 ## Composite Casting
 ### Keys
-Location: `.jar/data/tconstruct/recipes/parts/composite/`  
+Location: `.jar/data/tconstruct/recipes/tools/parts/composite/`  
 `type`: Must be either `"tconstruct:basin_casting_composite"` or `"tconstruct:table_casting_composite"`.  
 `input`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the input tool part.  
-`fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fluid required to cast the item.  
+`fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fluid required to cast the item. Size is amount needed per "ingot" of the material item base. Part costs pulled from [Material Casting](#material-casting).  
 `result`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the output tool part.  
 `temperature`: Integer. Used to calculate casting time based on part size.  
 ### Example
