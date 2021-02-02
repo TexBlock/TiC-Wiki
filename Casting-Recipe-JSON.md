@@ -5,7 +5,7 @@ Item casting and material casting share these keys:
 `cast_consumed`: Boolean. Defaults to `false`. Whether the recipe consumes the item in the cast slot.  
 
 ## Item Casting
-Location: `.jar/data/tconstruct/recipes/casting/`
+Location: `.jar/data/tconstruct/recipes/smeltery/casting/`
 ### Keys
 `type`: Must be either `"tconstruct:casting_basin"` or `"tconstruct:casting_table"`.  
 `fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fluid required to cast the item.  
@@ -23,7 +23,7 @@ Location: `.jar/data/tconstruct/recipes/casting/`
     }
 
 ## Material Casting
-Location: `.jar/data/tconstruct/recipes/casting/parts/`
+Location: `.jar/data/tconstruct/recipes/tools/parts/casting/`
 ### Keys
 `type`: Must be either `"tconstruct:basin_casting_material"` or `"tconstruct:table_casting_material"`.  
 `fluid_amount`: Integer. The amount of fluid required. In millibuckets.  
@@ -40,14 +40,15 @@ Location: `.jar/data/tconstruct/recipes/casting/parts/`
 
 ## Composite Casting
 ### Keys
-`type`: Unknown at the time. Presumably `"tconstruct:basin_composite"` or `"tconstruct:table_composite"`.  
+Location: `.jar/data/tconstruct/recipes/parts/composite/`
+`type`: Must be either `"tconstruct:basin_casting_composite"` or `"tconstruct:table_casting_composite"`.  
 `input`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the input tool part.  
 `fluid`: [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]]. The fluid required to cast the item.  
 `result`: [[MaterialId|Common-JSON-Value-Types#materialid]]. The material of the output tool part.  
 `temperature`: Integer. Used to calculate casting time based on part size.  
 ### Example
     {
-      "type": "tconstruct:table_composite",
+      "type": "tconstruct:table_casting_composite",
       "input": "tconstruct:bone",
       "fluid": {
         "name": "tconstruct:fruit_juice",
@@ -56,9 +57,19 @@ Location: `.jar/data/tconstruct/recipes/casting/parts/`
       "result": "tconstruct:bone_hurting_material",
       "temperature": 1666
     }
+    {
+      "type": "tconstruct:table_casting_composite",
+      "input": "tconstruct:wood",
+      "fluid": {
+        "name": "tconstruct:molten_obsidian",
+        "amount": 144
+      },
+      "result": "tconstruct:nahuatl",
+      "temperature": 1300
+    }
 
 ## Container Filling
-Location: `.jar/data/tconstruct/recipes/casting/filling/`
+Location: `.jar/data/tconstruct/recipes/smeltery/casting/filling/`
 ### Keys
 `type`: Must be either `"tconstruct:basin_filling"` or `"tconstruct:table_filling"`.  
 `fluid_amount`: Integer. The amount of fluid required. In millibuckets.  
