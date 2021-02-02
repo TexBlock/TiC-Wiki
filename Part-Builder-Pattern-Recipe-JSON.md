@@ -1,4 +1,4 @@
-Location: `.jar/data/tconstruct/recipes/parts/`
+Location: `.jar/data/tconstruct/recipes/tools/parts/`
 ### Keys
 `type`: Must be `"tconstruct:part_builder"`.  
 `pattern`: [[ResourceLocation|Common-JSON-Value-Types#resourcelocation]]. The location of the pattern.  
