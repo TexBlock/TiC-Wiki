@@ -91,6 +91,18 @@ Similar to [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]], but cann
 
 ## ResourceLocation
 https://mcforge.readthedocs.io/en/latest/concepts/resources/
+
+
+## ModifierEntry
+Full name and level to be added of a modifier.
+### Keys
+`name`: Full modifier name.
+`level`: Integer. Defaults to 1. The level of the modifier to be added.
+### Example
+    {
+      "name": "tconstruct:silky",
+      "level": 1
+    }
  
 ## IFluidHandlerItem
 Full item name of a fluid container item. Must implement the IFluidHandlerItem capability.
