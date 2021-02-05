@@ -53,9 +53,26 @@ An entity. Used for entity melting. The input can be an array of both types and 
       ]
     }
 
+## SizedIngredient
+Similar to [[Ingredient|Common-JSON-Value-Types#ingredient]], but needs at least `amount_needed` of the ingredient to be present.
+### Keys
+`ingredient`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. Optional, if missing, the whole object is considered an ingredient. The item to be used.  
+`amount_needed `: Integer. Defaults to 1. The amount of `ingredient` needed for the recipe.  
+### Examples
+    {
+      "item": "tconstruct:reinforcement"
+    }
+
+    {
+      "ingredient": {
+        "item": "tconstruct:bone_hurting_nugget"
+      },
+      "amount_needed": 9
+    }
+
 ## ItemOutput
 Used for recipe outputs where the exact item output could be irrelevant, like ingot casting.  
-`name`: The item's full name.  
+### Keys
 `tag`: Forge tag. Used when the recipe can have any possible tagged output.  
 `count`: Integer. Defaults to 1. The item count.  
 `nbt`: NBT for the item.
