@@ -94,10 +94,10 @@ https://mcforge.readthedocs.io/en/latest/concepts/resources/
 
 
 ## ModifierEntry
-Full name and level of a modifier to be added.
+Full name and level of a modifier to be added.  
 ### Keys
-`name`: Full modifier name.
-`level`: Integer. Defaults to 1. The level of the modifier to be added.
+`name`: Full modifier name.  
+`level`: Integer. Defaults to 1. The level of the modifier to be added.  
 ### Example
     {
       "name": "tconstruct:silky",
