@@ -11,4 +11,5 @@
 ### Tool Recipes
 [[Material Recipe JSON]]  
 [[Part Builder Pattern Recipe JSON]]  
+[[Modifier Recipe JSON]]  
 [[Tinker Tool Recipe JSON]]  
