@@ -1,3 +1,23 @@
+
+<table>
+  <thead><th>Table of Contents</th></thead>
+  <tbody><td>
+
+* [FluidIngredient](#fluidingredient)
+* [EntityIngredient](#entityingredient)
+* [SizedIngredient](#sizedingredient)
+* [ItemOutput](#itemoutput)
+* [FluidStack](#fluidstack)
+* [ModifierEntry](#modifierentry)
+* [ResourceLocation](#resourcelocation)
+* [IFluidHandlerItem](#ifluidhandleritem)
+* [ToolCore](#toolcore)
+* [IMaterialItem](#imaterialitem)
+* [MaterialId](#materialid)
+* [Tick](#tick)
+</td>
+</table>
+
 ## Ingredient
 Vanilla recipe input. Can be either an item stack or a tag.
 
