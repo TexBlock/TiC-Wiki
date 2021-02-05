@@ -89,10 +89,6 @@ Similar to [[FluidIngredient|Common-JSON-Value-Types#fluidingredient]], but cann
       "amount": 288
     }
 
-## ResourceLocation
-https://mcforge.readthedocs.io/en/latest/concepts/resources/
-
-
 ## ModifierEntry
 Full name and level of a modifier to be added.  
 ### Keys
@@ -104,6 +100,10 @@ Full name and level of a modifier to be added.
       "level": 1
     }
  
+
+## ResourceLocation
+https://mcforge.readthedocs.io/en/latest/concepts/resources/
+
 ## IFluidHandlerItem
 Full item name of a fluid container item. Must implement the IFluidHandlerItem capability.
 ### Example
