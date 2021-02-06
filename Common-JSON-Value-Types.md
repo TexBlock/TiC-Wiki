@@ -3,6 +3,7 @@
   <thead><th>Table of Contents</th></thead>
   <tbody><td>
 
+* [Ingredient](#ingredient)
 * [FluidIngredient](#fluidingredient)
 * [EntityIngredient](#entityingredient)
 * [SizedIngredient](#sizedingredient)
