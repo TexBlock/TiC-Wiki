@@ -6,11 +6,11 @@ This section discusses changes to the world module
 
 ## Ore Gen
 
-* Tinkers one again provides copper ore.
+* Tinkers once again provides copper ore.
     * Copper is the only overworld ore we add
 * Ardite ore has been removed
     * Ardite will be available from a different crafting process
-    * Manyullyn specificially is now alloyed from cobalt and molten debris (ancient debris)
+    * Manyullyn specifically is now alloyed from cobalt and molten debris (ancient debris)
 
 ## Slime Islands
 
@@ -23,7 +23,7 @@ This section discusses changes to the world module
 
 # Tools
 
-This page describes some of the new content related to tools mechanics, including parts, materials, and modifiers. later in the section it has a full list of tools planned for TiC 3.
+This page describes some of the new content related to tools mechanics, including parts, materials, and modifiers. later in the section it has a full list of tools planned for Tinkers' Construct 3.
 
 ## Tool Tables
 
@@ -36,7 +36,7 @@ This page describes some of the new content related to tools mechanics, includin
 
 **Material tiers**
 
-* Materials now come in more clearly defined tiers, and all are divided into general, weapon, tool, or special materials
+* Materials now come in more clearly defined tiers, and all are divided into general, weapon, harvest, or special materials
 * Tier 1:
     * Includes wood, stone, flint, and bone
 * Tier 2
@@ -47,14 +47,14 @@ This page describes some of the new content related to tools mechanics, includin
     * The diamond modifier will also upgrade a tool to tier 3
 * Tier 4:
     * Includes manyullyn, hepatizon, queen's slime, and soul steel.
-    * The netherite modifier will also update a tool to tier 4
+    * The netherite modifier will also update a tool to tier 4, requires either the diamond or emerald modifier
 * In addition, there is a tier 5 planned for materials requiring end access
 
 **Trait rebalancing**
 
 * Tool traits are getting rebalanced
 * All parts share the same trait, instead of heads often having unique traits
-* Traits on average will be a bit weaker than 1.12 to prevent discouraging use of a tool due to trait
+* Traits on average will be a bit weaker than 1.12 to prevent discouraging use of a material due to trait
 * Some traits from 1.12 will get moved to modifiers, and some new traits will be added
 * More information to follow
 
@@ -62,7 +62,7 @@ This page describes some of the new content related to tools mechanics, includin
 
 * Handles reworked:
     * No longer have a flat durability boost
-    * Have four multipliers: durability, attack speed, attack damage, and mining speed
+    * Have 4 multipliers: durability, attack speed, attack damage, and mining speed
     * Most materials only 2 multipliers set, though later game materials will set at most 3
 * Bindings reworked:
     * Bindings no longer have any stats
@@ -71,7 +71,7 @@ This page describes some of the new content related to tools mechanics, includin
 **Part Cleanup**
 
 * Many parts that only got used once were removed in favor of reusing parts
-* Currently, there are two tyoes of tool rods: small and tough, and two bindings: small and tough
+* Currently, there are two types of tool rods: small and tough, and two bindings: small and tough
 * Sword guards are replaced with other parts, including tool rods, small plates, and bindings based on the sword
 * Tool heads ideally will be used in at least two tools. For example, the axe head is used on the axe and the mattock
 
@@ -114,9 +114,8 @@ Ranged tools take a bit more work, so are being delayed
 These tools need a bit more design work before I can reliably put them in a phase, so may be changed from what is described
 
 * *Battle Sign*: Getting some reworking to be less effective to allow for proper shields
-* *Shield*:
-    * If we can make the battle sign unqiue enough on its own, a separate Tinkers Shield will be added
-    * Possibility of limiting material selection to focus on shield modifiers, as many tool traits won't be helpful on shields
+* *Armor*: Available in three sets: travelers, plate, and slime suit. One recipe instead of variable materials, to allow more focus on modifiers.
+* *Shield*: Added as a single type modifiable item, similar to armor.
 * *Rapier*
 * *Battle Axe*
 
@@ -133,7 +132,7 @@ These tools are not returning in Tinkers Construct 3.
 
 * *Arrows*:
     * We cannot get the design for Tinkers arrows to work, and vanilla arrows are a lot more interesting now.
-    * The way modifiers function (large material costs) conflicts with the idea of disposable ammmo
+    * The way modifiers function (large material costs) conflicts with the idea of disposable ammo
     * What you may see is the ability to craft custom arrows in the Tinker Station, otherwise some of the old trait effects will return as crafting table recipes
 * *Bolts*:
     * Bolt crafting sucked, both in explaining to people and the mess of edge cases it caused in code
@@ -144,7 +143,7 @@ These tools are not returning in Tinkers Construct 3.
     * Being replaced with boomerangs (for a full Tinkers tool) or the new shuriken gadget (see the misc page)
 * *Longswords*
     * Were basically a reskin of the sword with minor stat changes that most people just used for the leap ability
-    * Leap returning as a slimesling variant
+    * Leap returning as a slime sling variant
 * *Longbows*
     * Were basically a reskin of the short bow with more expensive parts and slightly different stats
     * Cross bow is being declared the large version of the bow
@@ -169,7 +168,7 @@ This page is about new features related to the smeltery or smeltery mechanics
 
 **Added composite casting recipes**
 
-* Composite materials are made by pouring a liquid on a solid toolpart of a different material
+* Composite materials are made by pouring a liquid on a solid tool part of a different material
 * One example is slimewood, from pouring liquid slime on wood
 
 **New peripherals**
@@ -186,7 +185,7 @@ This page is about new features related to the smeltery or smeltery mechanics
 **Smeltery recipe changed**
 
 * The smeltery controller now requires casting molten copper
-* Seared drains inclue copper as part of their recipe
+* Seared drains include copper as part of their recipe
 * These changes are to encourage use of the melter before jumping to a smeltery
 
 **Changed seared stone recipe**
@@ -225,7 +224,7 @@ This page is about new features related to the smeltery or smeltery mechanics
 
 **Smeltery efficiency**
 
-* All multiblock checking code for the smeltery got reviewed to improve the efficincny
+* All multiblock checking code for the smeltery got reviewed to improve the efficiency
 * Smeltery structures should overall cause less lag from structure checks
 
 # Other
@@ -241,7 +240,7 @@ This page discusses some of the new features that do not fit in any other sectio
 
 **Soul Glass**
 
-* Nether clear glass varaiant
+* Nether clear glass variant
 * Only available by casting
 
 **Clear Glass Panes**
@@ -260,9 +259,9 @@ This page discusses some of the new features that do not fit in any other sectio
 
 ## Recipes
 
-* All recipes have beem moved to JSON, allowing them to easily be added using datapacks
+* All recipes have been moved to JSON, allowing them to easily be added using data packs
 * Some new recipe types exist
-    * Castign recipes come in many variants
+    * Castin recipes come in many variants
     * Molding recipes are the new recipe type for making sand casts
 
 ## Removals
@@ -285,10 +284,10 @@ This page discusses some of the new features that do not fit in any other sectio
 
 * Was the fallback for mixing slimes towards the end of 1.12.
 * Decided it was a bit too awkward of a mechanic
-* In 1.16, green slime is the fallback for mxing
+* In 1.16, green slime is the fallback for mixing
 
 **Tinker Tank**
 
 * Moving to Tinkers' Complement
-* The original design was based on the deep tank fron Tinkers' Steelworks. The other steelworks multiblock was added to Tinkers' Complement, so it makes sense to have them together
+* The original design was based on the deep tank from Tinkers' Steelworks. The other steelworks multiblock was added to Tinkers' Complement, so it makes sense to have them together
 * The commonly used purpose of the tank, preventing accidental alloys, is now handled by a smeltery with no fuel.
