@@ -84,7 +84,7 @@ Tools will be implemented in a few phases to allow development to be focused on 
 These tools will be in the first alpha
 
 * *Pickaxe*
-* *Shovel*
+* *Mattock*: Makes paths instead of hoeing, effective on all blocks the shovel could break
 * *Hand Axe*: Rebalanced to be closer to the vanilla axe, making it a viable weapon
 * *Kama*: Gained the ability to hoe blocks
 * *Broadsword*
@@ -95,10 +95,12 @@ These tools will be in the first alpha
 
 These tools will be added after the first alpha after the original tools get some testing
 
-* *Lumber Axe*
+* *Battle Sign*: Getting some reworking to be less effective to allow for proper shields
+* *Lumber Axe*: Fallback for non-trees is now 1x6
 * *Cleaver*
 * *Scythe*
-* *Mattock*
+* *Shield*: Added as a single type modifiable item, similar to armor.
+* *Veining Hammer*: Breaks a vein of ores, name pending.
 
 ### Phase 3
 
@@ -113,9 +115,7 @@ Ranged tools take a bit more work, so are being delayed
 
 These tools need a bit more design work before I can reliably put them in a phase, so may be changed from what is described
 
-* *Battle Sign*: Getting some reworking to be less effective to allow for proper shields
 * *Armor*: Available in three sets: travelers, plate, and slime suit. One recipe instead of variable materials, to allow more focus on modifiers.
-* *Shield*: Added as a single type modifiable item, similar to armor.
 * *Rapier*
 * *Battle Axe*
 
