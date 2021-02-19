@@ -123,7 +123,7 @@ These tools need a bit more design work before I can reliably put them in a phas
 These tools are planned to be in the addon Tinkers' Complement, as they do not precisely fit in our tool tiers, but we liked them too much to abandon them. They will serve as examples of an addon adding new tools.
 
 * *Frypan*: High knockback, low damage weapon
-* *Knife*: Early game weapon with a light parry attack
+* *Rapier*: Fast weapon with armor pierce
 
 ### Removed Tools
 
