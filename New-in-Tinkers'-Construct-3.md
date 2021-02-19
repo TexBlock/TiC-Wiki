@@ -96,7 +96,7 @@ These tools will be in the first alpha
 These tools will be added after the first alpha after the original tools get some testing
 
 * *Battle Sign*: Getting some reworking to be less effective to allow for proper shields
-* *Lumber Axe*: Fallback for non-trees is now 1x6
+* *Broad Axe*: Fallback for non-trees is now 1x6, also acts as a battle axe
 * *Cleaver*
 * *Scythe*
 * *Shield*: Added as a single type modifiable item, similar to armor.
@@ -109,15 +109,14 @@ Ranged tools take a bit more work, so are being delayed
 * *Bows*
 * *Crossbows*: Rebalancing to be closer to the vanilla crossbow
 * *Boomerang*: New throwable weapon that returns after throwing
-* *Trident*: High reach melee/ranged hybrid
+* *Spear*: High reach melee/ranged hybrid (takes role of vanilla trident)
 
 ### Other likely tools
 
 These tools need a bit more design work before I can reliably put them in a phase, so may be changed from what is described
 
 * *Armor*: Available in three sets: travelers, plate, and slime suit. One recipe instead of variable materials, to allow more focus on modifiers.
-* *Rapier*
-* *Battle Axe*
+* *Knife*: Fast weapon with an offhand attack
 
 ### Tinkers' Complement Tools
 
