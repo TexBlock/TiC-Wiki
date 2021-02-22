@@ -14,12 +14,18 @@ This section discusses changes to the world module
 
 ## Slime Islands
 
-* Magma slimes are annoyed by all the noise caused by piglins
+* Orange slimes are annoyed by all the noise caused by piglins
     * They are planning to relocate to the nether ceiling
-    * Magma slimes will live in reverse gravity islands
+    * Orange slimes will live in reverse gravity islands
 * Purple slimes islands got tired of the dumb blue slimes, so they migrated to the end
     * A new purple slime mob is likely to be found
     * Purple slimes are the most advanced of the slimes, some may even wear armor
+* All slime types have unique names
+    * Green slime is often called earth slime, or just generically slime
+    * Blue slime is called sky slime
+    * Orange slime is called ichor slime
+    * Purple slime is called ender slime
+    * Magma cream is often considered a fifth slime type
 
 # Tools
 
@@ -38,25 +44,30 @@ This page describes some of the new content related to tools mechanics, includin
 
 * Materials now come in more clearly defined tiers, and all are divided into general, weapon, harvest, or special materials
 * Tier 1:
+    * Starting tool tier
     * Includes wood, stone, flint, and bone
+    * In the end, this tier consists of chorus
 * Tier 2
+    * Requires ores or the melter to obtain materials
     * Includes iron, copper, slimewood, and seared stone
+    * In the nether, this tier includes scorched stone
+    * In the end, this tier includes end stone
     * The emerald modifier will also upgrade a tool to tier 2
 * Tier 3:
-    * Includes nahuatl, slimesteel, tinker's bronze, pig iron, rose gold, and cobalt
+    * Requires alloying to obtain materials
+    * Includes nahuatl, slimesteel, tinker's bronze, pig iron, and rose gold
+    * In the nether, this tier includes cobalt
+    * In the end, this tier includes dragonstone
     * The diamond modifier will also upgrade a tool to tier 3
 * Tier 4:
-    * Includes manyullyn, hepatizon, queen's slime, and soul steel.
-    * The netherite modifier will also update a tool to tier 4, requires either the diamond or emerald modifier
-* In addition, there is a tier 5 planned for materials requiring end access
-
-**Trait rebalancing**
-
-* Tool traits are getting rebalanced
-* All parts share the same trait, instead of heads often having unique traits
-* Traits on average will be a bit weaker than 1.12 to prevent discouraging use of a material due to trait
-* Some traits from 1.12 will get moved to modifiers, and some new traits will be added
-* More information to follow
+    * Requires nether access to obtain materials
+    * Includes manyullyn, hepatizon, queen's slime, and soul steel
+    * In the end, this tier includes slimebronze
+    * The netherite modifier will also upgrade a tool to tier 4, requires either the diamond or emerald modifier
+* Tier 5:
+    * Requires end access to obtain materials
+    * Includes KnightSlime, Ebonite, and Alexandrite
+    * The Gardite modifier will also upgrade a tool to tier 5, requires either netherite or worldbound
 
 **Stat updates**
 
@@ -75,6 +86,25 @@ This page describes some of the new content related to tools mechanics, includin
 * Sword guards are replaced with other parts, including tool rods, small plates, and bindings based on the sword
 * Tool heads ideally will be used in at least two tools. For example, the axe head is used on the axe and the mattock
 
+## Modifiers
+
+**Modifier types**
+
+* Modifiers are now divided into 5 categories:
+    * *Upgrades*: Classic modifiers common to TiC 1 and TiC 2. Requires upgrade slots
+    * *Abilities*: Stronger and more unique modifiers, such as silk touch or luck. Requires ability slots
+    * *Armor*: Special modifier type available on armor or shields
+    * *Free*: Modifiers that can be applied without any slot restriction
+    * *Traits*: Additional modifiers applied based on the materials
+
+**Trait rebalancing**
+
+* Tool traits are getting rebalanced
+* All parts share the same trait, instead of heads often having unique traits
+* Traits on average will be a bit weaker than 1.12 to prevent discouraging use of a material due to trait
+* Some traits from 1.12 will get moved to modifiers, and some new traits will be added
+* More information to follow
+
 ## Tools
 
 Tools will be implemented in a few phases to allow development to be focused on framework between content additions. The following sections list those phases.
@@ -84,9 +114,11 @@ Tools will be implemented in a few phases to allow development to be focused on 
 These tools will be in the first alpha
 
 * *Pickaxe*
-* *Mattock*: Makes paths instead of hoeing, effective on all blocks the shovel could break
+* *Mattock*:
+    * Makes paths instead of hoeing, effective on all blocks the shovel could break.
+    * Replaces the shovel in TiC 3.
 * *Hand Axe*: Rebalanced to be closer to the vanilla axe, making it a viable weapon
-* *Kama*: Gained the ability to hoe blocks
+* *Kama*: Gained the ability to hoe blocks, making it a fully effective farming tool
 * *Broadsword*
 * *Hammer*
 * *Excavator*
@@ -95,28 +127,27 @@ These tools will be in the first alpha
 
 These tools will be added after the first alpha after the original tools get some testing
 
-* *Battle Sign*: Getting some reworking to be less effective to allow for proper shields
-* *Broad Axe*: Fallback for non-trees is now 1x6, also acts as a battle axe
+* *Broad Axe*: New version of the lumber axe. Fallback for non-trees is now 1x6, also acts as a battle axe
 * *Cleaver*
 * *Scythe*
-* *Shield*: Added as a single type modifiable item, similar to armor.
 * *Veining Hammer*: Breaks a vein of ores, name pending.
+* *Dagger*: Fast weapon with low damage, but can attack on right click for use in the offhand.
 
 ### Phase 3
 
-Ranged tools take a bit more work, so are being delayed
+Armor has some different rules for how modifiers apply, hence delaying them to a later phase.
 
+* *Battle Sign*: Getting some reworking to be less effective to allow for proper shields
+* *Shield*: Added as a single type modifiable item, similar to armor.
+* *Armor*: Available in three sets: travelers, plate, and slime suit. One recipe instead of variable materials, to allow more focus on modifiers.
+
+### Phase 4
+
+Ranged tools take a bit more work, so are being delayed
 * *Bows*
 * *Crossbows*: Rebalancing to be closer to the vanilla crossbow
 * *Boomerang*: New throwable weapon that returns after throwing
 * *Spear*: High reach melee/ranged hybrid (takes role of vanilla trident)
-
-### Other likely tools
-
-These tools need a bit more design work before I can reliably put them in a phase, so may be changed from what is described
-
-* *Armor*: Available in three sets: travelers, plate, and slime suit. One recipe instead of variable materials, to allow more focus on modifiers.
-* *Knife*: Fast weapon with an offhand attack
 
 ### Tinkers' Complement Tools
 
