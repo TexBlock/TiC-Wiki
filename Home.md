@@ -1,1 +1,1 @@
-Welcome to the TinkersConstruct wiki!
+Welcome to the Tinkers Construct development wiki! See the sidebar to get started with wiki contents.
