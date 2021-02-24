@@ -107,11 +107,9 @@ This page describes some of the new content related to tools mechanics, includin
 
 ## Tools
 
-Tools will be implemented in a few phases to allow development to be focused on framework between content additions. The following sections list those phases.
+### Small
 
-### Phase 1
-
-These tools will be in the first alpha
+These tools are available from tier 1 and onwards.
 
 * *Pickaxe*
 * *Mattock*:
@@ -120,30 +118,31 @@ These tools will be in the first alpha
 * *Hand Axe*: Rebalanced to be closer to the vanilla axe, making it a viable weapon
 * *Kama*: Gained the ability to hoe blocks, making it a fully effective farming tool
 * *Broadsword*
-* *Hammer*
+* *Dagger*: Fast weapon with low damage, but can attack on right click for use in the offhand.
+
+### Broad
+
+These tools require the Tinkers' Anvil to craft, a tier 3 component.
+
+* *Sledgehammer*
+* *Veining Hammer*: Breaks a vein of ores, name pending.
 * *Excavator*
-
-### Phase 2
-
-These tools will be added after the first alpha after the original tools get some testing
-
 * *Broad Axe*: New version of the lumber axe. Fallback for non-trees is now 1x6, also acts as a battle axe
 * *Cleaver*
 * *Scythe*
-* *Veining Hammer*: Breaks a vein of ores, name pending.
-* *Dagger*: Fast weapon with low damage, but can attack on right click for use in the offhand.
 
-### Phase 3
+### Armor
 
-Armor has some different rules for how modifiers apply, hence delaying them to a later phase.
+Armor has some different rules for how modifiers apply. With the exception of the battle sign, all armor is a crafting station recipe with only one "part".
 
 * *Battle Sign*: Getting some reworking to be less effective to allow for proper shields
 * *Shield*: Added as a single type modifiable item, similar to armor.
 * *Armor*: Available in three sets: travelers, plate, and slime suit. One recipe instead of variable materials, to allow more focus on modifiers.
 
-### Phase 4
+### Ranged
 
-Ranged tools take a bit more work, so are being delayed
+These weapons make use of drawspeed and projectile behavior
+
 * *Bows*
 * *Crossbows*: Rebalancing to be closer to the vanilla crossbow
 * *Boomerang*: New throwable weapon that returns after throwing
