@@ -86,7 +86,7 @@
     * Multipart entity support based on new Forge PR
     * Fix darkosto's harvest level bug with pickaxes
 * Remapping items:
-    * Toolpart cleanup (ditch large binding, kama head to sword blade?)
+    * Toolpart cleanup (ditch large binding, excavator head to plate)
     * Rename slime types for consistency, either colors or flavor names
     * Rename hammer to sledgehammer
 
