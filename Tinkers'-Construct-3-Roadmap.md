@@ -88,6 +88,7 @@
 * Remapping items:
     * Toolpart cleanup (ditch large binding, kama head to sword blade?)
     * Rename slime types for consistency, either colors or flavor names
+    * Rename hammer to sledgehammer
 
 **Possibly delayed to phase 2**
 
