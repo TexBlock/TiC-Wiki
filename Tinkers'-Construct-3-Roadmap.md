@@ -89,6 +89,7 @@
     * Toolpart cleanup (ditch large binding, excavator head to plate)
     * Rename slime types for consistency, either colors or flavor names
     * Rename hammer to sledgehammer
+    * Disable soulsteel for now, reimplement with soul forge
 
 **Possibly delayed to phase 2**
 
@@ -164,8 +165,8 @@
 
 * Tier 1: Chorus
 * Tier 2: End Stone
-* Tier 3: Dragonstone
-* Tier 4: Slimebronze
+* Tier 3: Dragonstone, Hollow
+* Tier 4: Slimebronze, Soulsteel
 * Tier 5: KnightSlime, Ebonite, Alexandrite
 
 **Modifiers**
