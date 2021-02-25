@@ -62,7 +62,7 @@
 
 **Materials**
 
-* Finish missing traits: Constantan, manyullyn, metatizon, soulsteel
+* Finish missing traits: constantan, manyullyn, metatizon
 
 **Modifiers**
 
