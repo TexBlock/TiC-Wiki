@@ -178,9 +178,9 @@ These tools are not returning in Tinkers Construct 3.
     * Cross bow is being declared the large version of the bow
     * Bow will have modifiers that make its stats closer to the longbows original stats
 
-# Smeltery
+# Multiblocks
 
-This page is about new features related to the smeltery or smeltery mechanics
+This section is about new features related to the smeltery or smeltery mechanics, and also other multiblocks
 
 ## New features
 
@@ -208,6 +208,20 @@ This page is about new features related to the smeltery or smeltery mechanics
     * Smeltery item input and output
 * Seared Duct
     * Filtered version of the seared drain
+* Gravity Peripheral (name pending)
+    * End tier peripheral
+    * Allows the smeltery to hold gasses, or the end smeltery to hold liquids
+    * Placed in the smeltery floor
+
+**Smeltery variants**
+
+* New nether smeltery planned
+    * Aids in nether survival, crafted from basalt/gravel, magma cream, and soul sand
+    * Has some small differences from the overworld smeltery
+* New end smeltery planned
+    * Built upside down, because why not?
+    * Only can hold gasses, no liquids
+    * See gravity peripheral to give liquid support
 
 ## Recipe changes
 
@@ -255,6 +269,12 @@ This page is about new features related to the smeltery or smeltery mechanics
 
 * All multiblock checking code for the smeltery got reviewed to improve the efficiency
 * Smeltery structures should overall cause less lag from structure checks
+
+## Soul Forge
+
+* New multiblock
+* Forges souls
+* More info to follow
 
 # Other
 
