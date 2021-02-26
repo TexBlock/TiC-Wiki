@@ -82,6 +82,7 @@
     * Validate recipe tags, any tags we should be using
         * Darkosto reported crafting station does not use workbench tag
     * Table TESR render box
+    * Cleanup config file
 * Remapping items:
     * Toolpart cleanup (ditch large binding, excavator head to plate)
     * Rename slime types for consistency, either colors or flavor names
