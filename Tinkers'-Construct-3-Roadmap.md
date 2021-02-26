@@ -76,7 +76,6 @@
 
 **Required**
 
-* Rework tool model
 * Trivial:
     * Copper oregen rate too high
     * Validate recipe tags, any tags we should be using
@@ -131,7 +130,14 @@
 * Abilities: Autosmelt, Beheading, Mending, Ability Boost
 * Nether bonus modifiers
 
-### Resources 
+**Tool Model**
+
+* Broken part support
+* Large tool model
+* Modifier models
+
+### Resources
+
 **Worldgen**
 
 * Ender slimes and foliage
