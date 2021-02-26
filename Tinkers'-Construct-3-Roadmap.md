@@ -67,7 +67,7 @@
 **Modifiers**
 
 * JEI recipe support
-* Upgrades: Knockback, Necrotic
+* Upgrades: Necrotic
     * Incremental: Haste, Sharpness, Smite, Bane of Arthropods, Antiaquatic, Fiery
 * Abilities:
     * Incremental: Luck
