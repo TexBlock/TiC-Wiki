@@ -93,7 +93,6 @@
 * AOE tool improvement
 * Large tool model
 * Trait manager cleanup
-* Datapack material removal
 
 ## Phase 2 (incremental content)
 
