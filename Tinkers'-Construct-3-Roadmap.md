@@ -33,11 +33,8 @@
     * Tier 2: Iron, copper, seared stone, slimewood
     * Tier 2 compat: Lead, silver, electrum
     * Tier 3: tinkers' bronze, nahuatl, slimesteel, Rose Gold, Pig Iron, Cobalt
-    * Tier 3 compat: Steel, Bronze
-    * Tier 4: Queen's Slime
-* Has stats and recipe, no traits
-    * Tier 3 compat: constantan
-    * Tier 4: Manyullyn, Hepatizon, Soulsteel
+    * Tier 3 compat: Steel, Bronze, Constantan
+    * Tier 4: Queen's Slime, Hepatizon, Manyullyn
 
 **Modifiers**
 
@@ -59,10 +56,6 @@
     * End slime islands (wrong flora, missing mobs)
 
 ## Phase 1 (first alpha)
-
-**Materials**
-
-* Finish missing traits: constantan
 
 **Modifiers**
 
