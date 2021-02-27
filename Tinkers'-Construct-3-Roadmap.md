@@ -62,7 +62,7 @@
 
 **Materials**
 
-* Finish missing traits: constantan, manyullyn, hetatizon
+* Finish missing traits: constantan
 
 **Modifiers**
 
