@@ -74,11 +74,15 @@
     * Seared tanks are not dropping with contents
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
-    * Jerky, stone ladders and torches, and punji sticks move to Natura
+    * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
 * Remapping items:
     * Toolpart cleanup (ditch large binding, excavator head to plate)
     * Rename slime types for consistency, either colors or flavor names
     * Rename hammer to sledgehammer
+* Unused Content:
+    * Remove graveyard and consecrated soil, modifier recipes changed
+    * Remove or hide fire/lavawood
+    * Reconsider mud bricks, where do those belong?
 
 **Possibly delayed to phase 2**
 
@@ -86,6 +90,7 @@
 * AOE tool improvement
 * Large tool model
 * Trait manager cleanup
+* Way to obtain magma/ichor slime. Probably drop from magma cubes for now
 
 ## Phase 2 (incremental content)
 
