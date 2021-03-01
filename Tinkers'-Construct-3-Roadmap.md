@@ -21,27 +21,25 @@
 
 * Fully implemented
     * Small: Pickaxe, mattock, axe, broadsword
-    * Large: hammer
+    * Large: hammer, excavator
 * Partially implemented:
     * Small: kama (missing harvest)
-    * Large: excavator (missing knockback bonus)
 
 **Materials**
 
-* Fully implemented
-    * Tier 1: Wood, stone, flint, bone
-    * Tier 2: Iron, copper, seared stone, slimewood
-    * Tier 2 compat: Lead, silver, electrum
-    * Tier 3: tinkers' bronze, nahuatl, slimesteel, Rose Gold, Pig Iron, Cobalt
-    * Tier 3 compat: Steel, Bronze, Constantan
-    * Tier 4: Queen's Slime, Hepatizon, Manyullyn
+* Tier 1: Wood, stone, flint, bone
+* Tier 2: Iron, copper, seared stone, slimewood
+* Tier 2 compat: Lead, silver, electrum
+* Tier 3: tinkers' bronze, nahuatl, slimesteel, Rose Gold, Pig Iron, Cobalt
+* Tier 3 compat: Steel, Bronze, Constantan
+* Tier 4: Queen's Slime, Hepatizon, Manyullyn
 
 **Modifiers**
 
-* Free: Worldbound
+* Free: Worldbound, Overslime, Creative
     * Bonus modifiers: book and quill, music disc, mob head
-* Upgrades: Reinforced, Experienced, Magnetic
-    * Tier modifiers: emerald, diamond, netherite
+* Upgrades: Reinforced, Experienced, Magnetic, Knockback
+    * Tier modifiers: Emerald, Diamond, Netherite
 * Abilities: Silk Touch, Expanded
 
 ### Resources
@@ -59,11 +57,9 @@
 
 **Modifiers**
 
-* JEI recipe support
 * Upgrades: Necrotic
     * Incremental: Haste, Sharpness, Smite, Bane of Arthropods, Antiaquatic, Fiery
-* Abilities:
-    * Incremental: Luck
+* Abilities: Luck
 
 ### Cleanup
 
@@ -75,6 +71,10 @@
         * Darkosto reported crafting station does not use workbench tag
     * Table TESR render box
     * Cleanup config file
+    * Seared tanks are not dropping with contents
+* Content transfer:
+    * Piggybackpack move to Tinkers' Mechworks
+    * Jerky, stone ladders and torches, and punji sticks move to Natura
 * Remapping items:
     * Toolpart cleanup (ditch large binding, excavator head to plate)
     * Rename slime types for consistency, either colors or flavor names
