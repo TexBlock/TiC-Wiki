@@ -72,6 +72,7 @@
     * Table TESR render box
     * Cleanup config file
     * Seared tanks are not dropping with contents
+    * Fix a few broken tooltips (no more double translation)
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
