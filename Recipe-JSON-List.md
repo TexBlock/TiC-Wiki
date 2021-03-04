@@ -1,11 +1,13 @@
 [[Common JSON Value Types]]  
 
-### Common Recipe Types
+### Casting Table Recipes
+[[Casting Recipe JSON]]  
+[[Molding Recipe JSON]]  
+
+### Smeltery Recipes
 [[Item Melting Recipe JSON]]  
 [[Entity Melting Recipe JSON]]  
-[[Molding Recipe JSON]]  
 [[Alloying Recipe JSON]]  
-[[Casting Recipe JSON]]  
 [[Melting Fuel Recipe JSON]]  
 
 ### Tool Recipes
