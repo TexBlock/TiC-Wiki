@@ -109,7 +109,6 @@ These changes are not specifically required for the first alpha, but have a few 
 
 * Fix smeltery transparent fluids
 * AOE tool improvement
-* Large tool model
 * Trait manager cleanup
 * Way to obtain magma/ichor slime. Probably drop from magma cubes for now
 
