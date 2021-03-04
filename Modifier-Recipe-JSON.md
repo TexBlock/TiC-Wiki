@@ -1,4 +1,5 @@
-
+## Simple Modifier Recipe
+Location: `.jar/data/tconstruct/recipes/tools/modifiers/upgrade/`
 ### Keys
 `type`: Must be `"tconstruct:modifier"`.  
 `inputs`: List of [[SizedIngredients|Common-JSON-Value-Types#sizedingredient]]. The items to make a modifier out of.  
