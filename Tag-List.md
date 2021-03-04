@@ -6,7 +6,7 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 | :--- | :---- | :------- |
 | `tconstruct:melter_tanks` | Smeltery | Blocks in this tag are a valid fuel source for melters. In order to function, the tile entity must have either an `IItemHandler` or an `IFluidHandler` capability |
 | `tconstruct:smeltery/tanks` | Smeltery | Blocks in this tag are a valid fuel source for the smeltery. In order to function, the tile entity must implement `IServantLogic` and they must have either an `IItemHandler` or an `IFluidHandler` capability. |
-| `tconstruct:smeltery/tanks` | Smeltery | Blocks in this tag are a valid floor blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
+| `tconstruct:smeltery/floor` | Smeltery | Blocks in this tag are a valid floor blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
 | `tconstruct:smeltery/wall` | Smeltery | Blocks in this tag are a valid wall blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. All blocks in the smeltery need to be included in this tag to properly update. |
 | `tconstruct:slimy_logs`   | World | Blocks in this tag are a valid trunk for slimy leaves blocks |
 | `tconstruct:slimy_leaves` | World | Blocks in this tag can be replaced by leaves from slimy blocks and can support slimy vines despite being non-solid |
