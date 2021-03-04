@@ -1,5 +1,7 @@
 ## Already Coded
 
+The following subsections contain major features that are already coded, to give an idea of progress and what should be in the mod already
+
 ### Crafting
 **Tool Tables**
 
@@ -53,13 +55,31 @@
 * Partially implemented
     * End slime islands (wrong flora, missing mobs)
 
-## Phase 1 (first alpha)
+## Phase 1
+
+Phase 1 consists of all the code from the time we started working in 1.15 until the first public alpha. The following subsections contain things I need to complete before that first public alpha. When released, it will conclude phase 1.
+
+### Tools
 
 **Modifiers**
 
 * Upgrades: Necrotic
     * Incremental: Haste, Sharpness, Smite, Bane of Arthropods, Antiaquatic, Fiery
 * Abilities: Luck
+
+### Tables
+
+These changes are not specifically required for the first alpha, but have a few other reasons for inclusion
+
+**Part Builder**
+
+* Add leftovers slot
+* Cleanup behavior to be more like the tinker station, should fix a dupe bug
+* Add part forge, the tier 3 version for crafting large parts
+
+**Tinker Anvil**
+
+* Trivial to implement block
 
 ### Cleanup
 
@@ -93,14 +113,11 @@
 * Trait manager cleanup
 * Way to obtain magma/ichor slime. Probably drop from magma cubes for now
 
-## Phase 2 (incremental content)
+## Phase 2
+
+Phase 2 consists of content I did not consider essential to the first public alpha. Some of this may still get pulled into the first alpha, but in general expect this content after the first alpha.
 
 ### Crafting
-
-**Tool tables**
-
-* Part builder leftover slot
-* Tinkers' Anvil
 
 **Smeltery**
 
@@ -145,7 +162,9 @@
 
 * Texture generators
 
-## Phase 3 (beta release, endgame content)
+## Phase 3
+
+Phase 3 is the point at which I consider the mod's API ready to use. Before this phase, any addons need to be prepared to update as we make new alphas as our API needs a lot of cleanup from 1.12. Once the first beta is released, the API should remain stable.
 
 ### Crafting
 **Multiblock**
@@ -186,8 +205,11 @@
 ### Cleanup
 
 * Library cleanup (remove unused code)
+* StatsNBT builder to make stats more extendable
 
-## Phase 4 (complex content)
+## Phase 4
+
+Phase 4 is similar to phase 2, its simply content that is planned for the mod but not required for the first beta. After the requirements of this phase are satisfied the mod will be ready for full release status, however the mod should be mostly playable during phase 2 or 3.
 
 ### Tools
 
