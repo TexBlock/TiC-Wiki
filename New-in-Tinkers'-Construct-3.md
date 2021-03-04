@@ -38,6 +38,15 @@ This page describes some of the new content related to tools mechanics, includin
 * Stencil table and part builder were merged into one block
 * Instead of crafting patterns and using those, the part builder has a UI similar to the stone cutter to craft parts
 
+**Improved upgrades**
+
+* Added an upgraded part builder, the part forge
+    * Intended to simplify early game by not showing large parts until you have broad tools
+* Reworked Tool Forge into Tinker's Anvil
+    * Simply sounds cooler
+* Tinker Station now is limited to 3 slots for upgrades
+    * Could be used to gate a modifier recipe by requiring 5 inputs
+
 ## Materials
 
 **Material tiers**
@@ -122,7 +131,7 @@ These tools are available from tier 1 and onwards.
 
 ### Broad
 
-These tools require the Tinkers' Anvil to craft, a tier 3 component.
+These tools require the Tinker's Anvil to craft, a tier 3 component. Tool part will make use of the Part Forge.
 
 * *Sledgehammer*
 * *Veining Hammer*: Breaks a vein of ores, name pending.
