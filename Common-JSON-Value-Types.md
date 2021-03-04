@@ -10,6 +10,7 @@
 * [ItemOutput](#itemoutput)
 * [FluidStack](#fluidstack)
 * [ModifierEntry](#modifierentry)
+* [ModifierMatch](#modifiermatch)
 * [ResourceLocation](#resourcelocation)
 * [IFluidHandlerItem](#ifluidhandleritem)
 * [ToolCore](#toolcore)
@@ -120,6 +121,34 @@ Full name and level of a modifier to be added.
       "name": "tconstruct:silky",
       "level": 1
     }
+
+## ModifierMatch
+A recursive list of ModifierMatch and [[ModifierEntry|Common-JSON-Value-Types#modifierentry]] objects. The top object can be a ModifierEntry.  
+### Keys
+`options`: List of ModifierMatch and ModifierEntry objects.  
+`matches_needed`: Integer. The amount of matches from the list required.  
+`error`: String. The error shown if the ModifierMatch fails.  
+### Examples
+    {
+      "name": "tconstruct:expanded",
+      "level": 1,
+      "error": "recipe.tconstruct.modifier.ender_expander_requirements"
+    },
+    {
+      "options": [
+        {
+          "name": "tconstruct:diamond",
+          "level": 1
+        },
+        {
+          "name": "tconstruct:emerald",
+          "level": 1
+        }
+      ],
+      "matches_needed": 1,
+      "error": "recipe.tconstruct.modifier.netherite_requirements"
+    }
+
  
 
 ## ResourceLocation
