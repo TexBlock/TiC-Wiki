@@ -12,4 +12,5 @@
 * [[What's New in Tinkers' Construct 3?|New-in-Tinkers'-Construct-3]]
 * [[Tinkers' Construct 3 Roadmap]]
 * [[Recipe JSON List]]
+* [[Tag List]]
 * [[Tinkers Construct Block Model Loaders]]
