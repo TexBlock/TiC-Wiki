@@ -1,4 +1,4 @@
-This page documents any tags in Tinker's Construct 3 with special behavior. Specifically, tags with behavior outside of recipes. Tags only used in recipes are not described on this page.
+This page documents any tags in Tinker's Construct 3 with special behavior. Specifically, tags with behavior outside of recipes. Tags only used as recipe inputs are not described on this page.
 
 ## Blocks
 
