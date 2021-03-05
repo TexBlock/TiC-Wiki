@@ -88,11 +88,12 @@ These changes are not specifically required for the first alpha, but have a few 
 * Trivial:
     * Copper oregen rate too high
     * Validate recipe tags, any tags we should be using
-        * Darkosto reported crafting station does not use workbench tag
+        * Crafting station does not use workbench tag
     * Table TESR render box
     * Cleanup config file
     * Seared tanks are not dropping with contents
     * Fix a few broken tooltips (no more double translation)
+    * Register all configured features properly with vanilla
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
@@ -111,6 +112,8 @@ These changes are not specifically required for the first alpha, but have a few 
 * AOE tool improvement
 * Trait manager cleanup
 * Way to obtain magma/ichor slime. Probably drop from magma cubes for now
+* Support tagged fluids in materials
+* Head swapping should repair the tool
 
 ## Phase 2
 
@@ -123,6 +126,7 @@ Phase 2 consists of content I did not consider essential to the first public alp
 * Heaters in smeltery?
 * Nether smeltery
 * Multioutput recipes
+* Smeltery peripheral to access the UI?
 
 ### Tools
 
@@ -160,6 +164,8 @@ Phase 2 consists of content I did not consider essential to the first public alp
 ### Misc
 
 * Texture generators
+* Find a good way to handle duplicate materials between mods. We just going to resort to conditions?
+    * Might need to make recipes directly referencing materials automatically disable if the material is not found
 
 ## Phase 3
 
