@@ -40,7 +40,7 @@ This subsection lists materials provided by Tinkers Construct natively.
 | :------- | :------- | :---- |
 | `cobalt`          | Melting/Casting, Ore, Tool Material      | |
 | `copper`          | Melting/Casting, Ore, Tool Material      | |
-| `gold`            | Melting/Casting, Alloying                | |
+| `gold`            | Melting/Casting, Ore, Alloying           | |
 | `hepatizon`       | Melting/Casting, Alloying, Tool Material | Alloys 4 from 2 copper, 1 cobalt and 1 obsidian |
 | `iron`            | Melting/Casting, Ore, Tool Material      | |
 | `netherite`       | Melting/Casting, Alloying                | Alloys 1 from 4 gold and 4 netherite scrap |
