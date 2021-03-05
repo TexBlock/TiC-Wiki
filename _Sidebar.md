@@ -1,6 +1,6 @@
 ## [[Home]]
 
-### 1.12 (Tinkers' Construct 2)
+### 1.12 (TiC 2)
 * [[FAQ]]
 * [[Resource Packs]]
 * [[Building an addon]]
@@ -8,7 +8,7 @@
 * [[Overwriting Harvest Levels]]
 * [[World Generators for SimpleRetrogen]]
 
-### 1.16 (Tinkers' Construct 3)
+### 1.16 (TiC 3)
 * [[What's New?|New-in-Tinkers'-Construct-3]]
 * [[Roadmap|Tinkers' Construct 3 Roadmap]]
 * [[Recipe JSON List]]
