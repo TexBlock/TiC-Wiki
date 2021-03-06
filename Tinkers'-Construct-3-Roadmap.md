@@ -81,19 +81,20 @@ These changes are not specifically required for the first alpha, but have a few 
 
 * Trivial to implement block
 
+**Modifier Chest**
+
+* Broken model
+* Clean up code, probably pull from modifier recipe inputs
+
 ### Cleanup
 
 **Required**
 
 * Trivial:
-    * Copper oregen rate too high
     * Validate recipe tags, any tags we should be using
         * Crafting station does not use workbench tag
     * Table TESR render box
     * Cleanup config file
-    * Seared tanks are not dropping with contents
-    * Fix a few broken tooltips (no more double translation)
-    * Register all configured features properly with vanilla
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
@@ -103,8 +104,6 @@ These changes are not specifically required for the first alpha, but have a few 
     * Rename hammer to sledgehammer
 * Unused Content:
     * Remove graveyard and consecrated soil, modifier recipes changed
-    * Remove or hide fire/lavawood
-    * Reconsider mud bricks, where do those belong?
 
 **Possibly delayed to phase 2**
 
@@ -127,6 +126,7 @@ Phase 2 consists of content I did not consider essential to the first public alp
 * Nether smeltery
 * Multioutput recipes
 * Smeltery peripheral to access the UI?
+* Sand casts, allow sand second?
 
 ### Tools
 
