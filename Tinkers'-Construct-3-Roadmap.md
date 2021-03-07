@@ -91,9 +91,6 @@ These changes are not specifically required for the first alpha, but have a few 
 **Required**
 
 * Trivial:
-    * Validate recipe tags, any tags we should be using
-        * Crafting station does not use workbench tag
-    * Table TESR render box
     * Cleanup config file
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
