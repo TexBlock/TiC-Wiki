@@ -6,11 +6,12 @@ The following subsections contain major features that are already coded, to give
 **Tool Tables**
 
 * Part builder, tinker station
+* Modifier chest, part chest, cast chest
 
 **Smeltery**
 
-* Overworld variant
 * Melter
+* Overworld smeltery
 * Drain, chute, duct
 * Tanks
 * Faucets, channels
@@ -32,9 +33,9 @@ The following subsections contain major features that are already coded, to give
 * Tier 1: Wood, stone, flint, bone
 * Tier 2: Iron, copper, seared stone, slimewood
 * Tier 2 compat: Lead, silver, electrum
-* Tier 3: tinkers' bronze, nahuatl, slimesteel, Rose Gold, Pig Iron, Cobalt
-* Tier 3 compat: Steel, Bronze, Constantan
-* Tier 4: Queen's Slime, Hepatizon, Manyullyn
+* Tier 3: tinkers' bronze, nahuatl, slimesteel, rose gold, pig iron, cobalt
+* Tier 3 compat: Steel, bronze, constantan
+* Tier 4: Queen's slime, hepatizon, manyullyn
 
 **Modifiers**
 
@@ -53,6 +54,7 @@ The following subsections contain major features that are already coded, to give
     * Copper ore
     * Cobalt ore
 * Partially implemented
+    * Nether slime islands (wrong location)
     * End slime islands (wrong flora, missing mobs)
 
 ## Phase 1
@@ -69,7 +71,7 @@ Phase 1 consists of all the code from the time we started working in 1.15 until 
 
 ### Tables
 
-These changes are not specifically required for the first alpha, but have a few other reasons for inclusion
+These changes are not specifically required for the first alpha, but have a few other reasons for inclusion on this list.
 
 **Part Builder**
 
@@ -80,11 +82,6 @@ These changes are not specifically required for the first alpha, but have a few 
 **Tinker Anvil**
 
 * Trivial to implement block
-
-**Modifier Chest**
-
-* Broken model
-* Clean up code, probably pull from modifier recipe inputs
 
 ### Cleanup
 
@@ -107,7 +104,6 @@ These changes are not specifically required for the first alpha, but have a few 
 * Fix smeltery transparent fluids
 * AOE tool improvement
 * Trait manager cleanup
-* Way to obtain magma/ichor slime. Probably drop from magma cubes for now
 * Support tagged fluids in materials
 * Head swapping should repair the tool
 
