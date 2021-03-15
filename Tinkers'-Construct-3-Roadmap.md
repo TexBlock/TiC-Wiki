@@ -5,7 +5,7 @@ The following subsections contain major features that are already coded, to give
 ### Crafting
 **Tool Tables**
 
-* Part builder, tinker station
+* Part builder, tinker station, tinker's anvil
 * Modifier chest, part chest, cast chest
 
 **Smeltery**
@@ -54,7 +54,7 @@ The following subsections contain major features that are already coded, to give
     * Copper ore
     * Cobalt ore
 * Partially implemented
-    * Nether slime islands (wrong location)
+    * Nether slime islands (wrong orientation)
     * End slime islands (wrong flora, missing mobs)
 
 ## Phase 1
@@ -79,16 +79,14 @@ These changes are not specifically required for the first alpha, but have a few 
 * Cleanup behavior to be more like the tinker station, should fix a dupe bug
 * Add part forge, the tier 3 version for crafting large parts
 
-**Tinker Anvil**
-
-* Trivial to implement block
-
 ### Cleanup
 
 **Required**
 
-* Trivial:
-    * Cleanup config file
+* Issues:
+    * Verify location of cobalt ore is correct, may need increased generation rate or biome correction
+    * Correct dust melting times for addon support
+    * Disallow part swapping when the tool has more parts than the station has slots
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
@@ -97,6 +95,7 @@ These changes are not specifically required for the first alpha, but have a few 
     * Rename slime types for consistency, either colors or flavor names
     * Rename hammer to sledgehammer
 * Unused Content:
+    * Cleanup config file
     * Remove graveyard and consecrated soil, modifier recipes changed
 
 **Possibly delayed to phase 2**
