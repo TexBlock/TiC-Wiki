@@ -7,9 +7,9 @@ This section discusses changes to the world module
 ## Ore Gen
 
 * Tinkers once again provides copper ore.
-    * Copper is the only overworld ore we add
+    * Copper is the only overworld ore we add.
 * Ardite ore has been removed
-    * Ardite will be available from a different crafting process
+    * Potentially moved to Natura, otherwise just removed entirely
     * Manyullyn specifically is now alloyed from cobalt and molten debris (ancient debris)
 
 ## Slime Islands
@@ -23,7 +23,7 @@ This section discusses changes to the world module
 * All slime types have unique names
     * Green slime is often called earth slime, or just generically slime
     * Blue slime is called sky slime
-    * Orange slime is called ichor slime
+    * Orange slime is called ichor
     * Purple slime is called ender slime
     * Magma cream is often considered a fifth slime type
 
@@ -37,15 +37,28 @@ This page describes some of the new content related to tools mechanics, includin
 
 * Stencil table and part builder were merged into one block
 * Instead of crafting patterns and using those, the part builder has a UI similar to the stone cutter to craft parts
+* Crafted from 2 patterns and 2 wooden planks
 
-**Improved upgrades**
+**Improved tinkering**
 
-* Added an upgraded part builder, the part forge
-    * Intended to simplify early game by not showing large parts until you have broad tools
+* Tinker Station
+    * New name for the tool station
+    * Has only 3 slots (no crafting large tools), and a similar UI to the classic 1.7 UI
+    * Tool station is crafted using 4 planks and 3 patterns
 * Reworked Tool Forge into Tinker's Anvil
     * Simply sounds cooler
-* Tinker Station now is limited to 3 slots for upgrades
-    * Could be used to gate a modifier recipe by requiring 5 inputs
+    * Contains 5 slots, like the 1.12 UI
+    * Recipe requires 3 metal blocks and 4 seared bricks
+
+**Improved Crafting Station**
+
+* Can be crafted from a pattern and either a crafting station or any wooden table
+* Alternatively, can be crafted from a pattern and a log to use the log texture on the legs
+
+**Improved station tabs**
+
+* Any two station blocks together will now form tabs, instead of requiring a crafting station
+* Multiple of the same block can be tabs, for example placing 2 crafting stations together gives tabs to switch between them
 
 ## Materials
 
