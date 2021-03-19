@@ -83,10 +83,6 @@ These changes are not specifically required for the first alpha, but have a few 
 
 **Required**
 
-* Issues:
-    * Verify location of cobalt ore is correct, may need increased generation rate or biome correction
-    * Correct dust melting times for addon support
-    * Disallow part swapping when the tool has more parts than the station has slots
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
