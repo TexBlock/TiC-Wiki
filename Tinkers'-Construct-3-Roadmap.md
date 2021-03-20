@@ -41,9 +41,9 @@ The following subsections contain major features that are already coded, to give
 
 * Free: Worldbound, Overslime, Creative
     * Bonus modifiers: book and quill, music disc, mob head
-* Upgrades: Reinforced, Experienced, Magnetic, Knockback
+* Upgrades: Reinforced, Experienced, Magnetic, Necrotic, Knockback, Haste, Sharpness, Smite, Bane of Arthropods, Antiaquatic, Fiery
     * Tier modifiers: Emerald, Diamond, Netherite
-* Abilities: Silk Touch, Expanded
+* Abilities: Silk Touch, Expanded, Luck
 
 ### Resources
 
@@ -61,14 +61,6 @@ The following subsections contain major features that are already coded, to give
 
 Phase 1 consists of all the code from the time we started working in 1.15 until the first public alpha. The following subsections contain things I need to complete before that first public alpha. When released, it will conclude phase 1.
 
-### Tools
-
-**Modifiers**
-
-* Upgrades: Necrotic
-    * Incremental: Haste, Sharpness, Smite, Bane of Arthropods, Antiaquatic, Fiery
-* Abilities: Luck
-
 ### Tables
 
 These changes are not specifically required for the first alpha, but have a few other reasons for inclusion on this list.
@@ -76,7 +68,7 @@ These changes are not specifically required for the first alpha, but have a few 
 **Part Builder**
 
 * Add leftovers slot
-* Cleanup behavior to be more like the tinker station, should fix a dupe bug
+* Cleanup behavior to be more like the tinker station
 * Add part forge, the tier 3 version for crafting large parts
 
 ### Cleanup
@@ -101,7 +93,7 @@ These changes are not specifically required for the first alpha, but have a few 
 * Trait manager cleanup
 * Support tagged fluids in materials
 * Head swapping should repair the tool
-
+You 
 ## Phase 2
 
 Phase 2 consists of content I did not consider essential to the first public alpha. Some of this may still get pulled into the first alpha, but in general expect this content after the first alpha.
