@@ -78,10 +78,6 @@ These changes are not specifically required for the first alpha, but have a few 
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
-* Remapping items:
-    * Toolpart cleanup (ditch large binding, excavator head to plate)
-    * Rename slime types for consistency, either colors or flavor names
-    * Rename hammer to sledgehammer
 * Unused Content:
     * Cleanup config file
     * Remove graveyard and consecrated soil, modifier recipes changed
@@ -94,6 +90,7 @@ These changes are not specifically required for the first alpha, but have a few 
 * Support tagged fluids in materials
 * Head swapping should repair the tool
 You 
+
 ## Phase 2
 
 Phase 2 consists of content I did not consider essential to the first public alpha. Some of this may still get pulled into the first alpha, but in general expect this content after the first alpha.
