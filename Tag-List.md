@@ -42,15 +42,15 @@ This subsection lists materials provided by Tinkers Construct natively.
 | `cobalt`          | Melting/Casting, Ore, Tool Material      | |
 | `copper`          | Melting/Casting, Ore, Tool Material      | |
 | `gold`            | Melting/Casting, Ore                     | |
-| `hepatizon`       | Melting/Casting, Alloying, Tool Material | Alloys 4 from 2 copper, 1 cobalt and 1 obsidian |
+| `hepatizon`       | Melting/Casting, Alloying, Tool Material | Alloys 2 from 2 copper, 1 cobalt and 1 obsidian. |
 | `iron`            | Melting/Casting, Ore, Tool Material      | |
-| `netherite`       | Melting/Casting, Alloying                | Alloys 1 from 4 gold and 4 netherite scrap |
+| `netherite`       | Melting/Casting, Alloying                | Alloys 1 from 4 gold and 4 netherite scrap. |
 | `netherite_scrap` | Melting/Casting, Ore                     | Molten form is called debris. Ore is ancient debris. |
-| `pigiron`         | Melting/Casting, Alloying, Tool Material | Alloys 2 from 1 iron, 1 blood and 1 clay |
-| `queens_slime`    | Melting/Casting, Alloying, Tool Material | Alloys 2 from 1 cobalt, 1 gold and 1 magma cream |
-| `rose_gold`       | Melting/Casting, Alloying, Tool Material | Alloys 4 from 3 copper and 1 gold |
-| `slimesteel`      | Melting/Casting, Alloying, Tool Material | Alloys 2 from 1 iron, 1 blueslime and 1 seared brick |
-| `tinkers_bronze`  | Melting/Casting, Alloying, Tool Material | Alloys 4 from 3 copper and 1 zinc |
+| `pig_iron`        | Melting/Casting, Alloying, Tool Material | Alloys 2 from 1 iron, 1 blood and 1 clay. |
+| `queens_slime`    | Melting/Casting, Alloying, Tool Material | Alloys 2 from 1 cobalt, 1 gold and 1 magma cream. |
+| `rose_gold`       | Melting/Casting, Alloying, Tool Material | Alloys 4 from 3 copper and 1 gold. |
+| `silicon_bronze`  | Melting/Casting, Alloying, Tool Material | Alloys 4 from 3 copper and 1 sand. |
+| `slimesteel`      | Melting/Casting, Alloying, Tool Material | Alloys 2 from 1 iron, 1 blueslime and 1 seared brick. |
 
 ### Compat
 
