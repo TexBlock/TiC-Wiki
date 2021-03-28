@@ -76,6 +76,7 @@ These changes are not specifically required for the first alpha, but have a few 
 
 **Required**
 
+* Kama fixes, not fully shears
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
@@ -89,6 +90,7 @@ These changes are not specifically required for the first alpha, but have a few 
 * AOE tool improvement
 * Trait manager cleanup
 * Support tagged fluids in materials
+* Crafting station item display sync bug
 
 ## Phase 2
 
