@@ -40,10 +40,11 @@ The following subsections contain major features that are already coded, to give
 **Modifiers**
 
 * Free: Worldbound, Overslime, Creative
-    * Bonus modifiers: book and quill, music disc, mob head
-* Upgrades: Reinforced, Experienced, Magnetic, Necrotic, Knockback, Haste, Sharpness, Smite, Bane of Arthropods, Antiaquatic, Fiery
+    * Bonus modifiers: book and quill, music disc, mob head, end crystal
+* Upgrades: Reinforced, Experienced, Magnetic, Necrotic, Knockback, Haste, Fiery
+    * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
-* Abilities: Silk Touch, Expanded, Luck
+* Abilities: Silk Touch, Expanded, Luck, Gilded
 
 ### Resources
 
@@ -51,10 +52,10 @@ The following subsections contain major features that are already coded, to give
 
 * Fully implemented
     * Overworld slime islands
+    * Blood slime islands
     * Copper ore
     * Cobalt ore
 * Partially implemented
-    * Nether slime islands (wrong orientation)
     * End slime islands (wrong flora, missing mobs)
 
 ## Phase 1
@@ -88,8 +89,6 @@ These changes are not specifically required for the first alpha, but have a few 
 * AOE tool improvement
 * Trait manager cleanup
 * Support tagged fluids in materials
-* Head swapping should repair the tool
-You 
 
 ## Phase 2
 
