@@ -127,7 +127,7 @@ A recursive list of ModifierMatch and [[ModifierEntry|Common-JSON-Value-Types#mo
 ### Keys
 `options`: List of ModifierMatch and ModifierEntry objects.  
 `matches_needed`: Integer. The amount of matches from the list required.  
-`error`: String. The error shown if the ModifierMatch fails.  
+`error`: String. The translation key of the error to shown if the ModifierMatch fails. Only available on the top level.
 ### Examples
     {
       "name": "tconstruct:expanded",
