@@ -6,7 +6,7 @@ Simple and incremental modifiers share these keys:
 `requirements`: [[ModifierMatch|Common-JSON-Value-Types#modifiermatch]]. Optional. Modifiers required on the tool to apply the recipe.  
 `upgrade_slots`: Integer. Defaults to 0. The amount of upgrade slots the modifier recipe takes.  
 `ability_slots`: Integer. Defaults to 0. The amount of ability slots the modifier recipe takes. A modifier recipe cannot use both upgrade and ability slots.  
-`max_level`: Integer. Defaults to 0. The amount of levels the modifier has.  
+`max_level`: Integer. Defaults to 0. The maximum levels of the modifier that can be applied through this recipe. 0 means no limit.
 
 ## Simple Modifier Recipe
 ### Keys
