@@ -26,7 +26,7 @@ Location: `.jar/data/tconstruct/recipes/smeltery/casting/`
 Location: `.jar/data/tconstruct/recipes/tools/parts/casting/`
 ### Keys
 `type`: Must be either `"tconstruct:basin_casting_material"` or `"tconstruct:table_casting_material"`.  
-`item_cost`: Integer. The amount of baseline "ingots" required to cast.
+`item_cost`: Integer. The amount of baseline "ingots" required to cast.  
 `result`: [[IMaterialItem|Common-JSON-Value-Types#imaterialitem]]. Output part type.  
 ### Example
     {
