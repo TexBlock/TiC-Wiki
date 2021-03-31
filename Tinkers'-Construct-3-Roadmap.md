@@ -116,7 +116,10 @@ Phase 2 consists of content I did not consider essential to the first public alp
 **Tool types**
 
 * Small:
-    * Kama right click harvest
+    * Kama fixes:
+        * Right click harvest
+        * Pumpkin and bee hive shearing
+        * Trip wire disfusing
     * Dagger
 * Large: Broad Axe, Cleaver, Scythe, Veining Hammer
 
