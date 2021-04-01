@@ -55,6 +55,7 @@ The following subsections contain major features that are already coded, to give
     * Blood slime islands
     * Copper ore
     * Cobalt ore
+    * Wither bones
 * Partially implemented
     * End slime islands (wrong flora, missing mobs)
 
@@ -74,18 +75,9 @@ These changes are not specifically required for the first alpha, but have a few 
 
 ### Cleanup
 
-**Required**
-
-* Kama fixes, not fully shears
 * Content transfer:
     * Piggybackpack move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
-* Unused Content:
-    * Cleanup config file
-    * Remove graveyard and consecrated soil, modifier recipes changed
-
-**Possibly delayed to phase 2**
-
 * Fix smeltery transparent fluids
 * AOE tool improvement
 * Trait manager cleanup
