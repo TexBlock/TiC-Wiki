@@ -21,6 +21,27 @@ Location: `.jar/data/tconstruct/recipes/smeltery/melting/`
       "time": 50
     }
 
+## Damageable Item Melting
+Location: `.jar/data/tconstruct/recipes/smeltery/melting/`  
+Same as normal item melting, but liquid output scales with item durability damage.  
+
+### Keys
+`type`: Must be `"tconstruct:damagable_melting"`.  
+
+### Example
+    {
+      "type": "tconstruct:damagable_melting",
+      "ingredient": {
+        "item": "minecraft:iron_chestplate"
+      },
+      "result": {
+        "fluid": "tconstruct:molten_iron",
+        "amount": 1152
+      },
+      "temperature": 800,
+      "time": 170
+    } 
+
 ## Ore Melting
 Location: `.jar/data/tconstruct/recipes/smeltery/melting/`
 An extension of item melting. Uses the same keys, but boosts the recipe's output based on the smeltery.
