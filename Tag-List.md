@@ -16,6 +16,7 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 
 | Name | Group | Behavior |
 | :--- | :---- | :------- |
+| `tconstruct:autosmelt_blacklist` | Tools | Items in this tag will not be smelted by the autosmelt modifier. |
 | `tconstruct:duct_containers` | Smeltery | Items in this tag can be placed inside the seared duct. Additionally, items whose container item is in this tag can be placed inside the seared duct, allowing all buckets to work simply by including the empty bucket. |
 | `tconstruct:modifiable` | Tools | Items in this tag can receive modifiers from recipes that do not specify an ingredient. Additionally, items in this tag will process relevant modifier events. Note that some modifier events are handled through `ToolCore`, so simply adding an item to this tag will not make it support modifiers. |
 | `tconstruct:modifiable/multipart` | Tools | Items in this tag work as a multipart tool for relevant recipes. It is expected that they extend `ToolCore` |
