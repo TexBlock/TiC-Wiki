@@ -15,3 +15,6 @@
 [[Part Builder Pattern Recipe JSON]]  
 [[Modifier Recipe JSON]]  
 [[Tinker Tool Recipe JSON]]  
+
+### Misc
+[[Beheading Recipe JSON]]  
