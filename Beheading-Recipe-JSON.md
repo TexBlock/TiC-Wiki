@@ -16,6 +16,6 @@ Location: `.jar/data/tconstruct/recipes/tools/beheading/`
 
 
 ## Player Beheading Recipe
-A dummy recipe that can be disabled to disable player beheading.
+A special recipe that causes player heads to drop with the proper skin applied. Can be disabled to disable player beheading.
 ### Keys
 `type`: `"tconstruct:player_beheading"`.  
