@@ -68,6 +68,7 @@ This subsection lists materials that have automatic compat for smeltery recipes 
 | `lead`       | Melting/Casting, Ore, Tool Material      | |
 | `nickel`     | Melting/Casting, Ore                     | |
 | `osmium`     | Melting/Casting, Ore                     | |
+| `pewter`     | Melting/Casting, Alloying                | Alloys 2 from 1 iron and 1 lead |
 | `platinum`   | Melting/Casting, Ore                     | |
 | `steel`      | Melting/Casting, Tool Material           | |
 | `silver`     | Melting/Casting, Ore, Tool Material      | |
