@@ -41,10 +41,11 @@ The following subsections contain major features that are already coded, to give
 
 * Free: Worldbound, Overslime, Creative
     * Bonus modifiers: book and quill, music disc, mob head, end crystal
-* Upgrades: Reinforced, Experienced, Magnetic, Necrotic, Knockback, Haste, Fiery
+* Upgrades: Reinforced, Experienced, Magnetic, Haste, Soulbound
+    * Weapon: Beheading, Necrotic, Knockback, Fiery
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
-* Abilities: Silk Touch, Expanded, Luck, Gilded
+* Abilities: Silk Touch, Expanded, Luck, Gilded, Autosmelt
 
 ### Resources
 
@@ -92,7 +93,6 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 * Heaters in smeltery?
 * Nether smeltery
-* Multi-output recipes
 * Smeltery peripheral to access the UI?
 * Sand casts: allow placing sand second?
 * Fix smeltery transparent fluids
@@ -101,7 +101,7 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 **Data packs**
 
-* Tool art listing in JSON?
+* Tool part listing in JSON?
 * Support tagged fluids in materials
 * Trait manager cleanup
 
@@ -109,7 +109,7 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 * Add leftovers slot
 * Cleanup behavior to be more like the tinker station
-* Add part forge, the tier 3 version for crafting large parts
+* Add part forge? the tier 3 version for crafting large parts
 
 **Tool types**
 
@@ -123,9 +123,8 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 **Modifiers**
 
-* Upgrades: Knockback, Necrotic, Glowing, Soulbound, Reach
-* Abilities: Autosmelt, Beheading, Mending, Ability Boost
-* Nether bonus modifiers
+* Upgrades: Glowing, Reach
+* Abilities: Mending, Ability Boost
 
 **Tool Model**
 
