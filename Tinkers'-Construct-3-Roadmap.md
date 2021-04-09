@@ -117,13 +117,13 @@ Phase 2 consists of content I did not consider essential to the first public alp
     * Kama fixes:
         * Right click harvest
         * Pumpkin and bee hive shearing
-        * Trip wire disfusing
+        * Trip wire diffusing
     * Dagger
 * Large: Broad Axe, Cleaver, Scythe, Veining Hammer
 
 **Modifiers**
 
-* Upgrades: Glowing, Reach
+* Upgrades: Glowing
 * Abilities: Mending, Ability Boost
 
 **Tool Model**
@@ -179,20 +179,17 @@ Phase 3 is the point at which I consider the mod's API ready to use. Before this
 **Modifiers**
 
 * Abilities: Unbreakable
-* End bonus modifiers
 * Armor modifiers
 
 ### Resources
 
 **Worldgen**
 
-* Bloodwood trees?
 * Ichor slimes and slime islands
 
 ### Cleanup
 
 * Library cleanup (remove unused code)
-* StatsNBT builder to make stats more extendable
 
 ## Phase 4
 
