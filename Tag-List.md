@@ -9,6 +9,8 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 | `tconstruct:smeltery/floor` | Smeltery | Blocks in this tag are a valid floor blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
 | `tconstruct:smeltery/wall` | Smeltery | Blocks in this tag are a valid wall blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. All blocks in the smeltery need to be included in this tag to properly update. |
 | `tconstruct:anvil_metal` | Tables | Blocks in this tag and the corresponding item tag are valid blocks to craft the Tinker's Anvil. Generally alloy metal blocks. |
+| `tconstruct:harvestable` | Tools | Blocks in this tag can be harvested using a kama or scythe. |
+| `tconstruct:harvestable/block_crops` | Tools | Blocks that are harvested by breaking blocks above the bottom. Blocks in this tag are automatically added to `tconstruct:harvestable`. |
 | `tconstruct:slimy_logs`   | World | Blocks in this tag are a valid trunk for slimy leaves blocks |
 | `tconstruct:slimy_leaves` | World | Blocks in this tag can be replaced by leaves from slimy blocks and can support slimy vines despite being non-solid |
 
@@ -16,8 +18,9 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 
 | Name | Group | Behavior |
 | :--- | :---- | :------- |
-| `tconstruct:autosmelt_blacklist` | Tools | Items in this tag will not be smelted by the autosmelt modifier. |
 | `tconstruct:duct_containers` | Smeltery | Items in this tag can be placed inside the seared duct. Additionally, items whose container item is in this tag can be placed inside the seared duct, allowing all buckets to work simply by including the empty bucket. |
+| `tconstruct:autosmelt_blacklist` | Tools | Items in this tag will not be smelted by the autosmelt modifier. |
+| `tconstruct:seeds` | Tools | Items in this tag are valid seeds for replanting crops using the scythe. |
 | `tconstruct:modifiable` | Tools | Items in this tag can receive modifiers from recipes that do not specify an ingredient. Additionally, items in this tag will process relevant modifier events. Note that some modifier events are handled through `ToolCore`, so simply adding an item to this tag will not make it support modifiers. |
 | `tconstruct:modifiable/multipart` | Tools | Items in this tag work as a multipart tool for relevant recipes. It is expected that they extend `ToolCore` |
 | `tconstruct:modifiable/melee` | Tools | Any modifiable tool that can deal melee damage. Note that not all melee tools are weapons. |
