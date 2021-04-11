@@ -23,10 +23,11 @@ The following subsections contain major features that are already coded, to give
 **Tool types**
 
 * Fully implemented
-    * Small: Pickaxe, mattock, axe, broadsword
-    * Large: hammer, excavator
+    * Small: pickaxe, mattock, axe, broadsword
+    * Large: sledge hammer, excavator, cleaver
 * Partially implemented:
-    * Small: kama (missing harvest)
+    * Small: kama (missing shearing)
+    * Large: scythe (missing shearing)
 
 **Materials**
 
@@ -45,7 +46,7 @@ The following subsections contain major features that are already coded, to give
     * Weapon: Beheading, Necrotic, Knockback, Fiery
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
-* Abilities: Silk Touch, Expanded, Luck, Gilded, Autosmelt
+* Abilities: Silk Touch, Expanded, Reach, Luck, Gilded, Autosmelt
 
 ### Resources
 
@@ -75,21 +76,21 @@ Phase 2 consists of content I did not consider essential to the first public alp
 * Materials and You content
     * Tool tables
     * Information on tier 1 materials
-    * Modifier information (minus nether access)
-* Mighty Smelting
+    * Tinker station modifiers (ignoring nether modifiers)
+* Puny Smelting
     * Melter
     * Tier 2 materials
+* Mighty Smelting
     * Smeltery
     * Tier 3 materials
+    * Tinkers' Anvil modifier
 * Mystic Melting (title pending)
     * Alloy tank
     * Nether smeltery
     * Tier 1-3 nether materials
     * Tier 4 nether materials
 
-### Crafting
-
-**Smeltery**
+### Smeltery
 
 * Heaters in smeltery?
 * Nether smeltery
@@ -102,7 +103,7 @@ Phase 2 consists of content I did not consider essential to the first public alp
 **Data packs**
 
 * Tool part listing in JSON?
-* Support tagged fluids in materials
+* Support tagged fluids in materials, possibly via recipes
 * Trait manager cleanup
 
 **Part Builder**
@@ -119,7 +120,7 @@ Phase 2 consists of content I did not consider essential to the first public alp
         * Pumpkin and bee hive shearing
         * Trip wire diffusing
     * Dagger
-* Large: Broad Axe, Cleaver, Scythe, Veining Hammer
+* Large: Broad Axe, Veining Hammer
 
 **Modifiers**
 
@@ -128,8 +129,6 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 **Tool Model**
 
-* Broken part support
-* Large tool model
 * Modifier models
 
 ### Resources
@@ -145,7 +144,7 @@ Phase 2 consists of content I did not consider essential to the first public alp
 * Find a good way to handle duplicate materials between mods. We just going to resort to conditions?
     * Might need to make recipes directly referencing materials automatically disable if the material is not found
 * Content transfer:
-    * Wooden rails move to Tinkers' Mechworks, piggybackpacks too?
+    * Wooden rails move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
 
 ## Phase 3
