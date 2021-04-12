@@ -100,6 +100,12 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 ### Tools
 
+**Repair kits**
+
+* Support on the go repair
+* Work as both a tinker station and a crafting table recipe
+* Cast or make in the part builder
+
 **Data packs**
 
 * Tool part listing in JSON?
