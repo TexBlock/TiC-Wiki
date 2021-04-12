@@ -60,6 +60,12 @@ This page describes some of the new content related to tools mechanics, includin
 * Any two station blocks together will now form tabs, instead of requiring a crafting station
 * Multiple of the same block can be tabs, for example placing 2 crafting stations together gives tabs to switch between them
 
+**Reworked repair kits**
+
+* Replaces the sharpening kits
+* No more mining level change, that is left to modifiers such as diamond and netherite
+* Keep on the go repair
+
 ## Materials
 
 **Material tiers**
