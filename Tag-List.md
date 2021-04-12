@@ -9,8 +9,10 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 | `tconstruct:smeltery/floor` | Smeltery | Blocks in this tag are a valid floor blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
 | `tconstruct:smeltery/wall` | Smeltery | Blocks in this tag are a valid wall blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. All blocks in the smeltery need to be included in this tag to properly update. |
 | `tconstruct:anvil_metal` | Tables | Blocks in this tag and the corresponding item tag are valid blocks to craft the Tinker's Anvil. Generally alloy metal blocks. |
-| `tconstruct:harvestable` | Tools | Blocks in this tag can be harvested using a kama or scythe. |
-| `tconstruct:harvestable/block_crops` | Tools | Blocks that are harvested by breaking blocks above the bottom. Blocks in this tag are automatically added to `tconstruct:harvestable`. |
+| `tconstruct:harvestable` | Tools | Blocks in this tag can be harvested using a kama or scythe. Only add items to this tag directly if you plan to use the event, for most harvestables use one of the sub tags. |
+| `tconstruct:harvestable/crops` | Tools | Blocks that are harvested by breaking the block at max age, which drops produce and seeds. Will replant the crop at age 0. |
+| `tconstruct:harvestable/interact` | Tools | Blocks that are harvested by interacting with them (e.g. berry bushes). Expects interaction through the block method, not the item event. |
+| `tconstruct:harvestable/stackable` | Tools | Blocks that are harvested by breaking blocks above the bottom (e.g. sugar cane). |
 | `tconstruct:slimy_logs`   | World | Blocks in this tag are a valid trunk for slimy leaves blocks |
 | `tconstruct:slimy_leaves` | World | Blocks in this tag can be replaced by leaves from slimy blocks and can support slimy vines despite being non-solid |
 
