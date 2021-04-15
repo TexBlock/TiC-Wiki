@@ -2,34 +2,68 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 
 ## Blocks
 
-| Name | Group | Behavior |
-| :--- | :---- | :------- |
-| `tconstruct:melter_tanks` | Smeltery | Blocks in this tag are a valid fuel source for melters. In order to function, the tile entity must have either an `IItemHandler` or an `IFluidHandler` capability |
-| `tconstruct:smeltery/tanks` | Smeltery | Blocks in this tag are a valid fuel source for the smeltery. In order to function, the tile entity must implement `IServantLogic` and they must have either an `IItemHandler` or an `IFluidHandler` capability. |
-| `tconstruct:smeltery/floor` | Smeltery | Blocks in this tag are a valid floor blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
-| `tconstruct:smeltery/wall` | Smeltery | Blocks in this tag are a valid wall blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. All blocks in the smeltery need to be included in this tag to properly update. |
-| `tconstruct:anvil_metal` | Tables | Blocks in this tag and the corresponding item tag are valid blocks to craft the Tinker's Anvil. Generally alloy metal blocks. |
-| `tconstruct:harvestable` | Tools | Blocks in this tag can be harvested using a kama or scythe. Only add items to this tag directly if you plan to use the event, for most harvestables use one of the sub tags. |
-| `tconstruct:harvestable/crops` | Tools | Blocks that are harvested by breaking the block at max age, which drops produce and seeds. Will replant the crop at age 0. |
-| `tconstruct:harvestable/interact` | Tools | Blocks that are harvested by interacting with them (e.g. berry bushes). Expects interaction through the block method, not the item event. |
-| `tconstruct:harvestable/stackable` | Tools | Blocks that are harvested by breaking blocks above the bottom (e.g. sugar cane). |
-| `tconstruct:slimy_logs`   | World | Blocks in this tag are a valid trunk for slimy leaves blocks |
-| `tconstruct:slimy_leaves` | World | Blocks in this tag can be replaced by leaves from slimy blocks and can support slimy vines despite being non-solid |
+### Smeltery
+
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:melter_tanks` | Blocks in this tag are a valid fuel source for melters. In order to function, the tile entity must have either an `IItemHandler` or an `IFluidHandler` capability |
+| `tconstruct:smeltery`  | Blocks in this tag are a valid smeltery block. In general do not use this tag directly, add to one or more of wall, floor, or tanks. |
+| `tconstruct:smeltery/tanks`  | Blocks in this tag are a valid fuel source for the smeltery. In order to function, the tile entity must implement `IServantLogic` and they must have either an `IItemHandler` or an `IFluidHandler` capability. |
+| `tconstruct:smeltery/floor` | Blocks in this tag are a valid floor blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
+| `tconstruct:smeltery/wall` | Blocks in this tag are a valid wall blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. All blocks in the smeltery need to be included in this tag to properly update. |
+
+### Tools
+
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:anvil_metal` | Blocks in this tag and the corresponding item tag are valid blocks to craft the Tinker's Anvil. Generally alloy metal blocks. |
+| `tconstruct:harvestable` | Blocks in this tag can be harvested using a kama or scythe. Only add items to this tag directly if you plan to use the event, for most harvestables use one of the sub tags. |
+| `tconstruct:harvestable/crops` | Blocks that are harvested by breaking the block at max age, which drops produce and seeds. Will replant the crop at age 0. |
+| `tconstruct:harvestable/interact` | Blocks that are harvested by interacting with them (e.g. berry bushes). Expects interaction through the block method, not the item event. |
+| `tconstruct:harvestable/stackable`| Blocks that are harvested by breaking blocks above the bottom (e.g. sugar cane). |
+
+### World
+
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:slimy_logs`   | Blocks in this tag are a valid trunk for slimy leaves blocks |
+| `tconstruct:slimy_leaves` | Blocks in this tag can be replaced by leaves from slimy blocks and can support slimy vines despite being non-solid |
 
 ## Items
 
-| Name | Group | Behavior |
-| :--- | :---- | :------- |
-| `tconstruct:duct_containers` | Smeltery | Items in this tag can be placed inside the seared duct. Additionally, items whose container item is in this tag can be placed inside the seared duct, allowing all buckets to work simply by including the empty bucket. |
-| `tconstruct:autosmelt_blacklist` | Tools | Items in this tag will not be smelted by the autosmelt modifier. |
-| `tconstruct:seeds` | Tools | Items in this tag are valid seeds for replanting crops using the scythe. |
-| `tconstruct:modifiable` | Tools | Items in this tag can receive modifiers from recipes that do not specify an ingredient. Additionally, items in this tag will process relevant modifier events. Note that some modifier events are handled through `ToolCore`, so simply adding an item to this tag will not make it support modifiers. |
-| `tconstruct:modifiable/multipart` | Tools | Items in this tag work as a multipart tool for relevant recipes. It is expected that they extend `ToolCore` |
-| `tconstruct:modifiable/melee` | Tools | Any modifiable tool that can deal melee damage. Note that not all melee tools are weapons. |
-| `tconstruct:modifiable/combat` | Tools | Items in this tag will not receive double damage when attacking an enemy. |
-| `tconstruct:modifiable/harvest` | Tools | Items in this tag support mining based events. If the item extends `ToolCore`, it also will display mining speed in tooltips. |
-| `tconstruct:modifiable/aoe` | Tools | Items in this tag support receiving expanders. It is up to the item to respond to the expander. |
-| `tconstruct:modifiable/melee_or_harvest` | Tools | Internal tag used as many modifiers support both melee and harvest. Should not add to directly, use the relevant tag. |
+### Smeltery
+
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:duct_containers` | Items in this tag can be placed inside the seared duct. Additionally, items whose container item is in this tag can be placed inside the seared duct, allowing all buckets to work simply by including the empty bucket. |
+
+### Tools
+
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:autosmelt_blacklist` | Items in this tag will not be smelted by the autosmelt modifier. |
+| `tconstruct:seeds` | Items in this tag are valid seeds for replanting crops using the scythe. |
+| `tconstruct:modifiable` | Items in this tag can receive modifiers from recipes that do not specify an ingredient. Additionally, items in this tag will process relevant modifier events. Note that some modifier events are handled through `ToolCore`, so simply adding an item to this tag will not make it support modifiers. |
+| `tconstruct:modifiable/multipart` | Items in this tag work as a multipart tool for relevant recipes. It is expected that they extend `ToolCore` |
+| `tconstruct:modifiable/melee` | Any modifiable tool that can deal melee damage. Note that not all melee tools are weapons. |
+| `tconstruct:modifiable/combat` | Items in this tag will not receive double damage when attacking an enemy. |
+| `tconstruct:modifiable/harvest` | Items in this tag support mining based events. If the item extends `ToolCore`, it also will display mining speed in tooltips. |
+| `tconstruct:modifiable/aoe` | Items in this tag support receiving expanders. It is up to the item to respond to the expander. |
+| `tconstruct:modifiable/melee_or_harvest` | Internal tag used as many modifiers support both melee and harvest. Should not add to directly, use the relevant tag. |
+
+## Entity Types
+
+### Smeltery
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:melting/show_in_default` | Entities to show in the entity melting default list in JEI. By default anything with an entity classification of misc does not show. |
+| `tconstruct:melting/hide_in_default` | Entities to not show in the entity melting default list in JEI. By default anything with an entity classification other than misc shows. |
+
+### World
+
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:bouncy` | Entities in this tag bounce as if they are wearing slime boots. |
 
 ## Materials
  For a few notes on support:
