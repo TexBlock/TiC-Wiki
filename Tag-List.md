@@ -48,6 +48,7 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 | `tconstruct:modifiable/melee` | Any modifiable tool that can deal melee damage. Note that not all melee tools are weapons. |
 | `tconstruct:modifiable/combat` | Items in this tag will not receive double damage when attacking an enemy. |
 | `tconstruct:modifiable/harvest` | Items in this tag support mining based events. If the item extends `ToolCore`, it also will display mining speed in tooltips. |
+| `tconstruct:modifiable/harvest/stone` | Items in this tag support mining stone, for some special modifiers. Items in this tag are automatically added to `tconstruct:modifiable/harvest`. |
 | `tconstruct:modifiable/aoe` | Items in this tag support receiving expanders. It is up to the item to respond to the expander. |
 | `tconstruct:modifiable/melee_or_harvest` | Internal tag used as many modifiers support both melee and harvest. Should not add to directly, use the relevant tag. |
 
