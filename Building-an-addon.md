@@ -21,10 +21,10 @@ Then you need to tell it to get TiC from there.
 ### For 1.12
 
 ```gradle
-    dependencies {
-        deobfCompile "slimeknights.mantle:Mantle:1.12-<mantle_build>"
-        deobfCompile "slimeknights:TConstruct:1.12.2-<tic_build>"
-    }
+dependencies {
+    deobfCompile "slimeknights.mantle:Mantle:1.12-<mantle_build>"
+    deobfCompile "slimeknights:TConstruct:1.12.2-<tic_build>"
+}
 ```
 
 ### For 1.16
