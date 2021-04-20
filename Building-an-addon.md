@@ -31,8 +31,8 @@ Then you need to tell it to get TiC from there.
 
 ```gradle
 dependencies {
-    deobfCompile "slimeknights.mantle:Mantle:1.16.5-<mantle_build>"
-    deobfCompile "slimeknights.tconstruct:TConstruct:1.16.5-<tic_build>"
+    compile fg.deobf("slimeknights.mantle:Mantle:1.16.5-<mantle_build>")
+    compile fg.deobf("slimeknights.tconstruct:TConstruct:1.16.5-<tic_build>")
 }
 ```
 
