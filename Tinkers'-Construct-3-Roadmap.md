@@ -1,6 +1,6 @@
-## Already Coded
+## Already In the Alpha
 
-The following subsections contain major features that are already coded, to give an idea of progress and what should be in the mod already
+The following subsections contain major features that are already coded. They are either in the currently released alphas or will be in an upcoming alpha.
 
 ### Crafting
 **Tool Tables**
@@ -10,28 +10,26 @@ The following subsections contain major features that are already coded, to give
 
 **Smeltery**
 
-* Melter
-* Overworld smeltery
-* Drain, chute, duct
-* Tanks
-* Faucets, channels
-* Casting table and basin
-* Melting, alloying, entity melting
+* Melter and melting
+* Casting table and basins
+* Faucets and channels
+* Smeltery components
+    * Controller
+    * Drain, chute, duct
+    * Tanks
+    * Melting, alloying, entity melting
 
 ### Tools
 
 **Tool types**
 
 * Fully implemented
-    * Small: pickaxe, mattock, axe, broadsword
-    * Large: sledge hammer, excavator, cleaver
-* Partially implemented:
-    * Small: kama (missing shearing)
-    * Large: scythe (missing shearing)
+    * Small: pickaxe, mattock, axe, broadsword, kama
+    * Large: sledge hammer, excavator, cleaver, scythe
 
 **Materials**
 
-* Tier 1: Wood, stone, flint, bone
+* Tier 1: Wood, stone, flint, bone, necrotic bone
 * Tier 2: Iron, copper, seared stone, slimewood
 * Tier 2 compat: Lead, silver, electrum
 * Tier 3: tinkers' bronze, nahuatl, slimesteel, rose gold, pig iron, cobalt
@@ -42,7 +40,8 @@ The following subsections contain major features that are already coded, to give
 
 * Free: Worldbound, Overslime, Creative
     * Bonus modifiers: book and quill, music disc, mob head, end crystal
-* Upgrades: Reinforced, Experienced, Magnetic, Haste, Soulbound
+* Upgrades: Reinforced, Experienced, Magnetic, Soulbound
+    * Harvest: Haste, Blasting, Lightspeed, Hydraulic 
     * Weapon: Beheading, Necrotic, Knockback, Fiery
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
@@ -52,18 +51,35 @@ The following subsections contain major features that are already coded, to give
 
 **Worldgen**
 
-* Fully implemented
-    * Overworld slime islands
-    * Blood slime islands
-    * Copper ore
-    * Cobalt ore
-    * Wither bones
-* Partially implemented
-    * End slime islands (wrong flora, missing mobs)
+* Ores
+    * Copper ore in the overworld
+    * Cobalt ore in the nether
+* Overworld slime islands
+    * Spawn in green and blue variants
+* Blood slime islands
+    * Spawn in the nether, contain ichor and blood saplings
+* Necrotic bones
+    * Drop from wither skeletons
+* End slime islands
+    * Contain ender slime
+    * Currently wrong flora, no mobs
 
-## Phase 2
+### Book
 
-Phase 2 consists of content I did not consider essential to the first public alpha. Some of this may still get pulled into the first alpha, but in general expect this content after the first alpha.
+* Materials and You
+    * Has a few sample tools
+    * Has full list of tier 1 materials and traits
+    * Has a few sample modifiers
+* Puny Smelting
+    * Has full list of tier 2 materials and traits
+* Mighty Smelting
+    * Has full list of tier 3 and 4 materials and traits
+* Tinkers Gadgetry
+    * Placeholder book for future documentation
+
+## Next features
+
+This section discusses the next features being worked on, which will be added in later, regular alphas.
 
 ### Documentation
 
@@ -75,28 +91,39 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 * Materials and You content
     * Tool tables
-    * Information on tier 1 materials
-    * Tinker station modifiers (ignoring nether modifiers)
+    * Tinker station modifiers
 * Puny Smelting
-    * Melter
-    * Tier 2 materials
+    * Melter and melting
+    * Casting
 * Mighty Smelting
     * Smeltery
-    * Tier 3 materials
-    * Tinkers' Anvil modifier
-* Mystic Melting (title pending)
+    * Tinkers' Anvil modifiers
+* Fantastic Foundry (title pending)
     * Alloy tank
-    * Nether smeltery
-    * Tier 1-3 nether materials
+    * Foundry
+    * Tier 1-3 nether materials?
     * Tier 4 nether materials
 
 ### Smeltery
 
-* Heaters in smeltery?
-* Nether smeltery
-* Smeltery peripheral to access the UI?
+* Smeltery interface
+    * Allows accessing the UI fluid tank
+    * Comparator signal for tank level
+    * On pulse, switches fluid order (bottom to top? Top to bottom?)
 * Sand casts: allow placing sand second?
 * Fix smeltery transparent fluids
+
+### Foundry
+
+* Nether smeltery variant
+* Does not alloy
+* Lower ore rate, but produces byproducts
+* Higher capacity
+
+### Alloy Tank
+
+* Alloys from neighboring blocks
+* Augments the foundry to allow alloying
 
 ### Tools
 
@@ -108,15 +135,15 @@ Phase 2 consists of content I did not consider essential to the first public alp
 
 **Data packs**
 
-* Tool part listing in JSON?
 * Support tagged fluids in materials, possibly via recipes
 * Trait manager cleanup
 
 **Part Builder**
 
-* Add leftovers slot
+* Send leftovers to player inventory
 * Cleanup behavior to be more like the tinker station
 * Add part forge? the tier 3 version for crafting large parts
+* Better sorting in UI
 
 **Tool types**
 
@@ -142,7 +169,6 @@ Phase 2 consists of content I did not consider essential to the first public alp
 **Worldgen**
 
 * Ender slimes and foliage
-* Better sky slimes
 
 ### Misc
 
@@ -153,9 +179,11 @@ Phase 2 consists of content I did not consider essential to the first public alp
     * Wooden rails move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
 
-## Phase 3
+## Before beta release
 
-Phase 3 is the point at which I consider the mod's API ready to use. Before this phase, any addons need to be prepared to update as we make new alphas as our API needs a lot of cleanup from 1.12. Once the first beta is released, the API should remain stable.
+Once the content in the above section is finished, content in this section is the next target. Once the API is stable during this section, the mod will be released as a beta instead of an alpha, and will be much more ready for addons. 
+
+Before this beta, any addons need to be prepared to update as we make new alphas as our API needs a lot of cleanup from 1.12. Once the first beta is released, the API should remain stable.
 
 ### Crafting
 **Multiblock**
@@ -196,9 +224,9 @@ Phase 3 is the point at which I consider the mod's API ready to use. Before this
 
 * Library cleanup (remove unused code)
 
-## Phase 4
+## Long term content
 
-Phase 4 is similar to phase 2, its simply content that is planned for the mod but not required for the first beta. After the requirements of this phase are satisfied the mod will be ready for full release status, however the mod should be mostly playable during phase 2 or 3.
+This section just describes some content that will be in the mod eventually, but is far off being done.
 
 ### Tools
 
