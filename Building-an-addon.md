@@ -16,7 +16,7 @@ repositories {
 
 ## Dependency
 
-Then you need to tell it to get TiC from there.
+Then you need to tell it to get Tinkers' Construct from there.
 
 ### For 1.12
 
