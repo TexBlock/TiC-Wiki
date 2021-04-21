@@ -1,5 +1,7 @@
 This page is a summary of all the changes in Tinkers' Construct 3 for 1.16, compared to Tinkers' Construct 2 for 1.12. 1.16 is still an ongoing process, so this page will be updated periodically.
 
+Note that not everything on this page is fully implemented. For information about implemented features, see [the roadmap](https://github.com/SlimeKnights/TinkersConstruct/wiki/Tinkers%27-Construct-3-Roadmap).
+
 # World
 
 This section discusses changes to the world module
@@ -17,15 +19,17 @@ This section discusses changes to the world module
 * Orange slimes are annoyed by all the noise caused by piglins
     * They are planning to relocate to the nether ceiling
     * Orange slimes will live in reverse gravity islands
+    * Magma cubes sued orange slimes for IP infringement, so the orange slimes changed from magma slimes to ichor
 * Purple slimes islands got tired of the dumb blue slimes, so they migrated to the end
-    * A new purple slime mob is likely to be found
+    * A new purple slime mob is likely to be found (eventually)
     * Purple slimes are the most advanced of the slimes, some may even wear armor
+    * They actually prefer the name enderslime
 * All slime types have unique names
     * Green slime is often called earth slime, or just generically slime
     * Blue slime is called sky slime
     * Orange slime is called ichor
     * Purple slime is called ender slime
-    * Magma cream is often considered a fifth slime type
+    * Magma cream is often considered a fifth slime type, so is blood
 
 # Tools
 
@@ -49,6 +53,7 @@ This page describes some of the new content related to tools mechanics, includin
     * Simply sounds cooler
     * Contains 5 slots, like the 1.12 UI
     * Recipe requires 3 metal blocks and 4 seared bricks
+* Renaming tools moved to the vanilla anvil. We are considering a different block that works with tool visuals later
 
 **Improved Crafting Station**
 
@@ -59,6 +64,7 @@ This page describes some of the new content related to tools mechanics, includin
 
 * Any two station blocks together will now form tabs, instead of requiring a crafting station
 * Multiple of the same block can be tabs, for example placing 2 crafting stations together gives tabs to switch between them
+* At most 6 tabs can exist in the UI
 
 **Reworked repair kits**
 
@@ -74,6 +80,7 @@ This page describes some of the new content related to tools mechanics, includin
 * Tier 1:
     * Starting tool tier
     * Includes wood, stone, flint, and bone
+    * In the nether, this tier uses nether woods, basalt, blackstone, and necrotic bones
     * In the end, this tier consists of chorus
 * Tier 2
     * Requires ores or the melter to obtain materials
@@ -90,7 +97,6 @@ This page describes some of the new content related to tools mechanics, includin
 * Tier 4:
     * Requires nether access to obtain materials
     * Includes manyullyn, hepatizon, queen's slime, and soul steel
-    * In the end, this tier includes slimebronze
     * The netherite modifier will also upgrade a tool to tier 4, requires either the diamond or emerald modifier
 * Tier 5:
     * Requires end access to obtain materials
@@ -110,8 +116,9 @@ This page describes some of the new content related to tools mechanics, includin
 **Part Cleanup**
 
 * Many parts that only got used once were removed in favor of reusing parts
-* Currently, there are two types of tool rods: small and tough, and two bindings: small and tough
-* Sword guards are replaced with other parts, including tool rods, small plates, and bindings based on the sword
+* Currently, there are two types of handles: small (tool) and tough
+* Large bindings are replaced with large plates, leaving just tool bindings
+* Sword guards are replaced with other parts, including tool handles and bindings based on the sword
 * Tool heads ideally will be used in at least two tools. For example, the axe head is used on the axe and the mattock
 
 ## Modifiers
@@ -130,8 +137,7 @@ This page describes some of the new content related to tools mechanics, includin
 * Tool traits are getting rebalanced
 * All parts share the same trait, instead of heads often having unique traits
 * Traits on average will be a bit weaker than 1.12 to prevent discouraging use of a material due to trait
-* Some traits from 1.12 will get moved to modifiers, and some new traits will be added
-* More information to follow
+* Some traits from 1.12 got moved to modifiers, and some new traits got added
 
 ## Tools
 
@@ -141,8 +147,8 @@ These tools are available from tier 1 and onwards.
 
 * *Pickaxe*
 * *Mattock*:
-    * Makes paths instead of hoeing, effective on all blocks the shovel could break.
-    * Replaces the shovel in TiC 3.
+    * Makes paths instead of hoeing, effective on all blocks the shovel could break
+    * Replaces the shovel
 * *Hand Axe*: Rebalanced to be closer to the vanilla axe, making it a viable weapon
 * *Kama*: Gained the ability to hoe blocks, making it a fully effective farming tool
 * *Broadsword*
@@ -245,7 +251,9 @@ This section is about new features related to the smeltery or smeltery mechanics
 
 * New nether smeltery planned
     * Aids in nether survival, crafted from basalt/gravel, magma cream, and soul sand
-    * Has some small differences from the overworld smeltery
+    * Cannot alloy
+    * Larger capacity
+    * Ores give byproducts, but produce less of the original metal
 * New end smeltery planned
     * Built upside down, because why not?
     * Only can hold gasses, no liquids
@@ -293,8 +301,9 @@ This section is about new features related to the smeltery or smeltery mechanics
 
 * Alloying now has a temperature property, so some recipes can require a hotter fuel
 
-**Smeltery efficiency**
+**Smeltery structure**
 
+* Smeltery can now be up to 16x16x65, or 14x14x64 internal
 * All multiblock checking code for the smeltery got reviewed to improve the efficiency
 * Smeltery structures should overall cause less lag from structure checks
 
@@ -338,7 +347,7 @@ This page discusses some of the new features that do not fit in any other sectio
 
 * All recipes have been moved to JSON, allowing them to easily be added using data packs
 * Some new recipe types exist
-    * Castin recipes come in many variants
+    * Casting recipes come in many variants
     * Molding recipes are the new recipe type for making sand casts
 
 ## Removals
@@ -361,7 +370,7 @@ This page discusses some of the new features that do not fit in any other sectio
 
 * Was the fallback for mixing slimes towards the end of 1.12.
 * Decided it was a bit too awkward of a mechanic
-* In 1.16, green slime is the fallback for mixing
+* In 1.16, there is no more mixing slime, so items must use fully one color to be crafted in general
 
 **Tinker Tank**
 
