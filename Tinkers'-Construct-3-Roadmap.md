@@ -145,24 +145,56 @@ This section discusses the next features being worked on, which will be added in
 * Add part forge? the tier 3 version for crafting large parts
 * Better sorting in UI
 
+**AOE Updates**
+
+* Pickaxe and mattock will get veining from expanders
+    * Expanded I is same block 1 distance taxicab (3D, too weak?)
+    * Expanded II is 2 blocks taxicab distance (3D)
+* Axe and kama get cross shaped
+    * Expanded I is any block 1 distance taxicab (2D)
+    * Expanded II is any block 2 distance taxicab (2D)
+* Hammer and excavator get square
+    * Expanded I is 3x5
+    * Expanded II is 5x5
+* Scythe gets cube
+    * Expanded I is 5x5x3
+    * Expanded II is 5x5x5
+* Lumber axe gets wider
+    * Expanded I is 3 blocks wide, full tree
+    * Expanded II is 3 blocks wide, 2 blocks deep full tree
+
 **Tool types**
 
 * Small:
-    * Kama fixes:
-        * Right click harvest
-        * Pumpkin and bee hive shearing
-        * Trip wire diffusing
+    * Kama trip wire diffusing
     * Dagger
-* Large: Broad Axe, Veining Hammer
+* Large: Broad Axe, Veining Hammer?
 
 **Modifiers**
 
-* Upgrades: Glowing
-* Abilities: Mending, Ability Boost
+* Melting
+    * New weapon ability
+    * Tool gains an internal tank, emptied into other tanks on right click
+    * Attacking mobs melts them, adding fluid into internal tank
+        * Uses entity melting recipes
+    * Possibly melt dropped items? That's a bit harder to do
+* Glowing
+    * New tool upgrade
+    * When right clicking a block, places a glow
+    * Requires charging with glow with some item? Or uses durability?
+* Mending
+    * New general ability
+    * Requires something from the end to craft
+    * Tool repairs on XP pickup
+* Sweeping edge
+    * Boosts damage of mobs in sweep attacks for swords and cleavers
+    * How is this different from scythes? Should it affect scythes?
 
 **Tool Model**
 
 * Modifier models
+    * Supports direct texture scan
+    * Supports custom models registered for modifier types
 
 ### Resources
 
