@@ -25,7 +25,7 @@ The following subsections contain major features that are already coded. They ar
 
 * Fully implemented
     * Small: pickaxe, mattock, axe, broadsword, kama
-    * Large: sledge hammer, excavator, cleaver, scythe
+    * Large: sledge hammer, vein hammer, broad axe, excavator, cleaver, scythe
 
 **Materials**
 
@@ -46,6 +46,10 @@ The following subsections contain major features that are already coded. They ar
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
 * Abilities: Silk Touch, Expanded, Reach, Luck, Gilded, Autosmelt
+
+**Other**
+
+* Repair kits
 
 ### Resources
 
@@ -127,12 +131,6 @@ This section discusses the next features being worked on, which will be added in
 
 ### Tools
 
-**Repair kits**
-
-* Support on the go repair
-* Work as both a tinker station and a crafting table recipe
-* Cast or make in the part builder
-
 **Data packs**
 
 * Support tagged fluids in materials, possibly via recipes
@@ -145,30 +143,10 @@ This section discusses the next features being worked on, which will be added in
 * Add part forge? the tier 3 version for crafting large parts
 * Better sorting in UI
 
-**AOE Updates**
+**Tools**
 
-* Pickaxe and mattock will get veining from expanders
-    * Expanded I is same block 1 distance taxicab (3D, too weak?)
-    * Expanded II is 2 blocks taxicab distance (3D)
-* Axe and kama get cross shaped
-    * Expanded I is any block 1 distance taxicab (2D)
-    * Expanded II is any block 2 distance taxicab (2D)
-* Hammer and excavator get square
-    * Expanded I is 3x5
-    * Expanded II is 5x5
-* Scythe gets cube
-    * Expanded I is 5x5x3
-    * Expanded II is 5x5x5
-* Lumber axe gets wider
-    * Expanded I is 3 blocks wide, full tree
-    * Expanded II is 3 blocks wide, 2 blocks deep full tree
-
-**Tool types**
-
-* Small:
-    * Kama trip wire diffusing
-    * Dagger
-* Large: Broad Axe, Veining Hammer?
+* Kama trip wire diffusing
+* Dagger
 
 **Modifiers**
 
