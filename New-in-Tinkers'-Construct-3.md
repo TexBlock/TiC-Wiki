@@ -145,12 +145,17 @@ This page describes some of the new content related to tools mechanics, includin
 
 These tools are available from tier 1 and onwards.
 
-* *Pickaxe*
+* *Pickaxe*: Adding expanders now increases the tool's area to 1x1x3, then to 1x3x3
 * *Mattock*:
     * Makes paths instead of hoeing, effective on all blocks the shovel could break
     * Replaces the shovel
-* *Hand Axe*: Rebalanced to be closer to the vanilla axe, making it a viable weapon
-* *Kama*: Gained the ability to hoe blocks, making it a fully effective farming tool
+    * Adding expanders grants the tool vein mining, first at a range of 1 then a range of 2
+* *Hand Axe*:
+    * Rebalanced to be closer to the vanilla axe, making it a viable weapon
+    * Adding expanders first increases it to a cross shape, then a 3x3 rectangle
+* *Kama*:
+    * Gained the ability to hoe blocks, making it a fully effective farming tool
+    * Adding expanders first increases it to a half sphere cross shape, then a 3x3x2 half sphere
 * *Broadsword*
 * *Dagger*: Fast weapon with low damage, but can attack on right click for use in the offhand.
 
@@ -158,12 +163,16 @@ These tools are available from tier 1 and onwards.
 
 These tools require the Tinker's Anvil to craft, a tier 3 component. Tool part will make use of the Part Forge.
 
-* *Sledgehammer*
-* *Veining Hammer*: Breaks a vein of ores, name pending.
-* *Excavator*
-* *Broad Axe*: New version of the lumber axe. Fallback for non-trees is now 1x6, also acts as a battle axe
-* *Cleaver*
-* *Scythe*
+* *Sledgehammer*: Area starts at 3x3, expanders increase to 3x5 then 5x5
+* *Veining Hammer*: Breaks a vein of ores within 2 blocks, expands up to 4 blocks
+* *Excavator*: Area starts at 3x3, expanders increase to 3x5 then 5x5
+* *Broad Axe*:
+    * New version of the lumber axe.
+    * Tree logic works in a column, meaning a large tree takes 4 hits to brea
+    * Expanders increase max tree base size
+    * When targeting non-logs, has a 1x1x6 area of effect, expandable up to 3x6x2
+* *Cleaver*: Now has sweep attack
+* *Scythe*: Can now hoe the ground
 
 ### Armor
 
