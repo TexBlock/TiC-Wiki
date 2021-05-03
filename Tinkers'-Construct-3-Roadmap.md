@@ -23,9 +23,10 @@ The following subsections contain major features that are already coded. They ar
 
 **Tool types**
 
-* Fully implemented
-    * Small: pickaxe, mattock, axe, broadsword, kama
-    * Large: sledge hammer, vein hammer, broad axe, excavator, cleaver, scythe
+* Small: broadsword
+    * Harvest: pickaxe, mattock, axe, kama
+* Large: cleaver
+    * Harvest: sledge hammer, vein hammer, broad axe, excavator, cleaver, scythe
 
 **Materials**
 
@@ -39,13 +40,16 @@ The following subsections contain major features that are already coded. They ar
 **Modifiers**
 
 * Free: Worldbound, Overslime, Creative
-    * Bonus modifiers: book and quill, music disc, mob head, end crystal
-* Upgrades: Reinforced, Experienced, Magnetic, Soulbound
+    * Bonus upgrade slots: book and quill, music disc, mob head, end crystal
+* Upgrades: Reinforced, Experienced, Magnetic, Soulbound, Tank
     * Harvest: Haste, Blasting, Lightspeed, Hydraulic 
     * Weapon: Beheading, Necrotic, Knockback, Fiery
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
-* Abilities: Silk Touch, Expanded, Reach, Luck, Gilded, Autosmelt
+* Abilities: Gilded, Bucketing, Glowing
+    * Range: Expanded, Reach
+    * Loot: Silk Touch, Luck, Autosmelt, Melting
+    * Block transform: tilling, pathing, stripping
 
 **Other**
 
@@ -71,13 +75,14 @@ The following subsections contain major features that are already coded. They ar
 ### Book
 
 * Materials and You
-    * Has a few sample tools
+    * Mostly complete, apart from new info in later editions
     * Has full list of tier 1 materials and traits
-    * Has a few sample modifiers
+    * Has a modifier listing, though a few modifiers will be moved to another book later
 * Puny Smelting
     * Has full list of tier 2 materials and traits
 * Mighty Smelting
     * Has full list of tier 3 and 4 materials and traits
+    * Has information on how to obtain molten blaze
 * Tinkers Gadgetry
     * Placeholder book for future documentation
 
@@ -93,9 +98,6 @@ This section discusses the next features being worked on, which will be added in
 
 **Book**
 
-* Materials and You content
-    * Tool tables
-    * Tinker station modifiers
 * Puny Smelting
     * Melter and melting
     * Casting
@@ -145,21 +147,11 @@ This section discusses the next features being worked on, which will be added in
 
 **Tools**
 
-* Kama trip wire diffusing
 * Dagger
+* Battle sign
 
 **Modifiers**
 
-* Melting
-    * New weapon ability
-    * Tool gains an internal tank, emptied into other tanks on right click
-    * Attacking mobs melts them, adding fluid into internal tank
-        * Uses entity melting recipes
-    * Possibly melt dropped items? That's a bit harder to do
-* Glowing
-    * New tool upgrade
-    * When right clicking a block, places a glow
-    * Requires charging with glow with some item? Or uses durability?
 * Mending
     * New general ability
     * Requires something from the end to craft
@@ -167,6 +159,12 @@ This section discusses the next features being worked on, which will be added in
 * Sweeping edge
     * Boosts damage of mobs in sweep attacks for swords and cleavers
     * How is this different from scythes? Should it affect scythes?
+* Blocking
+    * Battle sign ability as a modifier
+    * If used on a battle sign, upgrades to full blocking like shields
+* Unbreakable
+    * Requires reinforced V and one ability slot to apply
+    * Need something in the end to craft, undecided at this point
 
 **Tool Model**
 
@@ -179,6 +177,7 @@ This section discusses the next features being worked on, which will be added in
 **Worldgen**
 
 * Ender slimes and foliage
+* New earth, sky, and blood wood variants for slimy saplings, replaces congealed slime
 
 ### Misc
 
@@ -207,7 +206,6 @@ Before this beta, any addons need to be prepared to update as we make new alphas
 
 **Tool types**
 
-* Battle sign
 * Shield
 * Armor
 
@@ -221,7 +219,6 @@ Before this beta, any addons need to be prepared to update as we make new alphas
 
 **Modifiers**
 
-* Abilities: Unbreakable
 * Armor modifiers
 
 ### Resources
