@@ -66,6 +66,12 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 | :--- | :------- |
 | `tconstruct:bouncy` | Entities in this tag bounce as if they are wearing slime boots. |
 
+## Tile Entity Types
+
+| Name | Behavior |
+| :--- | :------- |
+| `tconstruct:crafting_station_blacklist` | Tile entities in this tag will not show as a side inventory for the crafting station |
+
 ## Materials
  For a few notes on support:
 
