@@ -20,3 +20,7 @@ To create player sensitive crafting recipes that work with the crafting station:
 * When the player tries to take the item, we set the player to `ForgeHooks.setCraftingPlayer()`
     * After doing so, we call both `matches` and `getCraftingResult` a second time to get the final result for the recipe
     * Within your logic, you can retrieve the player using `ForgeHooks.getCraftingPlayer()` to add player information
+
+## Player sensitive recipes in other blocks
+
+The crafting station code ended up being quite convoluted in order to add player support. As a result, we have no plans to add similar player access in our custom crafting blocks. This will make it incompatible with concepts such as game stages, but unfortunately there is no easy way to solve this without greatly complicating our code.
