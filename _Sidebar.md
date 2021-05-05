@@ -16,3 +16,4 @@
 * [[Block Model Loaders|Tinkers Construct Block Model Loaders]]
 * [[Recipe JSON List]]
 * [[Tag List]]
+* [[Persistent Inventory Crafting Blocks]]
