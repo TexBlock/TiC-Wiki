@@ -30,6 +30,11 @@ This section discusses changes to the world module
     * Orange slime is called ichor
     * Purple slime is called ender slime
     * Magma cream is often considered a fifth slime type, so is blood
+* Slimy Saplings
+    * Saplings now have slimy wood variants instead of congealed slime for the stems
+    * Slimy wood has a hard outer bark layer and a squishy inner slimy wood layer, meaning the effective tool changes when stripping
+    * Slimeballs are still dropped from the leaves, just in smaller quantities
+    * slimy saplings can now be melted in a smeltery
 
 # Tools
 
@@ -131,6 +136,7 @@ This page describes some of the new content related to tools mechanics, includin
     * *Armor*: Special modifier type available on armor or shields
     * *Free*: Modifiers that can be applied without any slot restriction
     * *Traits*: Additional modifiers applied based on the materials
+* Wet Sponge can be used to remove a modifier now
 
 **Trait rebalancing**
 
