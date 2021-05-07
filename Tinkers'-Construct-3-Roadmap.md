@@ -46,14 +46,16 @@ The following subsections contain major features that are already coded. They ar
     * Weapon: Beheading, Necrotic, Knockback, Fiery
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
-* Abilities: Gilded, Bucketing, Glowing
+* Abilities: Gilded, Bucketing, Glowing, Unbreakable
     * Range: Expanded, Reach
     * Loot: Silk Touch, Luck, Autosmelt, Melting
     * Block transform: tilling, pathing, stripping
 
-**Other**
+**Special recipes**
 
 * Repair kits
+* Wet sponge to remove modifiers
+* Potion of Harming to damage tools
 
 ### Resources
 
@@ -62,15 +64,19 @@ The following subsections contain major features that are already coded. They ar
 * Ores
     * Copper ore in the overworld
     * Cobalt ore in the nether
-* Overworld slime islands
+* Overworld sky slime islands
     * Spawn in green and blue variants
+    * Contain blue foliage and skyroot wood
 * Blood slime islands
-    * Spawn in the nether, contain ichor and blood saplings
+    * Spawn in the nether
+    * Contain ichor and blood
+    * Contains bloodshrooms
 * Necrotic bones
     * Drop from wither skeletons
 * End slime islands
     * Contain ender slime
-    * Currently wrong flora, no mobs
+    * Currently no mobs
+    * Temporary home of greenheart wood
 
 ### Book
 
