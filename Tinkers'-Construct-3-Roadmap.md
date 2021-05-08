@@ -168,9 +168,6 @@ This section discusses the next features being worked on, which will be added in
 * Blocking
     * Battle sign ability as a modifier
     * If used on a battle sign, upgrades to full blocking like shields
-* Unbreakable
-    * Requires reinforced V and one ability slot to apply
-    * Need something in the end to craft, undecided at this point
 
 **Tool Model**
 
