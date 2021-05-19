@@ -11,9 +11,12 @@
 * [[World Generators for SimpleRetrogen]]
 
 ### 1.16 (TiC 3)
+#### Players
 * [[What's New?|New-in-Tinkers'-Construct-3]]
 * [[Roadmap|Tinkers' Construct 3 Roadmap]]
+#### Moders
 * [[Block Model Loaders|Tinkers Construct Block Model Loaders]]
+* [[Persistent Inventory Crafting Blocks]]
 * [[Recipe JSON List]]
 * [[Tag List]]
-* [[Persistent Inventory Crafting Blocks]]
+* [[Tool NBT Format]]
