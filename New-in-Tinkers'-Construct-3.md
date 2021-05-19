@@ -8,33 +8,47 @@ This section discusses changes to the world module
 
 ## Ore Gen
 
-* Tinkers once again provides copper ore.
-    * Copper is the only overworld ore we add.
+* Tinkers once again provides copper ore
+    * Copper is the only overworld ore we add
+* Cobalt ore returns
+    * Instead of just alloying into manyullyn, cobalt has a few more alloys now
+    * Cobalt is also used in crafting some special smeltery components
 * Ardite ore has been removed
-    * Potentially moved to Natura, otherwise just removed entirely
+    * Potentially moved to Natura, but not used in Tinkers in either case
     * Manyullyn specifically is now alloyed from cobalt and molten debris (ancient debris)
 
 ## Slime Islands
 
-* Orange slimes are annoyed by all the noise caused by piglins
-    * They are planning to relocate to the nether ceiling
-    * Orange slimes will live in reverse gravity islands
-    * Magma cubes sued orange slimes for IP infringement, so the orange slimes changed from magma slimes to ichor
-* Purple slimes islands got tired of the dumb blue slimes, so they migrated to the end
-    * A new purple slime mob is likely to be found (eventually)
-    * Purple slimes are the most advanced of the slimes, some may even wear armor
-    * They actually prefer the name enderslime
 * All slime types have unique names
     * Green slime is often called earth slime, or just generically slime
     * Blue slime is called sky slime
     * Orange slime is called ichor
     * Purple slime is called ender slime
     * Magma cream is often considered a fifth slime type, so is blood
+* New earth slime islands
+    * Spawn in the overworld ocean
+    * Loaded with earth slimes and the new greenheart slimy trees
+    * Spawn in blue or green dirt variants, all types with green foliage
+* Sky slime islands
+    * Spawn in the sky as before, though probably a bit less commonly
+    * Congealed slime trees replaced with new skyroot slimy wood tree
+    * Spawn in blue or green dirt variants, all types with blue foliage
+    * Sky slimes have overcome their weakness of falling off the island by bouncing
+* Nether slime islands renamed to blood islands
+    * Spawn with orange dirt and red foliage, plus the new bloodshroom slimy "tree"
+    * Remain a good source of magma cubes, now including a lake of liquid magma cream
+* New ichor slime islands
+    * Planned to appear as part of the nether ceiling
+    * Ichor slimes will live in reverse gravity with their upside down trees and stuff
+* Purple slimes islands got tired of the dumb blue slimes, so they migrated to the end to start their own society
+    * They actually prefer the name enderslime now
+    * Ender slime mobs can be found now, who teleport for attacking and defense
+    * Purple slimes are the most advanced of the slimes, some may even wear armor in the future
 * Slimy Saplings
-    * Saplings now have slimy wood variants instead of congealed slime for the stems
+    * As mentioned earlier, saplings now have slimy wood instead of congealed slime for the stems
     * Slimy wood has a hard outer bark layer and a squishy inner slimy wood layer, meaning the effective tool changes when stripping
-    * Slimeballs are still dropped from the leaves, just in smaller quantities
-    * slimy saplings can now be melted in a smeltery
+    * Slimeballs are still dropped from the leaves
+    * Slimy saplings can now be melted in a smeltery for liquid slime of the proper type
 
 # Tools
 
@@ -75,7 +89,7 @@ This page describes some of the new content related to tools mechanics, includin
 
 * Replaces the sharpening kits
 * No more mining level change, that is left to modifiers such as diamond and netherite
-* Keep on the go repair
+* Still repair on the go
 
 ## Materials
 
@@ -96,7 +110,7 @@ This page describes some of the new content related to tools mechanics, includin
 * Tier 3:
     * Requires alloying to obtain materials
     * Includes nahuatl, slimesteel, tinker's bronze, pig iron, and rose gold
-    * In the nether, this tier includes cobalt
+    * In the nether, this tier includes cobalt and hollow
     * In the end, this tier includes dragonstone
     * The diamond modifier will also upgrade a tool to tier 3
 * Tier 4:
@@ -122,11 +136,12 @@ This page describes some of the new content related to tools mechanics, includin
 
 * Many parts that only got used once were removed in favor of reusing parts
 * Currently, there are two types of handles: small (tool) and tough
-* Large bindings are replaced with large plates, leaving just tool bindings
-* Sword guards are replaced with other parts, including tool handles and bindings based on the sword
+* For bindings, tools use just tool bindings and large plates, no more tough bindings
+* Sword guards are replaced with tool handles
 * Tool heads ideally will be used in at least two tools. For example, the axe head is used on the axe and the mattock
 
 ## Modifiers
+For a full list of modifiers and traits, see [this spreadsheet](https://docs.google.com/spreadsheets/d/17qwV8UOR0DBsUqbxyernG4e4LtjAZ55DMAqnJWc2kLw/edit#gid=0)
 
 **Modifier types**
 
@@ -136,7 +151,6 @@ This page describes some of the new content related to tools mechanics, includin
     * *Armor*: Special modifier type available on armor or shields
     * *Free*: Modifiers that can be applied without any slot restriction
     * *Traits*: Additional modifiers applied based on the materials
-* Wet Sponge can be used to remove a modifier now
 
 **Trait rebalancing**
 
@@ -145,40 +159,71 @@ This page describes some of the new content related to tools mechanics, includin
 * Traits on average will be a bit weaker than 1.12 to prevent discouraging use of a material due to trait
 * Some traits from 1.12 got moved to modifiers, and some new traits got added
 
+**Notable modifier changes**
+
+* Reinforced V no longer grants unbreakable
+    * Bonus is now based on the vanilla formula, which makes the first levels stronger
+    * Unbreakable has been moved to an ability, with Reinforced V as a prerequisite
+* Emerald now grants bonus damage to illagers
+* Haste is a bit stronger to be more in line with the efficiency enchantment
+* Autosmelt and luck currently do not have special interactions
+    * The devs are looking in to how to add such interactions with mod compatibility and without extreme duplication exploits
+* Embossments were removed, but a similar mechanic will return with the soul forge
+* Wet Sponge can be used to remove a modifier now
+
 ## Tools
 
 ### Small
 
 These tools are available from tier 1 and onwards.
 
-* *Pickaxe*: Adding expanders now increases the tool's area to 1x1x3, then to 1x3x3
+* *Pickaxe*:
+    * Adding expanders now increases the tool's area to 1x1x3, then to 1x3x3
+    * Does 1 heart of armor piercing damage
 * *Mattock*:
     * Makes paths instead of hoeing, effective on all blocks the shovel could break
     * Replaces the shovel
     * Adding expanders grants the tool vein mining, first at a range of 1 then a range of 2
+    * Does bonus knockback
 * *Hand Axe*:
-    * Rebalanced to be closer to the vanilla axe, making it a viable weapon
+    * Rebalanced to be closer to the vanilla axe, making it a strong weapon
     * Adding expanders first increases it to a cross shape, then a 3x3 rectangle
 * *Kama*:
     * Gained the ability to hoe blocks, making it a fully effective farming tool
     * Adding expanders first increases it to a half sphere cross shape, then a 3x3x2 half sphere
-* *Broadsword*
-* *Dagger*: Fast weapon with low damage, but can attack on right click for use in the offhand.
+    * High attack speed, low attack damage, making it an effective DPS weapon
+* *Sword*
+    * Renamed from broadsword since its the only remaining sword
+    * Has a bonus ability slot, making more modifiers applicable
+* *Dagger*:
+    * Fast weapon with low damage, but can attack on right click for use in the offhand.
+    * Replaces the rapier
 
 ### Broad
 
-These tools require the Tinker's Anvil to craft, a tier 3 component. Tool part will make use of the Part Forge.
+These tools require the Tinker's Anvil to craft, a tier 3 component. Tool parts will possibly use of the Part Forge in the future. All broad tools are two handed, meaning the offhand is unavailable while using. To make up for this, a modifier that grants special attacks on use is planned.
 
-* *Sledgehammer*: Area starts at 3x3, expanders increase to 3x5 then 5x5
-* *Veining Hammer*: Breaks a vein of ores within 2 blocks, expands up to 4 blocks
-* *Excavator*: Area starts at 3x3, expanders increase to 3x5 then 5x5
+* *Sledgehammer*:
+    * Area starts at 3x3, expanders increase to 3x5 then 5x5
+    * Effective against undead, starting with Smite II
+* *Veining Hammer*:
+    * Breaks a vein of ores within 2 blocks, expands up to 4 blocks with expanders
+    * One of the fastest broad weapons
+* *Excavator*:
+    * Area starts at 3x3, expanders increase to 3x5 then 5x5
+    * Starts with Knockback II
 * *Broad Axe*:
-    * New version of the lumber axe.
-    * Tree logic works in a column, meaning a large tree takes 4 hits to brea
+    * Replaces the lumber axe.
+    * Tree logic works in a column, meaning a large tree takes 4 hits to break
     * Expanders increase max tree base size
     * When targeting non-logs, has a 1x1x6 area of effect, expandable up to 3x6x2
-* *Cleaver*: Now has sweep attack
-* *Scythe*: Can now hoe the ground
+    * High damage, making it an effective weapon
+* *Cleaver*:
+    * Now has sweep attack
+    * If forge ever fixes their attribute, will grant bonus reach
+* *Scythe*:
+    * Retains area attack
+    * Can now hoe the ground
 
 ### Armor
 
@@ -202,7 +247,6 @@ These weapons make use of drawspeed and projectile behavior
 These tools are planned to be in the addon Tinkers' Complement, as they do not precisely fit in our tool tiers, but we liked them too much to abandon them. They will serve as examples of an addon adding new tools.
 
 * *Frypan*: High knockback, low damage weapon
-* *Rapier*: Fast weapon with armor pierce
 
 ### Removed Tools
 
@@ -226,6 +270,9 @@ These tools are not returning in Tinkers Construct 3.
     * Were basically a reskin of the short bow with more expensive parts and slightly different stats
     * Cross bow is being declared the large version of the bow
     * Bow will have modifiers that make its stats closer to the longbows original stats
+* *Rapiers*
+    * Ended up being too similar to the dagger
+    * The armor pierce ability was too weak against monsters, and too strong against players, the piercing modifier should be a good compromise
 
 # Multiblocks
 
@@ -257,22 +304,20 @@ This section is about new features related to the smeltery or smeltery mechanics
     * Smeltery item input and output
 * Seared Duct
     * Filtered version of the seared drain
-* Gravity Peripheral (name pending)
-    * End tier peripheral
-    * Allows the smeltery to hold gasses, or the end smeltery to hold liquids
-    * Placed in the smeltery floor
 
 **Smeltery variants**
 
-* New nether smeltery planned
+* Foundry
+    * Nether smeltery variant
     * Aids in nether survival, crafted from basalt/gravel, magma cream, and soul sand
-    * Cannot alloy
-    * Larger capacity
-    * Ores give byproducts, but produce less of the original metal
+    * Cannot alloy and lower ore multiplier, but ores give byproducts
+    * Larger capacity, but requires more blocks to build
 * New end smeltery planned
     * Built upside down, because why not?
     * Only can hold gasses, no liquids
-    * See gravity peripheral to give liquid support
+* "Smeltery Sandwich"
+    * Code name for a new smeltery variant combining the other three variants
+    * Alloys liquids and gasses together
 
 ## Recipe changes
 
@@ -286,7 +331,7 @@ This section is about new features related to the smeltery or smeltery mechanics
 
 * Seared stone can no longer be obtained by melting down cobblestone
 * Instead, seared stone can be casted from pouring molten clay on stone
-* While this change does make giant smelteries more expensive, we have plans for a nether smeltery variant that will be easier to mass produce
+* While this change does make giant smelteries more expensive, the foundry should be cheaper to produce (basalt and magma cream)
 
 ## Mechanics
 
@@ -311,6 +356,7 @@ This section is about new features related to the smeltery or smeltery mechanics
     * Lava is back as the standard fuel of 1000 C
     * Molten Blaze is available from absorbing down blazes, granting up to 1500 C.
         * Note this is not blaze rods, its the actual blaze mob you must place in a smeltery
+        * If placing mobs in the smeltery is not the challenge for you, there is also a melting modifier available
         
 **Alloy improvements**
 
