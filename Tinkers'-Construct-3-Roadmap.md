@@ -251,6 +251,7 @@ Before this beta, any addons need to be prepared to update as we make new alphas
 
 **Modifiers**
 
+* Charge attack modifier
 * Armor modifiers
 
 ### Resources
