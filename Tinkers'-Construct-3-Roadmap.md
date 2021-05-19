@@ -1,6 +1,5 @@
-## Already In the Alpha
-
-The following subsections contain major features that are already coded. They are either in the currently released alphas or will be in an upcoming alpha.
+## In Latest Alpha
+The following subsections contain major features that are included in the current alpha on CurseForge.
 
 ### Crafting
 **Tool Tables**
@@ -92,9 +91,47 @@ The following subsections contain major features that are already coded. They ar
 * Tinkers Gadgetry
     * Placeholder book for future documentation
 
+
+
+## In Next Alpha
+This section contains features that are coded, but not yet released in an alpha.
+
+### Alloy Tank
+
+* Like the melter, but for alloying
+* Made from scorched bricks
+* Can alloy, but not melt
+
+### Building
+
+* Obsidian panes
+    * Like glass panes, but with the obsidian texture
+    * Crafting component for the foundry and for reinforcements
+
+### Foundry
+
+* New nether smeltery variant
+* Made of scorched blocks, which are from nether materials
+* Does not alloy, but ores melted give byproducts
+* Requires the frame, but has increased fluid capacity
+* Fuel cost is lower per block, but structure requires more blocks. Tends to be smaller at large structures and larger at small ones
+
+### Tools
+
+* Scorched Stone
+    * New tier 2 composite tool material from the foundry building block
+    * Does bonus damage to mobs that are on fire
+* Overcast (Slimesteel)
+    * Gives a smaller overslime boost, but also gives a percentage boost
+* Overforced
+    * New reinforcement variant that provides a flat boost to the overslime cap
+* Reinforced
+    * Recipe switched to an incremental recipe requiring 24 reinforcements, but reinforcements are also made cheaper
+    * Works out to about 6 obsidian and 8 ingots of iron per level
+
 ## Next features
 
-This section discusses the next features being worked on, which will be added in later, regular alphas.
+This section discusses the next features being worked on, which will be added in later alphas (but not necessarily the next)
 
 ### Documentation
 
@@ -110,8 +147,8 @@ This section discusses the next features being worked on, which will be added in
 * Mighty Smelting
     * Smeltery
     * Tinkers' Anvil modifiers
-* Fantastic Foundry (title pending)
-    * Alloy tank
+* Fantastic Foundry
+    * Alloyer
     * Foundry
     * Tier 1-3 nether materials?
     * Tier 4 nether materials
@@ -125,24 +162,13 @@ This section discusses the next features being worked on, which will be added in
 * Sand casts: allow placing sand second?
 * Fix smeltery transparent fluids
 
-### Foundry
-
-* Nether smeltery variant
-* Does not alloy
-* Lower ore rate, but produces byproducts
-* Higher capacity
-
-### Alloy Tank
-
-* Alloys from neighboring blocks
-* Augments the foundry to allow alloying
-
 ### Tools
 
 **Data packs**
 
 * Support tagged fluids in materials, possibly via recipes
 * Trait manager cleanup
+* These changes will likely be in next alpha
 
 **Part Builder**
 
@@ -168,6 +194,8 @@ This section discusses the next features being worked on, which will be added in
 * Blocking
     * Battle sign ability as a modifier
     * If used on a battle sign, upgrades to full blocking like shields
+* Duel Wielding
+    * Similar to the daggers ability, but for any tool
 
 **Tool Model**
 
@@ -179,8 +207,7 @@ This section discusses the next features being worked on, which will be added in
 
 **Worldgen**
 
-* Ender slimes and foliage
-* New earth, sky, and blood wood variants for slimy saplings, replaces congealed slime
+* Update ender slime island foliage to a chorus like plant
 
 ### Misc
 
@@ -190,6 +217,8 @@ This section discusses the next features being worked on, which will be added in
 * Content transfer:
     * Wooden rails move to Tinkers' Mechworks
     * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
+* CraftTweaker support
+    * Jared made a pull request with support, will hopefully be reviewed before the next alpha
 
 ## Before beta release
 
@@ -203,7 +232,7 @@ Before this beta, any addons need to be prepared to update as we make new alphas
 * Soul Forge
     * Include new book or add to nether book
 * End Smeltery (upside down/gasses)
-* Gravity smeltery peripheral
+* "Smeltery sandwich"
 
 ### Tools
 
