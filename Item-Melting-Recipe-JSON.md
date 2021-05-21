@@ -4,6 +4,7 @@ Location: `.jar/data/tconstruct/recipes/smeltery/melting/`
 `type`: Must be `"tconstruct:melting"`.  
 `ingredient`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. Item to be melted.  
 `result`: [[FluidStack|Common-JSON-Value-Types#fluidstack]]. Output fluid from the recipe.  
+`byproducts`: List of [[FluidStacks|Common-JSON-Value-Types#fluidstack]]. Foundry byproducts for the recipe.  
 `temperature`: Integer. Minimum temperature of the fuel to melt the item.  
 `time`: Time to melt the item. In [[ticks|Common-JSON-Value-Types#tick]].  
 
