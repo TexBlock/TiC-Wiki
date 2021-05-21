@@ -6,11 +6,16 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 
 | Name | Behavior |
 | :--- | :------- |
-| `tconstruct:melter_tanks` | Blocks in this tag are a valid fuel source for melters. In order to function, the tile entity must have either an `IItemHandler` or an `IFluidHandler` capability |
+| `tconstruct:fuel_tanks` | Blocks in this tag are a valid fuel source for melters and alloyers. In order to function, the tile entity must have either an `IItemHandler` or an `IFluidHandler` capability |
+| `tconstruct:alloyer_tanks` | Blocks in this tag are a valid input for the alloyer. In order to function, the tile entity must have either a `IFluidHandler` capability. Only the first tank will be considered from the handler. |
 | `tconstruct:smeltery`  | Blocks in this tag are a valid smeltery block. In general do not use this tag directly, add to one or more of wall, floor, or tanks. |
 | `tconstruct:smeltery/tanks`  | Blocks in this tag are a valid fuel source for the smeltery. In order to function, the tile entity must implement `IServantLogic` and they must have either an `IItemHandler` or an `IFluidHandler` capability. |
 | `tconstruct:smeltery/floor` | Blocks in this tag are a valid floor blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
-| `tconstruct:smeltery/wall` | Blocks in this tag are a valid wall blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. All blocks in the smeltery need to be included in this tag to properly update. |
+| `tconstruct:smeltery/wall` | Blocks in this tag are a valid wall blocks for the smeltery. In order to function, the tile entity must implement `IServantLogic`. |
+| `tconstruct:foundry`  | Blocks in this tag are a valid foundry block. In general do not use this tag directly, add to one or more of wall, floor, or tanks. |
+| `tconstruct:foundry/tanks`  | Blocks in this tag are a valid fuel source for the foundry. In order to function, the tile entity must implement `IServantLogic` and they must have either an `IItemHandler` or an `IFluidHandler` capability. |
+| `tconstruct:foundry/floor` | Blocks in this tag are a valid floor blocks for the foundry. In order to function, the tile entity must implement `IServantLogic`. |
+| `tconstruct:foundry/wall` | Blocks in this tag are a valid wall blocks for the foundry. In order to function, the tile entity must implement `IServantLogic`. Note the lowest frame layer of the smeltery is considered wall, not floor. |
 
 ### Tools
 
