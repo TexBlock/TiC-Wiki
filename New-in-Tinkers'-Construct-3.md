@@ -49,6 +49,9 @@ This section discusses changes to the world module
     * Slimy wood has a hard outer bark layer and a squishy inner slimy wood layer, meaning the effective tool changes when stripping
     * Slimeballs are still dropped from the leaves
     * Slimy saplings can now be melted in a smeltery for liquid slime of the proper type
+* Clay Islands
+    * Slime island variant spawning with normal grass
+    * Lake filled with clay and sand
 
 # Tools
 
