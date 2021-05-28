@@ -16,6 +16,7 @@
 * [[Roadmap|Tinkers' Construct 3 Roadmap]]
 #### Moders
 * [[Block Model Loaders|Tinkers Construct Block Model Loaders]]
+* [[Modifier Priorities]]
 * [[Persistent Inventory Crafting Blocks]]
 * [[Recipe JSON List]]
 * [[Tag List]]
