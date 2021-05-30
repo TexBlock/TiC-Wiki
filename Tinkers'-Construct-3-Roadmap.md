@@ -17,6 +17,16 @@ The following subsections contain major features that are included in the curren
     * Drain, chute, duct
     * Tanks
     * Melting, alloying, entity melting
+* Alloyer and alloying
+* Foundry components
+    * Controller
+    * Drain, chute, duct
+    * Tanks
+    * Melting, byproducts, entity melting
+
+**Foundry**
+
+* Casting 
 
 ### Tools
 
@@ -30,7 +40,7 @@ The following subsections contain major features that are included in the curren
 **Materials**
 
 * Tier 1: Wood, stone, flint, bone, necrotic bone
-* Tier 2: Iron, copper, seared stone, slimewood
+* Tier 2: Iron, copper, seared stone, scorched stone, slimewood
 * Tier 2 compat: Lead, silver, electrum
 * Tier 3: tinkers' bronze, nahuatl, slimesteel, rose gold, pig iron, cobalt
 * Tier 3 compat: Steel, bronze, constantan
@@ -40,9 +50,9 @@ The following subsections contain major features that are included in the curren
 
 * Free: Worldbound, Overslime, Creative
     * Bonus upgrade slots: book and quill, music disc, mob head, end crystal
-* Upgrades: Reinforced, Experienced, Magnetic, Soulbound, Tank
+* Upgrades: Reinforced, Experienced, Magnetic, Soulbound, Tank, Overforced
     * Harvest: Haste, Blasting, Lightspeed, Hydraulic 
-    * Weapon: Beheading, Necrotic, Knockback, Fiery
+    * Weapon: Beheading, Necrotic, Knockback, Fiery, Sweeping Edge
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
 * Abilities: Gilded, Bucketing, Glowing, Unbreakable
@@ -91,44 +101,6 @@ The following subsections contain major features that are included in the curren
 * Tinkers Gadgetry
     * Placeholder book for future documentation
 
-
-
-## In Next Alpha
-This section contains features that are coded, but not yet released in an alpha.
-
-### Alloy Tank
-
-* Like the melter, but for alloying
-* Made from scorched bricks
-* Can alloy, but not melt
-
-### Building
-
-* Obsidian panes
-    * Like glass panes, but with the obsidian texture
-    * Crafting component for the foundry and for reinforcements
-
-### Foundry
-
-* New nether smeltery variant
-* Made of scorched blocks, which are from nether materials
-* Does not alloy, but ores melted give byproducts
-* Requires the frame, but has increased fluid capacity
-* Fuel cost is lower per block, but structure requires more blocks. Tends to be smaller at large structures and larger at small ones
-
-### Tools
-
-* Scorched Stone
-    * New tier 2 composite tool material from the foundry building block
-    * Does bonus damage to mobs that are on fire
-* Overcast (Slimesteel)
-    * Gives a smaller overslime boost, but also gives a percentage boost
-* Overforced
-    * New reinforcement variant that provides a flat boost to the overslime cap
-* Reinforced
-    * Recipe switched to an incremental recipe requiring 24 reinforcements, but reinforcements are also made cheaper
-    * Works out to about 6 obsidian and 8 ingots of iron per level
-
 ## Next features
 
 This section discusses the next features being worked on, which will be added in later alphas (but not necessarily the next)
@@ -155,7 +127,7 @@ This section discusses the next features being worked on, which will be added in
 
 ### Smeltery
 
-* Smeltery interface
+* Smeltery interface (possibly)
     * Allows accessing the UI fluid tank
     * Comparator signal for tank level
     * On pulse, switches fluid order (bottom to top? Top to bottom?)
@@ -167,8 +139,6 @@ This section discusses the next features being worked on, which will be added in
 **Data packs**
 
 * Support tagged fluids in materials, possibly via recipes
-* Trait manager cleanup
-* These changes will likely be in next alpha
 
 **Part Builder**
 
@@ -188,9 +158,6 @@ This section discusses the next features being worked on, which will be added in
     * New general ability
     * Requires something from the end to craft
     * Tool repairs on XP pickup
-* Sweeping edge
-    * Boosts damage of mobs in sweep attacks for swords and cleavers
-    * How is this different from scythes? Should it affect scythes?
 * Blocking
     * Battle sign ability as a modifier
     * If used on a battle sign, upgrades to full blocking like shields
