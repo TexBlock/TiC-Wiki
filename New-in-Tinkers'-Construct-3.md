@@ -20,14 +20,14 @@ This section discusses changes to the world module
 ## Slime Islands
 
 * All slime types have unique names
-    * Green slime is often called earth slime, or just generically slime
+    * Green slime is often called earth slime, or just generically slime (vanilla)
     * Blue slime is called sky slime
     * Orange slime is called ichor
     * Purple slime is called ender slime
     * Magma cream is often considered a fifth slime type, so is blood
 * New earth slime islands
     * Spawn in the overworld ocean
-    * Loaded with earth slimes and the new greenheart slimy trees
+    * Loaded with earth slimes (vanilla slimes) and the new greenheart slimy trees
     * Spawn in blue or green dirt variants, all types with green foliage
 * Sky slime islands
     * Spawn in the sky as before, though probably a bit less commonly
@@ -35,15 +35,15 @@ This section discusses changes to the world module
     * Spawn in blue or green dirt variants, all types with blue foliage
     * Sky slimes have overcome their weakness of falling off the island by bouncing
 * Nether slime islands renamed to blood islands
-    * Spawn with orange dirt and red foliage, plus the new bloodshroom slimy "tree"
+    * Spawn with orange dirt and red foliage, plus the new bloodshroom slimy "tree" (source of ichor)
     * Remain a good source of magma cubes, now including a lake of liquid magma cream
 * New ichor slime islands
-    * Planned to appear as part of the nether ceiling
+    * Planned to appear as part of the nether ceiling, not yet implemented
     * Ichor slimes will live in reverse gravity with their upside down trees and stuff
 * Purple slimes islands got tired of the dumb blue slimes, so they migrated to the end to start their own society
     * They actually prefer the name enderslime now
     * Ender slime mobs can be found now, who teleport for attacking and defense
-    * Purple slimes are the most advanced of the slimes, some may even wear armor in the future
+    * Ender slimes are the most advanced of the slimes, some may even wear armor in the future
 * Slimy Saplings
     * As mentioned earlier, saplings now have slimy wood instead of congealed slime for the stems
     * Slimy wood has a hard outer bark layer and a squishy inner slimy wood layer, meaning the effective tool changes when stripping
@@ -130,7 +130,7 @@ This page describes some of the new content related to tools mechanics, includin
 * Handles reworked:
     * No longer have a flat durability boost
     * Have 4 multipliers: durability, attack speed, attack damage, and mining speed
-    * Most materials only 2 multipliers set, though later game materials will set at most 3
+    * Most materials only have 2 multipliers set, though later game materials will set at most 3
 * Bindings reworked:
     * Bindings no longer have any stats
     * Instead, the purpose of bindings are to let you choose the trait you wish without concern for material tiers
@@ -172,7 +172,7 @@ For a full list of modifiers and traits, see [this spreadsheet](https://docs.goo
 * Autosmelt and luck currently do not have special interactions
     * The devs are looking in to how to add such interactions with mod compatibility and without extreme duplication exploits
 * Embossments were removed, but a similar mechanic will return with the soul forge
-* Wet Sponge can be used to remove a modifier now
+* Modifier removal is planned, but currently not implemented
 
 ## Tools
 
@@ -201,6 +201,7 @@ These tools are available from tier 1 and onwards.
 * *Dagger*:
     * Fast weapon with low damage, but can attack on right click for use in the offhand.
     * Replaces the rapier
+    * Not implemented yet
 
 ### Broad
 
@@ -313,8 +314,8 @@ This section is about new features related to the smeltery or smeltery mechanics
 * Foundry
     * Nether smeltery variant
     * Aids in nether survival, crafted from basalt/gravel, magma cream, and soul sand
+    * Requires the frame and floor corners to build, but has increased capacity
     * Cannot alloy and lower ore multiplier, but ores give byproducts
-    * Larger capacity, but requires more blocks to build
 * New end smeltery planned
     * Built upside down, because why not?
     * Only can hold gasses, no liquids
@@ -438,6 +439,6 @@ This page discusses some of the new features that do not fit in any other sectio
 
 **Tinker Tank**
 
-* Moving to Tinkers' Complement
-* The original design was based on the deep tank from Tinkers' Steelworks. The other steelworks multiblock was added to Tinkers' Complement, so it makes sense to have them together
-* The commonly used purpose of the tank, preventing accidental alloys, is now handled by a smeltery with no fuel.
+* Removed due to content overlap
+* The commonly used purpose of the tank, preventing accidental alloys, is now handled by a smeltery or foundry with no fuel.
+* The closest multiblock to the original seared tank is a foundry with no fuel tank, as it considers all blocks for fluid capacity
