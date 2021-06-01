@@ -172,6 +172,7 @@ For a full list of modifiers and traits, see [this spreadsheet](https://docs.goo
 * Autosmelt and luck currently do not have special interactions
     * The devs are looking in to how to add such interactions with mod compatibility and without extreme duplication exploits
 * Embossments were removed, but a similar mechanic will return with the soul forge
+* Modifier recipes changed. Look for recipes in JEI, do not make issues about modifiers being missing because the recipe changed
 * Modifier removal is planned, but currently not implemented
 
 ## Tools
