@@ -63,7 +63,6 @@ The following subsections contain major features that are included in the curren
 **Special recipes**
 
 * Repair kits
-* Wet sponge to remove modifiers
 * Potion of Harming to damage tools
 
 ### Resources
