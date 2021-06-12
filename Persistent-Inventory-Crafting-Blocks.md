@@ -16,7 +16,7 @@ If you want to simply prevent crashes with the crafting station, just make your 
 
 To create player sensitive crafting recipes that work with the crafting station:
 * `matches` should return true even if a player is missing
-* `getCraftingResult` should return some fallback item when the player is missing
+* `getCraftingResult` should use `ForgeHooks.getCraftingPlayer()` to get the player. You can check if the container field is null to know if you should call the Forge hook.
 * When the player tries to take the item, we set the player to `ForgeHooks.setCraftingPlayer()`
     * After doing so, we call both `matches` and `getCraftingResult` a second time to get the final result for the recipe
     * Within your logic, you can retrieve the player using `ForgeHooks.getCraftingPlayer()` to add player information
