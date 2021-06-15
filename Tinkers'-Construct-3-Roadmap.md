@@ -24,10 +24,6 @@ The following subsections contain major features that are included in the curren
     * Tanks
     * Melting, byproducts, entity melting
 
-**Foundry**
-
-* Casting 
-
 ### Tools
 
 **Tool types**
@@ -72,31 +68,40 @@ The following subsections contain major features that are included in the curren
 * Ores
     * Copper ore in the overworld
     * Cobalt ore in the nether
-* Overworld sky slime islands
+* Overworld skyslime islands
     * Spawn in green and blue variants
     * Contain blue foliage and skyroot wood
+* Overworld earthslime islands
+    * Spawn in green and blue variants
+    * Contain green foliage and greenheart wood
+* Clay islands
+    * Weird idea, want to develop a bit more later
 * Blood slime islands
     * Spawn in the nether
     * Contain ichor and blood
     * Contains bloodshrooms
 * Necrotic bones
     * Drop from wither skeletons
-* End slime islands
+* Enderslime islands
     * Contain ender slime
     * Currently no mobs
-    * Temporary home of greenheart wood
+    * Temporary second home of greenheart wood
 
 ### Book
 
 * Materials and You
     * Mostly complete, apart from new info in later editions
     * Has full list of tier 1 materials and traits
-    * Has a modifier listing, though a few modifiers will be moved to another book later
+    * Has a modifier listing, though a few modifiers will be moved to puny smelting later
 * Puny Smelting
     * Has full list of tier 2 materials and traits
 * Mighty Smelting
-    * Has full list of tier 3 and 4 materials and traits
+    * Has full list of tier 3 materials and traits
+* Fantastic Foundry
+    * Has full list of tier 4 materials and traits
     * Has information on how to obtain molten blaze
+* Encyclopedia of Materials
+    * Has a full list of tier 1 through 4 materials
 * Tinkers Gadgetry
     * Placeholder book for future documentation
 
@@ -122,7 +127,6 @@ This section discusses the next features being worked on, which will be added in
     * Alloyer
     * Foundry
     * Tier 1-3 nether materials?
-    * Tier 4 nether materials
 
 ### Smeltery
 
@@ -131,7 +135,6 @@ This section discusses the next features being worked on, which will be added in
     * Comparator signal for tank level
     * On pulse, switches fluid order (bottom to top? Top to bottom?)
 * Sand casts: allow placing sand second?
-* Fix smeltery transparent fluids
 
 ### Tools
 
@@ -141,8 +144,6 @@ This section discusses the next features being worked on, which will be added in
 
 **Part Builder**
 
-* Send leftovers to player inventory
-* Cleanup behavior to be more like the tinker station
 * Add part forge? the tier 3 version for crafting large parts
 * Better sorting in UI
 
@@ -162,12 +163,6 @@ This section discusses the next features being worked on, which will be added in
     * If used on a battle sign, upgrades to full blocking like shields
 * Duel Wielding
     * Similar to the daggers ability, but for any tool
-
-**Tool Model**
-
-* Modifier models
-    * Supports direct texture scan
-    * Supports custom models registered for modifier types
 
 ### Resources
 
