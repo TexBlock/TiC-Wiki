@@ -12,6 +12,7 @@
 * [ModifierEntry](#modifierentry)
 * [ModifierMatch](#modifiermatch)
 * [ResourceLocation](#resourcelocation)
+* [Fluid](#fluid)
 * [IFluidHandlerItem](#ifluidhandleritem)
 * [ToolCore](#toolcore)
 * [IMaterialItem](#imaterialitem)
@@ -154,6 +155,11 @@ A recursive list of ModifierMatch and [[ModifierEntry|Common-JSON-Value-Types#mo
 
 ## ResourceLocation
 https://mcforge.readthedocs.io/en/latest/concepts/resources/
+
+## Fluid
+Full identifier of a fluid.
+### Example
+    "fluid": "tconstruct:molten_cobalt"
 
 ## IFluidHandlerItem
 Full item name of a fluid container item. Must implement the IFluidHandlerItem capability.
