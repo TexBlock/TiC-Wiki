@@ -1,5 +1,30 @@
 All JSONs that pertain to the same material *must* have the same file name.
-# Data  
+# Data
+## Stats
+Location: `/data/<resource_id>/materials/stats/`
+
+### Keys
+`stats`: An object that gives part types a stat block. If a stat block for a part type is not defined, the material cannot be used with parts that use that stat.  
+
+### Example
+    {
+      "stats": {
+        "tconstruct:extra": {},
+        "tconstruct:handle": {
+          "durability": 1.1,
+          "miningSpeed": 1.1,
+          "attackSpeed": 1.1,
+          "attackDamage": 1.0
+        },
+        "tconstruct:head": {
+          "durability": 800,
+          "miningSpeed": 8.0,
+          "harvestLevel": 3,
+          "attack": 2.5
+        }
+      }
+    }
+
 ## Traits
 Location: `/data/<resource_id>/materials/traits/`  
 
