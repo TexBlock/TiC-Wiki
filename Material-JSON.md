@@ -1,5 +1,28 @@
 All JSONs that pertain to the same material *must* have the same file name and resource ID.
 # Data
+## Definition
+Location: `/data/<resource_id>/materials/definition/`
+
+### Keys
+`craftable`: Boolean. Whether the Material can be crafted into parts in the Part Builder.  
+`tier`: Integer. Material's tier.  
+`sortOrder`: Integer. Material's order within the tier, for sorting.  
+--Known defaults: `0`: general, `1`: harvest, `2`: weapons, `3`: special, `5`: compat, `7`: nether materials in lower tiers, `10`: end materials in lower tiers.  
+`fluid`: [[Fluid|Common-JSON-Value-Types#fluid]]. The fluid this material can be cast from or molten down into.  
+`fluidPerUnit`: Integer. The amount of the fluid per one unit.  
+`textColor`: [[Color|Common-JSON-Value-Types#color]], but, like, with a # in front of it. The color of the material's text.  
+`temperature`: Integer. The material fluid's smeltery temperature. For melting and casting.  
+
+### Example
+    {
+      "craftable": false,
+      "tier": 3,
+      "sortOrder": 7,
+      "fluid": "tconstruct:molten_cobalt",
+      "fluidPerUnit": 144,
+      "textColor": "#2376DD",
+      "temperature": 950
+    }
 ## Stats
 Location: `/data/<resource_id>/materials/stats/`
 
