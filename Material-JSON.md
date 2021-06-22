@@ -1,4 +1,4 @@
-All JSONs that pertain to the same material *must* have the same file name.
+All JSONs that pertain to the same material *must* have the same file name and resource ID.
 # Data
 ## Stats
 Location: `/data/<resource_id>/materials/stats/`
