@@ -17,6 +17,7 @@
 * [IMaterialItem](#imaterialitem)
 * [MaterialId](#materialid)
 * [Tick](#tick)
+* [Color](#color)
 </td>
 </table>
 
@@ -177,3 +178,8 @@ Full name of a Tinkers material.
 
 ## Tick
 1/20th of a second.
+
+## Color
+A hex RRGGBB color.
+### Example
+    "color": "3ce186"
