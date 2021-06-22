@@ -7,7 +7,7 @@ Location: `/data/<resource_id>/materials/definition/`
 `craftable`: Boolean. Whether the Material can be crafted into parts in the Part Builder.  
 `tier`: Integer. Material's tier.  
 `sortOrder`: Integer. Material's order within the tier, for sorting.  
---Known defaults: `0`: general, `1`: harvest, `2`: weapons, `3`: special, `5`: compat, `7`: Nether materials in lower tiers, `10`: End materials in lower tiers.  
+--Known defaults: `0`: general, `1`: harvest, `2`: weapon, `3`: special, `5`: compat, `7`: Nether materials in lower tiers, `10`: End materials in lower tiers.  
 `fluid`: [[Fluid|Common-JSON-Value-Types#fluid]]. The fluid this material can be cast from or molten down into.  
 `fluidPerUnit`: Integer. The amount of the fluid per one unit.  
 `textColor`: [[Color|Common-JSON-Value-Types#color]], but, like, with a # in front of it. The color of the material's text.  
