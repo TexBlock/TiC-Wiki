@@ -74,7 +74,7 @@ This page describes some of the new content related to tools mechanics, includin
 * Reworked Tool Forge into Tinker's Anvil
     * Simply sounds cooler
     * Contains 5 slots, like the 1.12 UI
-    * Recipe requires 3 metal blocks and 4 seared bricks
+    * Recipe requires 3 metal alloy blocks and 4 seared bricks
 * Renaming tools moved to the vanilla anvil. We are considering a different block that works with tool visuals later
 
 **Improved Crafting Station**
