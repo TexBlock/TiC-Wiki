@@ -202,7 +202,7 @@ These tools are available from tier 1 and onwards.
 * *Dagger*:
     * Fast weapon with low damage, but can attack on right click for use in the offhand.
     * Replaces the rapier
-    * Not implemented yet
+    * In the next alpha
 
 ### Broad
 
