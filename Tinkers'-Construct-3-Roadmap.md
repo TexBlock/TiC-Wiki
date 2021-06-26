@@ -105,6 +105,25 @@ The following subsections contain major features that are included in the curren
 * Tinkers Gadgetry
     * Placeholder book for future documentation
 
+## Next Alpha
+
+### Tools
+
+**Data packs**
+
+* Support tagged fluids in materials, possibly via recipes
+
+**Tools**
+
+* Dagger
+
+**Modifiers**
+
+* Padded
+    * Reduces tool knockback
+* Duel Wielding
+    * Similar to the daggers ability, but for any tool
+
 ## Next features
 
 This section discusses the next features being worked on, which will be added in later alphas (but not necessarily the next)
@@ -138,10 +157,6 @@ This section discusses the next features being worked on, which will be added in
 
 ### Tools
 
-**Data packs**
-
-* Support tagged fluids in materials, possibly via recipes
-
 **Part Builder**
 
 * Add part forge? the tier 3 version for crafting large parts
@@ -149,7 +164,6 @@ This section discusses the next features being worked on, which will be added in
 
 **Tools**
 
-* Dagger
 * Battle sign
 
 **Modifiers**
@@ -161,8 +175,6 @@ This section discusses the next features being worked on, which will be added in
 * Blocking
     * Battle sign ability as a modifier
     * If used on a battle sign, upgrades to full blocking like shields
-* Duel Wielding
-    * Similar to the daggers ability, but for any tool
 
 ### Resources
 
