@@ -14,6 +14,7 @@ This FAQ is for general questions related to SlimeKnight's mods. For questions a
 - [Why is the wiki wrong?](#why-is-the-wiki-wrong)
 - [Where did the config go? Can you make X configurable?](#where-did-the-config-go-can-you-make-x-configurable)
 - [Can I put a SlimeKnights mod in my modpack?](#can-i-put-a-slimeknights-mod-in-my-modpack)
+- [Is there an official Minecraft server for SlimeKnights mods?](#is-there-an-official-minecraft-server-for-slimeknights-mods)
 </td>
 </table>
 
@@ -83,3 +84,7 @@ If you do not see an option to configure the feature in either place, note many 
 Feel free to use the mod in any modpacks. You are allowed to use it, you do not need to ask for permission. When using the mod, please use the CurseForge or GitHub download and do not rehost the files if possible. If you need to rehost the mod, link the CurseForge or GitHub page in your modpack description. Never use builds from places besides Curse, CurseForge, or Github releases.
 
 Any modpack using Tinkers' Construct is expected to handle user support queries, specifically related to mod interactions. If you discover the issue is in fact caused by Tinkers' Construct and not just modpack config changing recipes, feel free to report it to us.
+
+## Is there an official Minecraft server for SlimeKnights mods?
+
+We have no plans to maintain a public server for our mods. There are many other public servers that exist that contain our mods, or private servers you can join. Note that our discord server should not be used to seek a server to join or to advertise Minecraft servers.
