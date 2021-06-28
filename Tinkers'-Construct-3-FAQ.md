@@ -4,17 +4,18 @@ This FAQ is for questions related to Tinkers' Construct 3 gameplay. For question
   <thead><th>Table of Contents</th></thead>
   <tbody><td>
 
-- [How do I craft X?](#how-do-i-craft-x-)
-- [How do I make the stencil table and tool parts?](#how-do-i-make-the-stencil-table-and-tool-parts-)
-- [How do I add luck to my tool?](#how-do-i-add-luck-to-my-tool-)
-- [How do I craft large tools like the hammer? Where is the tool forge?](#how-do-i-craft-large-tools-like-the-hammer--where-is-the-tool-forge-)
-- [How do I craft a smeltery controller?](#how-do-i-craft-a-smeltery-controller-)
-- [How do I get cobalt ore?](#how-do-i-get-cobalt-ore-)
-- [How to I craft manyullyn or other nether alloys?](#how-to-i-craft-manyullyn-or-other-nether-alloys-)
-- [How do I get molten blaze?](#how-do-i-get-molten-blaze-)
-- [How do I get molten blaze out of my smeltery?](#how-do-i-get-molten-blaze-out-of-my-smeltery-)
-- [How to I use the alloyer?](#how-to-i-use-the-alloyer-)
-- [What is the foundry? How do I build the foundry?](#what-is-the-foundry--how-do-i-build-the-foundry-)
+- [How do I craft X?](#how-do-i-craft-x)
+- [Where did X go?](#where-did-x-go)
+- [How do I make the stencil table and tool parts?](#how-do-i-make-the-stencil-table-and-tool-parts)
+- [How do I add luck to my tool?](#how-do-i-add-luck-to-my-tool)
+- [How do I craft large tools like the hammer? Where is the tool forge?](#how-do-i-craft-large-tools-like-the-hammer--where-is-the-tool-forge)
+- [How do I craft a smeltery controller?](#how-do-i-craft-a-smeltery-controller)
+- [How do I get cobalt ore?](#how-do-i-get-cobalt-ore)
+- [How to I craft manyullyn or other nether alloys?](#how-to-i-craft-manyullyn-or-other-nether-alloys)
+- [How do I get molten blaze?](#how-do-i-get-molten-blaze)
+- [How do I get molten blaze out of my smeltery?](#how-do-i-get-molten-blaze-out-of-my-smeltery)
+- [How to I use the alloyer?](#how-to-i-use-the-alloyer)
+- [What is the foundry? How do I build the foundry?](#what-is-the-foundry--how-do-i-build-the-foundry)
 </td>
 </table>
 
@@ -23,6 +24,10 @@ This FAQ is for questions related to Tinkers' Construct 3 gameplay. For question
 Download [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei). It allows viewing nearly all recipes in the mod. Until in game documentation is done, it is the best way to determine recipes.
 
 Note that you can view recipes for tool parts (including in the part builder and casting), melting recipes, alloying, and entity melting. In addition, you can look up modifier recipes by looking up usage on a tool, or view all recipe tabs.
+
+## Where did X go?
+
+Tinkers' Construct 3 has many many gameplay changes, and is also incomplete. Refer to [[What's New?|New-in-Tinkers'-Construct-3]] for a summary of what changed in Tinkers' Construct 3, and [[Roadmap|Tinkers' Construct 3 Roadmap]] for a summary of what is currently complete and what is planned for future updates.
 
 ## How do I make the stencil table and tool parts?
 
