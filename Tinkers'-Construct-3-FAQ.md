@@ -1,3 +1,5 @@
+This FAQ is for questions related to Tinkers' Construct 3 gameplay. For questions related to Tinkers' Construct 2, see [[Tinkers' Construct 2 FAQ]]. For questions not related to gameplay, see [[General FAQ]]
+
 <table>
   <thead><th>Table of Contents</th></thead>
   <tbody><td>
