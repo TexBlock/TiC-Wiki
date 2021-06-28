@@ -4,7 +4,7 @@
 * [[Building an addon]]
 
 ### 1.12 (TiC 2)
-* [[FAQ|Tinkers Construct 2 FAQ]]
+* [[FAQ|Tinkers Construct' 2 FAQ]]
 * [[Resource Packs]]
 * [[IMC]]
 * [[Overwriting Harvest Levels]]
