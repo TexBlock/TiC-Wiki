@@ -123,6 +123,8 @@ The following subsections contain major features that are included in the curren
     * Reduces tool knockback
 * Duel Wielding
     * Similar to the daggers ability, but for any tool
+* Draconic
+    * Can now be crafted using dragon scales as an alternative to dragon heads
 
 ## Next features
 
