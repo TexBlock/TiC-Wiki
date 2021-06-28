@@ -1,3 +1,21 @@
+<table>
+  <thead><th>Table of Contents</th></thead>
+  <tbody><td>
+
+- [How do I craft X?](#how-do-i-craft-x-)
+- [How do I make the stencil table and tool parts?](#how-do-i-make-the-stencil-table-and-tool-parts-)
+- [How do I add luck to my tool?](#how-do-i-add-luck-to-my-tool-)
+- [How do I craft large tools like the hammer? Where is the tool forge?](#how-do-i-craft-large-tools-like-the-hammer--where-is-the-tool-forge-)
+- [How do I craft a smeltery controller?](#how-do-i-craft-a-smeltery-controller-)
+- [How do I get cobalt ore?](#how-do-i-get-cobalt-ore-)
+- [How to I craft manyullyn or other nether alloys?](#how-to-i-craft-manyullyn-or-other-nether-alloys-)
+- [How do I get molten blaze?](#how-do-i-get-molten-blaze-)
+- [How do I get molten blaze out of my smeltery?](#how-do-i-get-molten-blaze-out-of-my-smeltery-)
+- [How to I use the alloyer?](#how-to-i-use-the-alloyer-)
+- [What is the foundry? How do I build the foundry?](#what-is-the-foundry--how-do-i-build-the-foundry-)
+</td>
+</table>
+
 ## How do I craft X?
 
 Download [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei). It allows viewing nearly all recipes in the mod. Until in game documentation is done, it is the best way to determine recipes.
