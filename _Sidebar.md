@@ -14,6 +14,7 @@
 #### Players
 * [[What's New?|New-in-Tinkers'-Construct-3]]
 * [[Roadmap|Tinkers' Construct 3 Roadmap]]
+* [[FAQ|Tinkers' Construct 3 FAQ]]
 #### Moders
 * [[Block Model Loaders|Tinkers Construct Block Model Loaders]]
 * [[Modifier Priorities]]
