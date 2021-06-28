@@ -1,6 +1,7 @@
 ## [[Home]]
 
 ### General
+* [[General FAQ]]
 * [[Building an addon]]
 
 ### 1.12 (TiC 2)
