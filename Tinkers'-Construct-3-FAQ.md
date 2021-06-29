@@ -7,6 +7,7 @@ This FAQ is for questions related to Tinkers' Construct 3 gameplay. For question
 - [How do I craft X?](#how-do-i-craft-x)
 - [Where did X go?](#where-did-x-go)
 - [How do I make the stencil table and tool parts?](#how-do-i-make-the-stencil-table-and-tool-parts)
+- [What are upgrade or ability slots?](#what-are-upgrade-or-ability-slots)
 - [How do I add luck to my tool?](#how-do-i-add-luck-to-my-tool)
 - [How do I craft large tools like the hammer? Where is the tool forge?](#how-do-i-craft-large-tools-like-the-hammer-where-is-the-tool-forge)
 - [How do I craft a smeltery controller?](#how-do-i-craft-a-smeltery-controller)
@@ -34,6 +35,14 @@ Tinkers' Construct 3 has many many gameplay changes, and is also incomplete. Ref
 ## How do I make the stencil table and tool parts?
 
 The stencil table was merged with the part builder in an interface similar to the stonecutter. This means you can craft tool parts using only the part builder instead of needing two blocks.
+
+## What are upgrade or ability slots?
+
+Modifiers are divided into 4 major types:
+* *Traits*: Inert abilities based on the tools construction. Most small tools gain 3 traits from the materials, and large tools 4 traits. In addition, some tool types have additional traits, such as cleavers granting beheading or pickaxes piercing.
+* *Upgrades*: Classic type of modifier slot from previous versions; many classic modifiers such as quartz and haste use this slot type. Most small tools start with 3 upgrade slots, large tools start with 2 upgrade slots, and more can be added through other modifier types.
+* *Ability*: More limited slot slot type for stronger, more exclusive modifiers such as silk touch, autosmelt, or unbreakable. Most tools start with 1 ability slot, swords start with 2 ability slots, and an additional ability slot can be added to all tools though a slotless modifier.
+* *Slotless*: Modifiers that can be added to a tool through recipes. Unlike upgrades or abilities, there is no limit to the number of slotless modifiers a tool may have.
 
 ## How do I add luck to my tool?
 
