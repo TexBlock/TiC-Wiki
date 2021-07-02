@@ -9,6 +9,7 @@ This FAQ is for questions related to Tinkers' Construct 3 gameplay. For question
 - [How do I make the stencil table and tool parts?](#how-do-i-make-the-stencil-table-and-tool-parts)
 - [What are upgrade or ability slots?](#what-are-upgrade-or-ability-slots)
 - [How do I add luck to my tool?](#how-do-i-add-luck-to-my-tool)
+- [How do I make a tool unbreakable?](#how-do-i-make-a-tool-unbreakable)
 - [How do I craft large tools like the hammer? Where is the tool forge?](#how-do-i-craft-large-tools-like-the-hammer-where-is-the-tool-forge)
 - [How do I craft a smeltery controller?](#how-do-i-craft-a-smeltery-controller)
 - [How do I get cobalt ore?](#how-do-i-get-cobalt-ore)
@@ -49,6 +50,10 @@ Modifiers are divided into 4 major types:
 First, refer back to [How do I craft X?](#how-do-i-craft-x) and actually use JEI to look up recipes. If you still are confused, you can use the recipe below, but seriously, learn to use JEI if you are going to play mods.
 
 ![Luck recipe](https://i.imgur.com/eKSh65T.png)
+
+## How do I make a tool unbreakable?
+
+Unlike in 1.12 where reinforced V would make a tool unbreakable, in 1.16 unbreakable is a modifier that requires netherite, reinforced V, and an ability slot to apply. Check JEI for the recipe, and for other recipes that increase upgrade slots so you can reach the 7 upgrade slots needed for reinforced V and netherite.
 
 ## How do I craft large tools like the hammer? Where is the tool forge?
 
