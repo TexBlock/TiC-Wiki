@@ -8,6 +8,7 @@ This FAQ is for questions related to Tinkers' Construct 3 gameplay. For question
 - [Where did X go?](#where-did-x-go)
 - [How do I make the stencil table and tool parts?](#how-do-i-make-the-stencil-table-and-tool-parts)
 - [What are upgrade or ability slots?](#what-are-upgrade-or-ability-slots)
+- [How do I add more modifier slots?](#how-do-i-add-more-modifier-slots)
 - [How do I add luck to my tool?](#how-do-i-add-luck-to-my-tool)
 - [How do I make a tool unbreakable?](#how-do-i-make-a-tool-unbreakable)
 - [How do I craft large tools like the hammer? Where is the tool forge?](#how-do-i-craft-large-tools-like-the-hammer-where-is-the-tool-forge)
@@ -45,11 +46,23 @@ Modifiers are divided into 4 major types:
 * *Ability*: More limited slot slot type for stronger, more exclusive modifiers such as silk touch, autosmelt, or unbreakable. Most tools start with 1 ability slot, swords start with 2 ability slots, and an additional ability slot can be added to all tools though a slotless modifier.
 * *Slotless*: Modifiers that can be added to a tool through recipes. Unlike upgrades or abilities, there is no limit to the number of slotless modifiers a tool may have.
 
+## How do I add more modifier slots?
+
+There are 4 ways to get additional upgrade slots:
+
+* All small tools start with 3 upgrade slots, as opposed to large tools which start with only 2.
+* Adding a book an quill, a music disc, a mob head, or a end crystal to a tool will each give you +1 upgrade slot for a total of +4 upgrade slots.
+* Rose gold grants +1 upgrade slot per rose gold tool part
+* The gilded modifier uses a golden apple to trade 1 ability slot for 2 upgrade slots. This can be done multiple times.
+
+Ability slots can only be increased in 2 ways:
+
+* Swords start with 2 ability slots, compared to all other tools that start with just 1.
+* The draconic modifier allows giving a tool an extra ability slot using a dragon head.
+
 ## How do I add luck to my tool?
 
-First, refer back to [How do I craft X?](#how-do-i-craft-x) and actually use JEI to look up recipes. If you still are confused, you can use the recipe below, but seriously, learn to use JEI if you are going to play mods.
-
-![Luck recipe](https://i.imgur.com/eKSh65T.png)
+First, refer back to [How do I craft X?](#how-do-i-craft-x) and actually use JEI to look up recipes. If you are still confused, check JEI for usages of lapis blocks, the recipe will show under the modifiers tab. There is a different recipe for each level, so its easiest to refer to JEI.
 
 ## How do I make a tool unbreakable?
 
