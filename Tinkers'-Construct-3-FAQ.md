@@ -60,6 +60,8 @@ Ability slots can only be increased in 2 ways:
 * Swords start with 2 ability slots, compared to all other tools that start with just 1.
 * The draconic modifier allows giving a tool an extra ability slot using a dragon head.
 
+This means most tools have a maximum of 10 upgrade slots and 2 ability slots, or 14 upgrade slots if gilded is used. Swords have a maximum of 9 upgrade slots and 3 ability slots, or 15 upgrade slots if gilded is used.
+
 ## How do I add luck to my tool?
 
 First, refer back to [How do I craft X?](#how-do-i-craft-x) and actually use JEI to look up recipes. If you are still confused, check JEI for usages of lapis blocks, the recipe will show under the modifiers tab. There is a different recipe for each level, so its easiest to refer to JEI.
