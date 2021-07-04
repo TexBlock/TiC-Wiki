@@ -126,9 +126,13 @@ The following subsections contain major features that are included in the curren
 * Draconic
     * Can now be crafted using dragon scales as an alternative to dragon heads
 
-## Next features
+### Misc
 
-This section discusses the next features being worked on, which will be added in later alphas (but not necessarily the next)
+* Library cleanup (remove unused code, repackaging, a couple class renames)
+
+## Before beta
+
+This section contains features that we want done before the first beta release, as it will ensure the mod is mostly stable moving on. After the first beta release, the API should remain stable, so making addons will be a lot easier.
 
 ### Documentation
 
@@ -149,24 +153,27 @@ This section discusses the next features being worked on, which will be added in
     * Foundry
     * Tier 1-3 nether materials?
 
-### Smeltery
+### Resources
 
-* Smeltery interface (possibly)
-    * Allows accessing the UI fluid tank
-    * Comparator signal for tank level
-    * On pulse, switches fluid order (bottom to top? Top to bottom?)
-* Sand casts: allow placing sand second?
+**Worldgen**
+
+* Update ender slime island foliage to a chorus like plant
 
 ### Tools
 
-**Part Builder**
+**Tool types**
 
-* Add part forge? the tier 3 version for crafting large parts
-* Better sorting in UI
+* Shield
+* Battle Sign
+* Armor
 
-**Tools**
+**Materials**
 
-* Battle sign
+* Tier 1: Chorus
+* Tier 2: End Stone
+* Tier 3: Dragonstone, Hollow
+* Tier 4: Soulsteel
+* Tier 5: KnightSlime, Ebonite, Alexandrite
 
 **Modifiers**
 
@@ -177,29 +184,25 @@ This section discusses the next features being worked on, which will be added in
 * Blocking
     * Battle sign ability as a modifier
     * If used on a battle sign, upgrades to full blocking like shields
+* Armor modifiers
 
-### Resources
+### Data
 
-**Worldgen**
-
-* Update ender slime island foliage to a chorus like plant
-
-### Misc
-
-* Texture generators
 * Find a good way to handle duplicate materials between mods. We just going to resort to conditions?
     * Might need to make recipes directly referencing materials automatically disable if the material is not found
-* Content transfer:
-    * Wooden rails move to Tinkers' Mechworks
-    * Jerky, stone ladders and torches, punji sticks, and dried clay move to Natura
-* CraftTweaker support
-    * Jared made a pull request with support, will hopefully be reviewed before the next alpha
+* Texture generators
 
-## Before beta release
+## Long term content
 
-Once the content in the above section is finished, content in this section is the next target. Once the API is stable during this section, the mod will be released as a beta instead of an alpha, and will be much more ready for addons. 
+This section just describes some content that will be in the mod eventually, but is further off being done most likely.
 
-Before this beta, any addons need to be prepared to update as we make new alphas as our API needs a lot of cleanup from 1.12. Once the first beta is released, the API should remain stable.
+### Smeltery
+
+* Smeltery interface (possibly)
+    * Allows accessing the UI fluid tank
+    * Comparator signal for tank level
+    * On pulse, switches fluid order (bottom to top? Top to bottom?)
+* Sand casts: allow placing sand second?
 
 ### Crafting
 **Multiblock**
@@ -208,40 +211,6 @@ Before this beta, any addons need to be prepared to update as we make new alphas
     * Include new book or add to nether book
 * End Smeltery (upside down/gasses)
 * "Smeltery sandwich"
-
-### Tools
-
-**Tool types**
-
-* Shield
-* Armor
-
-**Materials**
-
-* Tier 1: Chorus
-* Tier 2: End Stone
-* Tier 3: Dragonstone, Hollow
-* Tier 4: Slimebronze, Soulsteel
-* Tier 5: KnightSlime, Ebonite, Alexandrite
-
-**Modifiers**
-
-* Charge attack modifier
-* Armor modifiers
-
-### Resources
-
-**Worldgen**
-
-* Ichor slimes and slime islands
-
-### Cleanup
-
-* Library cleanup (remove unused code)
-
-## Long term content
-
-This section just describes some content that will be in the mod eventually, but is far off being done.
 
 ### Tools
 
@@ -257,3 +226,15 @@ This section just describes some content that will be in the mod eventually, but
 
 * Bow modifiers
 * Throwing
+* Charge attack modifier
+
+**Part Builder**
+
+* Add part forge? the tier 3 version for crafting large parts
+* Better sorting in UI
+
+### Resources
+
+**Worldgen**
+
+* Ichor slimes and slime islands
