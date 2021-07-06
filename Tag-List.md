@@ -31,8 +31,9 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 
 | Name | Behavior |
 | :--- | :------- |
-| `tconstruct:slimy_logs`   | Blocks in this tag are a valid trunk for slimy leaves blocks |
+| `tconstruct:slimy_logs`   | Blocks in this tag are a valid trunk for slimy leaves blocks. |
 | `tconstruct:slimy_leaves` | Blocks in this tag can be replaced by leaves from slimy blocks and can support slimy vines despite being non-solid |
+| `tconstruct:slimy_tree_trunks`   | Blocks in this tag are a valid trunk for slimy leaves blocks, including both slimy logs and congealed slime. Note that this tag will likely be removed in the future in favor of `tconstruct:slimy_logs`, its kept as a fallback for old worlds. |
 
 ## Items
 
@@ -41,6 +42,7 @@ This page documents any tags in Tinker's Construct 3 with special behavior. Spec
 | Name | Behavior |
 | :--- | :------- |
 | `tconstruct:duct_containers` | Items in this tag can be placed inside the seared duct. Additionally, items whose container item is in this tag can be placed inside the seared duct, allowing all buckets to work simply by including the empty bucket. |
+| `tconstruct:structure_debug` | Items in this tag will cause the smeltery to render the position of the erroring block when held or worn on the head. Includes books in the base mod, but its encouraged to add goggles or other similar items if present. Emptying the tag effectively disables this feature. |
 
 ### Tools
 
