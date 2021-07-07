@@ -114,6 +114,8 @@ To build the foundry, you need to use scorched blocks instead of seared blocks, 
 
 ![Foundry structure](https://i.imgur.com/EObDe7w.png)
 
+Also, because people keep assuming things we never said, the foundry does not have to be build in the nether, nor is there anything stopping you from building a smeltery in the nether. It is a smeltery alternative.
+
 ## Why won't my tools level up? Can I play tool leveling for Tinkers' Construct 3?
 
 Tool leveling was added by an addon, it was never part of the base mod. The mod is not updated to 1.16, as its main developer is no longer active. The current Tinkers' Construct team has no plans to update the mod, but we expect another author will update it in the near future. If you are interested in the idea, a couple of our developers have ideas for tool leveling we are willing to discuss [on our Discord](https://discord.gg/njGrvuh)
