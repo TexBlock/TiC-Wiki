@@ -21,6 +21,7 @@ This FAQ is for questions related to Tinkers' Construct 3 gameplay. For question
 - [What is the foundry? How do I build the foundry?](#what-is-the-foundry-how-do-i-build-the-foundry)
 - [Why won't my tools level up? Can I play tool leveling for Tinkers' Construct 3?](#why-wont-my-tools-level-up-can-i-play-tool-leveling-for-tinkers-construct-3)
 - [Where did the Tinkers armor go?](#where-did-the-tinkers-armor-go)
+- [What mods are compatible with Tinkers?](#what-mods-are-compatible-with-tinkers)
 </td>
 </table>
 
@@ -123,3 +124,11 @@ Tool leveling was added by an addon, it was never part of the base mod. The mod 
 ## Where did the Tinkers armor go?
 
 Constructs Armory is another addon, this one made by TheIllusiveC4. He has no current timeline, but has discussed some plans for the mod's future on [his discord](https://discord.gg/JWgrdwt).
+
+## What mods are compatible with Tinkers?
+
+Any mods using the Forge system for fluid pipes will automatically work with the smeltery, foundry, tanks, faucets, and channels. In addition, any mod that adds a common ore (copper, tin, lead, aluminum, etc.) will get melting and casting compatibility for the ore, and some of those will also get tools. These days the question is really not hat mods are compatible but what mods are not compatible, as Forge lets most mods work together rather seamlessly. 
+
+Tinkers specifically has special recipe compatibility for mods such as Ceramics, Immersive Engineering, and Create. In addition, mods such as Thermal Foundation, Immersive Engineering, and MineColonies have special compatibility for Tinkers.
+
+Note that while we add materials for some common ores, you do not need to install a mod to get the ores for the full experience. Tinkers is designed to work with what ores you have, rather than including a bunch of ores that just exist for tools and end up cluttering your inventory. If you don't care about clutter and just want the ores, literally any mod that just adds ores will work, for instance Thermal Foundation.
