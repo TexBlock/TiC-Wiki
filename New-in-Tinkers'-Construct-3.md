@@ -35,23 +35,26 @@ This section discusses changes to the world module
     * Spawn in blue or green dirt variants, all types with blue foliage
     * Sky slimes have overcome their weakness of falling off the island by bouncing
 * Nether slime islands renamed to blood islands
-    * Spawn with orange dirt and red foliage, plus the new bloodshroom slimy "tree" (source of ichor)
+    * Spawn with orange dirt and red foliage
+    * "Trees" are called bloodshrooms, a huge fungus variant obtained from red slimy nylium
+    * Bloodshrooms grow ichor instead of shroomlights
     * Remain a good source of magma cubes, now including a lake of liquid magma cream
 * New ichor slime islands
     * Planned to appear as part of the nether ceiling, not yet implemented
     * Ichor slimes will live in reverse gravity with their upside down trees and stuff
 * Purple slimes islands got tired of the dumb blue slimes, so they migrated to the end to start their own society
     * They actually prefer the name enderslime now
-    * Ender slime mobs can be found now, who teleport for attacking and defense
-    * Ender slimes are the most advanced of the slimes, some may even wear armor in the future
+    * Enderslime mobs can be found now, who teleport for attacking and defense
+    * Enderslimes are the most advanced of the slimes, some may even wear armor in the future
 * Slimy Saplings
     * As mentioned earlier, saplings now have slimy wood instead of congealed slime for the stems
     * Slimy wood has a hard outer bark layer and a squishy inner slimy wood layer, meaning the effective tool changes when stripping
-    * Slimeballs are still dropped from the leaves
+    * Slimeballs are still dropped from the leaves, except on bloodshrooms, where slime generates in place of shroomlights
     * Slimy saplings can now be melted in a smeltery for liquid slime of the proper type
 * Clay Islands
     * Slime island variant spawning with normal grass
     * Lake filled with clay and sand
+
 
 # Tools
 
@@ -170,10 +173,10 @@ For a full list of modifiers and traits, see [this spreadsheet](https://docs.goo
 * Emerald now grants bonus damage to illagers
 * Haste is a bit stronger to be more in line with the efficiency enchantment
 * Autosmelt and luck currently do not have special interactions
-    * The devs are looking in to how to add such interactions with mod compatibility and without extreme duplication exploits
+    * Likely we will leave out the interactions, as the main use (multiplying ingots) is coming to vanilla in 1.17
 * Embossments were removed, but a similar mechanic will return with the soul forge
 * Modifier recipes changed. Look for recipes in JEI, do not make issues about modifiers being missing because the recipe changed
-* Modifier removal is planned, but currently not implemented
+* Removing modifiers from existing tools is planned, but currently not implemented
 
 ## Tools
 
@@ -183,7 +186,7 @@ These tools are available from tier 1 and onwards.
 
 * *Pickaxe*:
     * Adding expanders now increases the tool's area to 1x1x3, then to 1x3x3
-    * Does 1 heart of armor piercing damage
+    * Starts with Piercing II, in exchange for a lower damage stat
 * *Mattock*:
     * Makes paths instead of hoeing, effective on all blocks the shovel could break
     * Replaces the shovel
@@ -195,14 +198,13 @@ These tools are available from tier 1 and onwards.
 * *Kama*:
     * Gained the ability to hoe blocks, making it a fully effective farming tool
     * Adding expanders first increases it to a half sphere cross shape, then a 3x3x2 half sphere
-    * High attack speed, low attack damage, making it an effective DPS weapon
+    * Faster than a sword, but lower attack damage
 * *Sword*
     * Renamed from broadsword since its the only remaining sword
-    * Has a bonus ability slot, making more modifiers applicable
+    * Has a bonus ability slot, at the cost of one fewer upgrade slots (though gilded can be used to reclaim that slot)
 * *Dagger*:
     * Fast weapon with low damage, but can attack on right click for use in the offhand.
     * Replaces the rapier
-    * In the next alpha
 
 ### Broad
 
@@ -214,6 +216,7 @@ These tools require the Tinker's Anvil to craft, a tier 3 component. Tool parts 
 * *Veining Hammer*:
     * Breaks a vein of ores within 2 blocks, expands up to 4 blocks with expanders
     * One of the fastest broad weapons
+    * Effective against armor, starting with Piercing II
 * *Excavator*:
     * Area starts at 3x3, expanders increase to 3x5 then 5x5
     * Starts with Knockback II
@@ -222,10 +225,10 @@ These tools require the Tinker's Anvil to craft, a tier 3 component. Tool parts 
     * Tree logic works in a column, meaning a large tree takes 4 hits to break
     * Expanders increase max tree base size
     * When targeting non-logs, has a 1x1x6 area of effect, expandable up to 3x6x2
-    * High damage, making it an effective weapon
+    * High damage, but really slow
 * *Cleaver*:
     * Now has sweep attack
-    * If forge ever fixes their attribute, will grant bonus reach
+    * If forge ever fixes their attribute, will grant bonus attack reach
 * *Scythe*:
     * Retains area attack
     * Can now hoe the ground
