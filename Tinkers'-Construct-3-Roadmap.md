@@ -28,10 +28,10 @@ The following subsections contain major features that are included in the curren
 
 **Tool types**
 
-* Small: broadsword
+* Small: broadsword, dagger
     * Harvest: pickaxe, mattock, axe, kama
 * Large: cleaver
-    * Harvest: sledge hammer, vein hammer, broad axe, excavator, cleaver, scythe
+    * Harvest: sledge hammer, vein hammer, broad axe, excavator, scythe
 
 **Materials**
 
@@ -46,14 +46,15 @@ The following subsections contain major features that are included in the curren
 
 * Free: Worldbound, Overslime, Creative
     * Bonus upgrade slots: book and quill, music disc, mob head, end crystal
-* Upgrades: Reinforced, Experienced, Magnetic, Soulbound, Tank, Overforced
+* Upgrades: Reinforced, Experienced, Magnetic, Soulbound, Tank, Overforced, Offhanded
     * Harvest: Haste, Blasting, Lightspeed, Hydraulic 
-    * Weapon: Beheading, Necrotic, Knockback, Fiery, Sweeping Edge
+    * Weapon: Beheading, Necrotic, Knockback, Padded, Fiery, Sweeping Edge
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
 * Abilities: Gilded, Bucketing, Glowing, Unbreakable
     * Range: Expanded, Reach
-    * Loot: Silk Touch, Luck, Autosmelt, Melting
+    * Loot: Silk Touch, Luck, Autosmelt
+    * Weapon: Dual Wielding, Melting
     * Block transform: tilling, pathing, stripping
 
 **Special recipes**
@@ -79,7 +80,7 @@ The following subsections contain major features that are included in the curren
 * Blood slime islands
     * Spawn in the nether
     * Contain ichor and blood
-    * Contains bloodshrooms
+    * Contains bloodshrooms, a nether like slime tree
 * Necrotic bones
     * Drop from wither skeletons
 * Enderslime islands
@@ -90,45 +91,28 @@ The following subsections contain major features that are included in the curren
 ### Book
 
 * Materials and You
-    * Mostly complete, apart from new info in later editions
     * Has full list of tier 1 materials and traits
-    * Has a modifier listing, though a few modifiers will be moved to puny smelting later
+    * Describes how to start the mod through tables and tool crafting
 * Puny Smelting
     * Has full list of tier 2 materials and traits
+    * Has an upgrade and slotless modifier listing
+    * Describes basic fluid transfer, melting, and casting
 * Mighty Smelting
     * Has full list of tier 3 materials and traits
+    * Has an ability modifier listing
+    * Describes smeltery creation and alloying
+    * Lists broad tools and discusses creation of the anvil
 * Fantastic Foundry
     * Has full list of tier 4 materials and traits
     * Has information on how to obtain molten blaze
+    * Discusses creating the foundry and the alloyer
 * Encyclopedia of Materials
     * Has a full list of tier 1 through 4 materials
+    * Has a list of all upgrades, abilities, and slotless modifiers with detailed information
+    * Has a full list of tools, detailing stats and special abilities
 * Tinkers Gadgetry
     * Placeholder book for future documentation
 
-## Next Alpha
-
-### Tools
-
-**Data packs**
-
-* Support tagged fluids in materials, possibly via recipes
-
-**Tools**
-
-* Dagger
-
-**Modifiers**
-
-* Padded
-    * Reduces tool knockback
-* Duel Wielding
-    * Similar to the daggers ability, but for any tool
-* Draconic
-    * Can now be crafted using dragon scales as an alternative to dragon heads
-
-### Misc
-
-* Library cleanup (remove unused code, repackaging, a couple class renames)
 
 ## Before beta
 
@@ -139,19 +123,6 @@ This section contains features that we want done before the first beta release, 
 **Datapacks**
 
 * Document material creation
-
-**Book**
-
-* Puny Smelting
-    * Melter and melting
-    * Casting
-* Mighty Smelting
-    * Smeltery
-    * Tinkers' Anvil modifiers
-* Fantastic Foundry
-    * Alloyer
-    * Foundry
-    * Tier 1-3 nether materials?
 
 ### Resources
 
@@ -171,9 +142,7 @@ This section contains features that we want done before the first beta release, 
 
 * Tier 1: Chorus
 * Tier 2: End Stone
-* Tier 3: Dragonstone, Hollow
-* Tier 4: Soulsteel
-* Tier 5: KnightSlime, Ebonite, Alexandrite
+* Tier 4: Some composite using molten diamond
 
 **Modifiers**
 
@@ -190,7 +159,9 @@ This section contains features that we want done before the first beta release, 
 
 * Find a good way to handle duplicate materials between mods. We just going to resort to conditions?
     * Might need to make recipes directly referencing materials automatically disable if the material is not found
+    * A way to redirect an old material ID to a new one would be good, textures support it
 * Texture generators
+
 
 ## Long term content
 
@@ -227,6 +198,12 @@ This section just describes some content that will be in the mod eventually, but
 * Bow modifiers
 * Throwing
 * Charge attack modifier
+
+**Materials**
+
+* Tier 3: Dragonstone, Hollow
+* Tier 4: Soulsteel
+* Tier 5: KnightSlime, Ebonite, Alexandrite
 
 **Part Builder**
 
