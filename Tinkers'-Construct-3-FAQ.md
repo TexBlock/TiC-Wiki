@@ -6,6 +6,7 @@ This FAQ is for questions related to Tinkers' Construct 3 gameplay. For question
 
 - [How do I craft X?](#how-do-i-craft-x)
 - [Where did X go?](#where-did-x-go)
+- [Why do fluids have no physics?](#why-do-fluids-have-no-physics)
 - [How do I make the stencil table and tool parts?](#how-do-i-make-the-stencil-table-and-tool-parts)
 - [What are upgrade or ability slots?](#what-are-upgrade-or-ability-slots)
 - [How do I add more modifier slots?](#how-do-i-add-more-modifier-slots)
@@ -34,6 +35,10 @@ Note that you can view recipes for tool parts (including in the part builder and
 ## Where did X go?
 
 Tinkers' Construct 3 has many many gameplay changes, and is also incomplete. Refer to [[What's New?|New-in-Tinkers'-Construct-3]] for a summary of what changed in Tinkers' Construct 3, and [[Roadmap|Tinkers' Construct 3 Roadmap]] for a summary of what is currently complete and what is planned for future updates.
+
+## Why do fluids have no physics?
+
+For to the fluid changes Mojang made in 1.13+, we cannot add liquid physics to our blocks without declaring them 100% equivalent to water or lava, which both breaks other mods and causes some undesired behaviors to be added. As a result, we are waiting on Forge to add proper fluid support.
 
 ## How do I make the stencil table and tool parts?
 
