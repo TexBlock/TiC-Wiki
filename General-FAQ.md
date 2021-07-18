@@ -34,6 +34,8 @@ If you want help with gameplay, you are free to ask on [our discord](https://dis
 
 Until 1.17 Forge is released, we cannot start development. We will continue to work on the 1.16 version of the mod until 1.17 Forge is released, then make an updated plan.
 
+And because it has to be said for some reason even though it should be obvious, yes, any of our mods that add copper will switch to the vanilla ore.
+
 ## Do you plan to port the mod to Fabric, Bedrock, or any other platform besides Forge?
 
 In general, none of us see much point in porting the mod to another mod loader, as Forge has served us well enough for years and contains many systems we rely upon. Porting to another platform would require significant work, which none of us have time for.
