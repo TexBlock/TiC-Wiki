@@ -5,6 +5,7 @@
 | `UnbreakableModifier` | 125 | `onDamageTool` | Does not protect overslime, skips unneeded work in unbreakable. |
 | `BlastingModifier`, `LightspeedModifier`, `HydralicModifier` | 125 | `onBreakSpeed` | Provides a flat boost to break speed, wants to apply it before percentage boosts. |
 | `OvercastModifier` | 90 | `addVolatileData` | Adds a percentage boost to overslime capacity, wants to run after overslime and overforced, but not boost overlord. |
+| `OffhandAttackModifier` | 90 | `getAttackDamage`, `onEntityUse` | Reduces attack damage by a percentage, most additive boosts are 100 priority. Entity use also uses this to just be one of the first. |
 | `BucketingModifier` | 80 | `addVolatileData`, `afterBlockUse` | Rounds capacity to the nearest bucket. |
 | Pathing, Stripping, Tilling | 75 | `afterBlockUse` | Needs to run before glowing. |
 | `OverlordModifier` | 90 | `addVolatileData` | Runs last so its after overcast, as it would make overcast way to strong to boost this large amount by a percentage. |
