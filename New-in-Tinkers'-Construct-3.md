@@ -245,10 +245,26 @@ Armor has some different rules for how modifiers apply. With the exception of th
 
 These weapons make use of drawspeed and projectile behavior
 
-* *Bows*
-* *Crossbows*: Rebalancing to be closer to the vanilla crossbow
-* *Boomerang*: New throwable weapon that returns after throwing
-* *Spear*: High reach melee/ranged hybrid (takes role of vanilla trident)
+* *Crossbow*:
+    * Launches vanilla mod added arrows, along with fireworks (possibly requiring a modifier to do so)
+    * Rebalanced to be closer to the vanilla crossbow
+    * Will be crafted as a small tool, first form of bow available
+    * Likely will be able to dual wield using the dual wielding modifier
+* *Longbow*:
+    * Two handed variant of the crossbow
+    * Allows much greater accuracy and more damage at the cost of slower drawspeed
+* *Slingshot*:
+    * Weapon variant of slimeslings
+    * Can fire projectile items such as snowballs, shurikens, fire charges, and splash potions
+* *Boomerang*:
+    * New throwable weapon
+    * Deals damage then returns to hand
+    * Behavior will be similar to a trident with loyalty
+* *Spear*:
+    * Cross between a boomerang and a cleaver
+    * Works in melee as a high reach weapon
+    * Can be thrown for a ranged attack
+    * Takes the role of the vanilla trident
 
 ### Tinkers' Complement Tools
 
