@@ -32,7 +32,7 @@ If you want help with gameplay, you are free to ask on [our discord](https://dis
 
 ## What are your plans for 1.17?
 
-Until 1.17 Forge is released, we cannot start development. We will continue to work on the 1.16 version of the mod until 1.17 Forge is released, then make an updated plan.
+We will continue to work on the 1.16 version of the mod until 1.17 Forge is a bit more stable. After that we will discuss whether we want to wait for 1.18 or update to 1.17. Our decision will likely depend on the decision of a couple other major mods.
 
 And because it has to be said for some reason even though it should be obvious, yes, any of our mods that add copper will switch to the vanilla ore.
 
