@@ -2,6 +2,39 @@ This page is a summary of all the changes in Tinkers' Construct 3 for 1.16, comp
 
 Note that not everything on this page is fully implemented. For information about implemented features, see [the roadmap](https://github.com/SlimeKnights/TinkersConstruct/wiki/Tinkers%27-Construct-3-Roadmap).
 
+<table>
+  <thead><th>Table of Contents</th></thead>
+  <tbody><td>
+
+**[World](#world)**
+* [Ore Gen](#ore-gen)
+* [Slime Islands](#slime-islands)
+
+**[Tools](#tools)**
+* [Tool Tables](#tool-tables)
+* [Materials](#materials)
+* [Modifiers](#modifiers)
+* [Tools](#tools-1)
+  + [Small](#small)
+  + [Broad](#broad)
+  + [Armor](#armor)
+  + [Ranged](#ranged)
+  + [Tinkers' Complement Tools](#tinkers--complement-tools)
+  + [Removed Tools](#removed-tools)
+
+**[Multiblocks](#multiblocks)**
+* [New features](#new-features)
+* [Recipe changes](#recipe-changes)
+* [Mechanics](#mechanics)
+* [Soul Forge](#soul-forge)
+
+**[Other](#other)**
+* [Additions](#additions)
+* [Recipes](#recipes)
+* [Removals](#removals)
+  </td>
+</table>
+
 # World
 
 This section discusses changes to the world module
