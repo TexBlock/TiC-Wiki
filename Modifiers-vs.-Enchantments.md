@@ -18,6 +18,7 @@ This page is based primarily on Tinkers' Construct 3 for Minecraft 1.16 and abov
   * [Conflicting enchantments](#conflicting-enchantments)
   * [Modifier slots](#modifier-slots)
   * [Level caps](#level-caps)
+  * [Negatives](#negatives)
   * [Scaling cost](#scaling-cost)
 
 **[Using both](#using-both)**
@@ -73,15 +74,23 @@ The primary way enchantments are balanced is through use of conflicting enchantm
 
 Tinkers' Construct 3 balances tools based on modifier slots. Each tool has a limited total number of slots, requiring the player to choose how to fill the slots. Adding an extra level of sharpness may require fewer levels of knockback for instance, causing many of the best tools to excel at just a single task. For example, an ideal zombie killer sword will take as many levels of smite as possible, then fill the remaining slots with sharpness to get the most damage against zombies. However, doing so means losing out on other modifiers such as luck or knockback.
 
+There are a few key exceptions which can be added without consuming slots. For those modifiers, they have to be balanced in other ways as otherwise every tool might as well get that modifier.
+
 ### Level caps
 
 Both methods balance based on maximum levels, though there are some differences to how the max levels impact the method.
 
 For enchantments, once you have a single level of an enchantment, there is little to stop you from getting the maximum level (apart from poor RNG). This means that any ideal tool with sharpness will likely have sharpness V by endgame.
 
-For modifiers, this cap mainly forces the player to consider multiple different modifiers. Since you are only allowed up to 5 levels of sharpness, if you want to further increase damage you might branch out into fiery, piercing, or haste.
+For modifiers, this cap mainly forces the player to consider multiple different modifiers. Since you are only allowed up to 5 levels of sharpness, if you want to further increase damage you might branch out into fiery, piercing, or haste. An exception to this is slotless modifiers, which rely on the level cap to prevent from being too strong as the slot limit does not prevent them from being added.
 
 One notable effect of this is while ideally one level of a modifier is roughly as strong as one level of an enchantment, modifiers need to be more concerned about how levels scale. An enchantment can have a strong first level and weaker later levels as there are few reasons the player would decide against more levels of an enchantment. With modifiers, the slot limit means the player independently decides whether to add each level of a modifier, as not adding it leaves room for a different modifier.
+
+### Negatives
+
+Enchantments also exist in the form of curses, which appear on some books obtained outside of the enchanting table to give some disadvantages to using the book. While this can give the player some interesting choices, they are rare enough the player may just decide to seek out another book instead.
+
+Modifiers are always a choice to be applied, so any negatives the player has to choose to apply. As a result, the concept of curses does not fit the design, but some modifiers exist that provide both a positive and negative effect. This is the primary way to balance slotless modifiers, as otherwise all slotless modifiers will be applied to every tool.
 
 ### Scaling cost
 
