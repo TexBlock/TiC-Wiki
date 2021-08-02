@@ -16,9 +16,11 @@
 * [[What's New?|New-in-Tinkers'-Construct-3]]
 * [[Roadmap|Tinkers' Construct 3 Roadmap]]
 * [[FAQ|Tinkers' Construct 3 FAQ]]
+* [[Modifiers vs. Enchantments]]
 #### Moders
 * [[Block Model Loaders|Tinkers Construct Block Model Loaders]]
 * [[Modifier Priorities]]
+* [[Modifier Slot Types]]
 * [[Persistent Inventory Crafting Blocks]]
 * [[Recipe JSON List]]
 * [[Tag List]]
