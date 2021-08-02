@@ -8,7 +8,7 @@ By default, Tinkers' Construct includes 4 slot types:
 |:--|:--|:--|:--|
 | Upgrade | `upgrades`  | Standard modifier slot, allows applying most modifiers. | Most tools start with 3 slots. Several modifier recipes plus rose golds trait grant additional slots. |
 | Ability | `abilities` | Rare modifier slot, used for powerful modifiers that should be more limited. | Most tools start with 1 slot. An additional slot can be applied through a modifier recipe. |
-| Trait   | `traits`    | Slot for use in the soul forge. Currently unused, but will be used in future updates. Might get renamed to soul slots. | In the future, hollow gems and hollow ingots will grant more trait slots. |
+| Soul    | `souls`    | Slot for use in the soul forge. Currently unused, but will be used in future updates. | In the future, hollow gems and hollow ingots will grant more soul slots. |
 | Armor   | `armor`     | Slots for protection based modifiers. Basic modifiers are divided into armor and upgrade. Currently unused. | Most armor will start with 3 armor slots in addition to 3 upgrade slots. |
 
 Slot IDs are intentionally not namespaced to encourage reuse among addons and datapacks. If you make an addon with a custom slot type, discuss it with us and we can mention it on this page.
