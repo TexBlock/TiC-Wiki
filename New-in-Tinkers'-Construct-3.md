@@ -142,7 +142,7 @@ This page describes some of the new content related to tools mechanics, includin
     * In the end, this tier consists of chorus
 * Tier 2
     * Requires ores or the melter to obtain materials
-    * Includes iron, copper, slimewood, and seared stone
+    * Includes iron, copper, slimewood, seared stone, and bloodbone
     * In the nether, this tier includes scorched stone
     * In the end, this tier includes end stone
     * The emerald modifier will also upgrade a tool to tier 2
@@ -154,7 +154,7 @@ This page describes some of the new content related to tools mechanics, includin
     * The diamond modifier will also upgrade a tool to tier 3
 * Tier 4:
     * Requires nether access to obtain materials
-    * Includes manyullyn, hepatizon, queen's slime, and soul steel
+    * Includes manyullyn, hepatizon, queen's slime, soulsteel, and blazing bone
     * The netherite modifier will also upgrade a tool to tier 4, requires either the diamond or emerald modifier
 * Tier 5:
     * Requires end access to obtain materials
@@ -219,7 +219,7 @@ These tools are available from tier 1 and onwards.
 
 * *Pickaxe*:
     * Adding expanders now increases the tool's area to 1x1x3, then to 1x3x3
-    * Starts with Piercing II, in exchange for a lower damage stat
+    * Starts with Piercing I, in exchange for a lower damage stat
 * *Mattock*:
     * Makes paths instead of hoeing, effective on all blocks the shovel could break
     * Replaces the shovel
@@ -238,10 +238,14 @@ These tools are available from tier 1 and onwards.
 * *Dagger*:
     * Fast weapon with low damage, but can attack on right click for use in the offhand.
     * Replaces the rapier
+* *Flint and Bronze*:
+    * Tinkers' Construct version of flint and steel
+    * Can receive durability based and melee modifiers, along with interaction based abilities
+    * Expanders increase area of effect, along with the unique fire primer modifier
 
 ### Broad
 
-These tools require the Tinker's Anvil to craft, a tier 3 component. Tool parts will possibly use of the Part Forge in the future. All broad tools are two handed, meaning the offhand is unavailable while using. To make up for this, a modifier that grants special attacks on use is planned.
+These tools require the Tinker's Anvil to craft, a tier 3 component. Tool parts will possibly use of the Part Forge in the future. All broad tools are two handed, meaning the offhand is unavailable while using unless the offhanded modifier is applied.
 
 * *Sledgehammer*:
     * Area starts at 3x3, expanders increase to 3x5 then 5x5
@@ -299,11 +303,13 @@ These weapons make use of drawspeed and projectile behavior
     * Can be thrown for a ranged attack
     * Takes the role of the vanilla trident
 
-### Tinkers' Complement Tools
+### Undecided
 
-These tools are planned to be in the addon Tinkers' Complement, as they do not precisely fit in our tool tiers, but we liked them too much to abandon them. They will serve as examples of an addon adding new tools.
+The following tools are not removed as we liked them too much to abandon them. However, they do not precisely fit in our tool tiers. They may end up in the addon Tinkers' Complement to serve as examples of an addon adding new tools.
 
-* *Frypan*: High knockback, low damage weapon
+* *Battle Sign*:
+    * Cross between a shield and a melee weapon
+    * Lots of overlap with cleaves if they get blocking
 
 ### Removed Tools
 
@@ -322,7 +328,7 @@ These tools are not returning in Tinkers Construct 3.
     * Being replaced with boomerangs (for a full Tinkers tool) or the new shuriken gadget (see the misc page)
 * *Longswords*
     * Were basically a reskin of the sword with minor stat changes that most people just used for the leap ability
-    * Leap returning as a slime sling variant
+    * Leap returned as a slime sling variant
 * *Longbows*
     * Were basically a reskin of the short bow with more expensive parts and slightly different stats
     * Cross bow is being declared the large version of the bow
@@ -351,7 +357,8 @@ This section is about new features related to the smeltery or smeltery mechanics
 **Added composite casting recipes**
 
 * Composite materials are made by pouring a liquid on a solid tool part of a different material
-* One example is slimewood, from pouring liquid slime on wood
+* One example is blazing bone, from pouring blazing blood on necrotic bones
+* Composite recipes existed in 1.12 and before, though the name is new
 
 **New peripherals**
  
@@ -483,6 +490,7 @@ This page discusses some of the new features that do not fit in any other sectio
     * Brownstone
     * Drying racks and jerky
     * Punji sticks
+* Note that Natura may not release on all the versions that Tinkers will. However, these features were removed from Tinkers' in the first place as they did not fit the design.
     
 **Pink slime**
 
