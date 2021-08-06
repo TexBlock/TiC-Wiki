@@ -28,7 +28,7 @@ The following subsections contain major features that are included in the curren
 
 **Tool types**
 
-* Small: broadsword, dagger
+* Small: broadsword, dagger, flint and bronze
     * Harvest: pickaxe, mattock, axe, kama
 * Large: cleaver
     * Harvest: sledge hammer, vein hammer, broad axe, excavator, scythe
@@ -36,31 +36,33 @@ The following subsections contain major features that are included in the curren
 **Materials**
 
 * Tier 1: Wood, stone, flint, bone, necrotic bone
-* Tier 2: Iron, copper, seared stone, scorched stone, slimewood
+* Tier 2: Iron, copper, seared stone, scorched stone, slimewood, bloodbone
 * Tier 2 compat: Lead, silver, electrum
 * Tier 3: tinkers' bronze, nahuatl, slimesteel, rose gold, pig iron, cobalt
 * Tier 3 compat: Steel, bronze, constantan
-* Tier 4: Queen's slime, hepatizon, manyullyn
+* Tier 4: Queen's slime, hepatizon, manyullyn, blazing bone
 
 **Modifiers**
 
-* Free: Worldbound, Overslime, Creative
+* Free: Worldbound, overslime, shiny, creative
     * Bonus upgrade slots: book and quill, music disc, mob head, end crystal
-* Upgrades: Reinforced, Experienced, Magnetic, Soulbound, Tank, Overforced, Offhanded
+    * Bonus ability slot: dragon head
+* Upgrades: Reinforced, Experienced, Magnetic, Soulbound, Tank, Overforced, Offhanded, Fireprimer
     * Harvest: Haste, Blasting, Lightspeed, Hydraulic 
     * Weapon: Beheading, Necrotic, Knockback, Padded, Fiery, Sweeping Edge
     * Damage boost: Sharpness, Smite, Bane of Arthropods, Antiaquatic, Cooling
     * Tier modifiers: Emerald, Diamond, Netherite
-* Abilities: Gilded, Bucketing, Glowing, Unbreakable
+* Abilities: Gilded, Unbreakable
     * Range: Expanded, Reach
     * Loot: Silk Touch, Luck, Autosmelt
     * Weapon: Dual Wielding, Melting
-    * Block transform: tilling, pathing, stripping
+    * Interaction: tilling, pathing, stripping, glowing, firestarter, bucketing
 
 **Special recipes**
 
 * Repair kits
 * Potion of Harming to damage tools
+* Wet sponge to remove modifiers
 
 ### Resources
 
@@ -72,20 +74,21 @@ The following subsections contain major features that are included in the curren
 * Overworld skyslime islands
     * Spawn in green and blue variants
     * Contain blue foliage and skyroot wood
+    * Contain skyslimes
 * Overworld earthslime islands
     * Spawn in green and blue variants
     * Contain green foliage and greenheart wood
+    * Contain earthslimes (vanilla slime)
 * Clay islands
-    * Weird idea, want to develop a bit more later
+    * Contain terracube mobs
 * Blood slime islands
     * Spawn in the nether
-    * Contain ichor and blood
-    * Contains bloodshrooms, a nether like slime tree
+    * Contain ichor and blood, plus magma cubes
+    * Contains bloodshrooms, a nether like slimy fungus
 * Necrotic bones
     * Drop from wither skeletons
 * Enderslime islands
-    * Contain ender slime
-    * Currently no mobs
+    * Contains enderslimes
     * Temporary second home of greenheart wood
 
 ### Book
@@ -124,6 +127,13 @@ This section contains features that we want done before the first beta release, 
 
 * Document material creation
 
+**Tinkers' Gadgetry**
+
+* Discusses island variants
+* Discusses other worldgen resources
+* Discusses armor
+* Discusses slimeslings
+
 ### Resources
 
 **Worldgen**
@@ -135,20 +145,19 @@ This section contains features that we want done before the first beta release, 
 **Tool types**
 
 * Shield
-* Battle Sign
+* Battle Sign - maybe
 * Armor
 
 **Materials**
 
 * Tier 1: Chorus
 * Tier 2: End Stone
-* Tier 4: Some composite using molten diamond
 
 **Modifiers**
 
 * Mending
     * New general ability
-    * Requires something from the end to craft
+    * Requires something from the end to craft, or maybe soul forge
     * Tool repairs on XP pickup
 * Blocking
     * Battle sign ability as a modifier
@@ -173,7 +182,6 @@ This section just describes some content that will be in the mod eventually, but
     * Allows accessing the UI fluid tank
     * Comparator signal for tank level
     * On pulse, switches fluid order (bottom to top? Top to bottom?)
-* Sand casts: allow placing sand second?
 
 ### Crafting
 **Multiblock**
