@@ -12,14 +12,14 @@ As a side-effect of this design, all players share the same crafting UI includin
 
 One method of accessing the player in vanilla crafting table recipes was an access transformer to the private event handler container from `CraftingInventory`. This will not work with the crafting station as we do not use that event handler, thus it is null. Additionally, as mentioned before, the original crafting hooks are not player sensitive. Since we understand some mods may wish to make player sensitive recipes, we do provide player access when the recipe result is removed.
 
-If you want to simply prevent crashes with the crafting station, just make your recipe `matches` return false if the player/container is missing. This will effectively group the crafting station with auto-crafters that lack player access.
+If you want to simply prevent crashes with the crafting station, just make your recipe `matches` return false if the container is missing. This will effectively group the crafting station with auto-crafters that lack player access.
 
 To create player sensitive crafting recipes that work with the crafting station:
-* `matches` should return true even if a player is missing
-* `getCraftingResult` should use `ForgeHooks.getCraftingPlayer()` to get the player. You can check if the container field is null to know if you should call the Forge hook.
 * When the player tries to take the item, we set the player to `ForgeHooks.setCraftingPlayer()`
     * After doing so, we call both `matches` and `getCraftingResult` a second time to get the final result for the recipe
     * Within your logic, you can retrieve the player using `ForgeHooks.getCraftingPlayer()` to add player information
+* Instead of getting the player from the container in `matches` and `getCraftingResult`, you should use `ForgeHooks.getCraftingPlayer()` to get the player. You can check if the container field is null to know if you should call the Forge hook.
+* Note that if multiple players are viewing the table, `matches` will only receive one of the two players (not entirely sure how the player is determined). `getCraftingResult` will have the player actually trying to craft the item.
 
 ## Player sensitive recipes in other blocks
 
