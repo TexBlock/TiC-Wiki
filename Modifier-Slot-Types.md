@@ -24,7 +24,7 @@ For addons, slots can be defined using the methods in `SlotType`:
 * `getOrCreate(String name)`: Same as above, but if the slot is undefined, uses white as the color.
 * `getIfPresent(String name)`: Returns the slot if any mod declared it, or null if undeclared.
 
-For datapacks, slots currently can only be defined in recipes, see [[#Recipes]].
+For datapacks, slots currently can only be defined in recipes, see [#Recipes](#Recipes).
 
 ### Recipes
 
@@ -32,11 +32,11 @@ Modifier and salvage recipes which support slots have a JSON object key named `s
 
 ```json
 {
-  // other recipe contents
+  "other_recipe_contents": "...",
   "slots": {
     "<id>": <count>
   },
-  // other recipe contents
+  "other_recipe_contents": "..."
 }
 ```
 
@@ -65,7 +65,7 @@ Slot types require a texture which is used both for the creative slot modifier, 
 
 For a datapack, its easiest to create a resource pack to override the default icons. These are defined in `assets/tconstruct/models/item/creative_slot.json`. The textures JSON object contains a mapping from slot ID to texture in the standard resource pack format. Copying this file and adding the additional textures will allow these slots.
 
-For addons, more textures can be added via `NBTKeyModel.registerExtraTexture(ResourceLocation key, String textureName, ResourceLocation texture)`. The following parameters are wanted:
+For addons, more textures can be added via Mantle's `NBTKeyModel.registerExtraTexture(ResourceLocation key, String textureName, ResourceLocation texture)`. The following parameters are wanted:
 * `key` should be passed as `tconstruct:creative_slot`
 * `textureName` should be the ID of your modifier slot
 * `texture` should be the texture path in standard resource pack format.
