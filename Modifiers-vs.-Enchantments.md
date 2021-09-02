@@ -1,4 +1,4 @@
-This page describes a bit of the design philosophy behind Tinker's modifiers and how they differ from vanilla enchantments. Most of this page will be contrasting how the two sources of upgrading your tool differ, as it helps in designing modifiers (or potentially even enchantments).
+This page describes a bit of the design philosophy behind Tinker's modifiers and how they differ from vanilla enchantments. Most of this page will be contrasting how the two sources of upgrading your tool differ, as it helps in designing modifiers (or potentially even enchantments), along with explaining why you cannot use both on a tool.
 
 This page is based primarily on Tinkers' Construct 3 for Minecraft 1.16 and above, but it will be partly relevant to earlier versions.
 
