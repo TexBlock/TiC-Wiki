@@ -68,4 +68,4 @@ For a datapack, its easiest to create a resource pack to override the default ic
 For addons, more textures can be added via Mantle's `NBTKeyModel.registerExtraTexture(ResourceLocation key, String textureName, ResourceLocation texture)`. The following parameters are wanted:
 * `key` should be passed as `tconstruct:creative_slot`
 * `textureName` should be the ID of your modifier slot
-* `texture` should be the texture path in standard resource pack format.
+* `texture` should be the texture path in standard model resource pack format.
