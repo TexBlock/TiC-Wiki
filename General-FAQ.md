@@ -42,9 +42,11 @@ In general, none of us see much point in porting the mod to another mod loader, 
 
 A few notable platforms:
 * Fabric is missing many systems that we rely upon, including models, events, Forge's fluid API, and the capability system. Replacing any of these or migrating to a Fabric version of the API (once added) would take significant effort.
-* Bedrock we do not believe has a mature enough addon system for us to make something that is properly Tinkers' Construct. You can however play an [unofficial port made by Stratospheer](https://mcpedl.com/tinkers-construct-bedrock-edition/). Note that we cannot provide support for issues with the unofficial port.
+* Bedrock we do not believe has a mature enough addon system for us to make something that is properly Tinkers' Construct.
 
-If another author wants to make a Fabric,  Bedrock, or any other platform version of Tinkers' Construct, they are free to reuse code and assets, as those are under the MIT license. We ask that they do not use the name Tinkers' Construct or something too similar to prevent users from getting the authors confused; preferably, ports would be a pun from "Tinkers' Construct" and the modloader name. Additionally, if you manage to make a release, feel free to post about it on [our discord](https://discord.gg/njGrvuh).
+While we do not have time to make such ports, there are several ports and alternatives to Tinkers' Construct that already exist, which are described by [this spreadsheet](https://docs.google.com/spreadsheets/d/1gOxPm37wu8Y9vVewNYv8JAxfkPQmkUfvnSjsk_sMiBo/edit#gid=0).
+
+If you are interested in making a port to Fabric, Bedrock, or any other platform version of Tinkers' Construct, you are free to reuse code and assets, as those are under the MIT license. We ask that they do not use the name Tinkers' Construct or something too similar to prevent users from getting the authors confused; preferably, ports would be a pun from "Tinkers' Construct" and the modloader name. Additionally, if you have a public release or a code repository with significant progress, feel free to post about it on [our discord](https://discord.gg/njGrvuh) and I will add it to the spreadsheet.
 
 ## I found a bug, what do I do?
 
