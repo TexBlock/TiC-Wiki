@@ -130,6 +130,8 @@ Tool leveling was added by an addon, it was never part of the base mod. The mod 
 
 Constructs Armory is another addon, this one made by TheIllusiveC4. He has no current timeline, but has discussed some plans for the mod's future on [his discord](https://discord.gg/JWgrdwt).
 
+Note that Tinkers' Construct also plans to add a form of armor in 1.16, though it will be more mechanically similar to the 1.7.10 Traveler's Gear than to Construct's Armory.
+
 ## What mods are compatible with Tinkers?
 
 Any mods using the Forge system for fluid pipes will automatically work with the smeltery, foundry, tanks, faucets, and channels. In addition, any mod that adds a common ore (copper, tin, lead, aluminum, etc.) will get melting and casting compatibility for the ore, and some of those will also get tools. These days the question is really not hat mods are compatible but what mods are not compatible, as Forge lets most mods work together rather seamlessly. 
