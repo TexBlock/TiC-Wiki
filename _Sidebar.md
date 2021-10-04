@@ -17,11 +17,13 @@
 * [[Roadmap|Tinkers' Construct 3 Roadmap]]
 * [[FAQ|Tinkers' Construct 3 FAQ]]
 * [[Modifiers vs. Enchantments]]
-#### Moders
-* [[Block Model Loaders|Tinkers Construct Block Model Loaders]]
-* [[Modifier Priorities]]
+#### Datapacks
+* [[Datapack Modifiers]]
 * [[Modifier Slot Types]]
-* [[Persistent Inventory Crafting Blocks]]
 * [[Recipe JSON List]]
 * [[Tag List]]
+#### Modders
+* [[Block Model Loaders|Tinkers Construct Block Model Loaders]]
+* [[Modifier Priorities]]
+* [[Persistent Inventory Crafting Blocks]]
 * [[Tool NBT Format]]
