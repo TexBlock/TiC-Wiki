@@ -4,8 +4,7 @@ Simple and incremental modifiers share these keys:
 `result`: [[ModifierEntry|Common-JSON-Value-Types#modifierentry]]. The resulting modifier.  
 `tools`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. The tool that the modifier requires. Usually a tag.  
 `requirements`: [[ModifierMatch|Common-JSON-Value-Types#modifiermatch]]. Optional. Modifiers required on the tool to apply the recipe.  
-`upgrade_slots`: Integer. Defaults to 0. The amount of upgrade slots the modifier recipe takes.  
-`ability_slots`: Integer. Defaults to 0. The amount of ability slots the modifier recipe takes. A modifier recipe cannot use both upgrade and ability slots.  
+`slots`: [[SlotCount|Common-JSON-Value-Types#slotcount]]. Contains information about the slots required for a modifier. If undefined or empty, the modifier will be "slotless", meaning no modifier slots are required.
 `max_level`: Integer. Defaults to 0. The maximum levels of the modifier that can be applied through this recipe. 0 means no limit.
 
 ## Simple Modifier Recipe
@@ -34,11 +33,11 @@ Simple and incremental modifiers share these keys:
         "level": 1
       },
       "max_level": 2,
-      "ability_slots": 1
+      "slots": { "abilities": 1 }
     }
 
 ## Incremental Modifier Recipe
-The resulting modifier *must* extend IncrementalModifier.
+The resulting modifier *must* extend IncrementalModifier for proper behavior.
 ### Keys
 `type`: Must be `"tconstruct:incremental_modifier"`.  
 `input`: [[Ingredient|Common-JSON-Value-Types#ingredient]]. The item added to make the modifier.  
@@ -63,5 +62,5 @@ The resulting modifier *must* extend IncrementalModifier.
         "level": 1
       },
       "max_level": 5,
-      "upgrade_slots": 1
+      "slots": { "upgrades": 1 }
     }
