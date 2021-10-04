@@ -11,6 +11,7 @@
 * [FluidStack](#fluidstack)
 * [ModifierEntry](#modifierentry)
 * [ModifierMatch](#modifiermatch)
+* [SlotCount](#slotcount)
 * [ResourceLocation](#resourcelocation)
 * [Fluid](#fluid)
 * [IFluidHandlerItem](#ifluidhandleritem)
@@ -151,7 +152,16 @@ A recursive list of ModifierMatch and [[ModifierEntry|Common-JSON-Value-Types#mo
       "error": "recipe.tconstruct.modifier.netherite_requirements"
     }
 
- 
+## SlotCount
+
+Contains information about the modifier slots in a recipe. The format for `SlotCount` is `{ "<type>": <slots> }` where `<type>` is the type of modifier slots required, and `<slots>` is the number of that type needed. At most one type can be specified, if no type is specified the modifier is considered "slotless"
+
+For more information on modifier slots, see [[Modifier Slot Types]]
+
+### Example
+    "slots": {"upgrades": 2}
+
+Requires 2 modifier slots of type `upgrades`.
 
 ## ResourceLocation
 https://mcforge.readthedocs.io/en/latest/concepts/resources/
