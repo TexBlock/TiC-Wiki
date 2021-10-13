@@ -234,7 +234,7 @@ These tools are available from tier 1 and onwards.
     * Faster than a sword, but lower attack damage
 * *Sword*
     * Renamed from broadsword since its the only remaining sword
-    * Has a bonus ability slot, at the cost of one fewer upgrade slots (though gilded can be used to reclaim that slot)
+    * Best damage per second of all weapons, due to average attack speed and damage
 * *Dagger*:
     * Fast weapon with low damage, but can attack on right click for use in the offhand.
     * Replaces the rapier
