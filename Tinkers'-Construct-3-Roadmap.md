@@ -1,3 +1,38 @@
+## Next Alpha
+
+### Materials
+
+* Adjusted sort orders of many materials to leave more room for addon materials
+* Made bloodbone deal slightly more damage to better align with tier 2 materials
+* Made Cobalt and steel a bit more distinct by giving steel more attack to cobalts mining speed
+* Constantan now has stats closer to tier 3 harvest materials
+* Seared stone buffed to have more durability
+
+### Material Compatibility
+
+* Added osmium as a tier 2 general material
+* Added tungsten and platinum as tier 2 harvest materials
+* Added whitestone as a tier 2 special composite using aluminum, tin, or zinc
+* Added invar as a tier 3 weapon material
+* Added necronium as a tier 3 weapon composite using uranium and necrotic bones
+* Added plated slimewood as a tier 3 special material using brass and slimewood
+
+### Smeltery Compatibility
+
+* Immersive Engineering: Added wire cast and wire casting
+* Mekanism: Added melting, casting, and composite recipes for for refined obsidian and refined glowstone, along with alloying for refined obsidian
+* Thermal: Added melting, casting, and alloying for lumium, enderium, and signalum
+
+### Data
+
+* Added new command to list all modifiers and whether they are used in recipes or traits
+
+### API
+
+* Added material render info data generator
+* Added new `IModifierRecipe` interface for compatibility with the new command in dynamic recipes, it is the parent interface of `IDisplayModifierRecipe`
+* Material based recipes that fail to find the material now hide in JEI and always fail
+
 ## Before beta
 
 This section contains features that we want done before the final 1.16 update, and before the mod is marked as beta. It will ensure the mod is mostly stable moving on. After the first beta release, the API should remain stable, so making addons will be a lot easier.
