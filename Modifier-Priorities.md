@@ -1,6 +1,8 @@
 
 | Modifier | Priority | Relevant Hooks | Comments |
 | :------- | :------- | :------------- | :------- |
+| `TannedModifier` | 200 | `onDamageTool` | Wants to be processed before all other durability hooks |
+| `StoneshieldModifier` | 175 | `onDamageTool` | Wants to be processed before overslime |
 | `OverslimeModifier` | 150 | `onDamageTool` | Wants to be processed before normal durability |
 | `UnbreakableModifier` | 125 | `onDamageTool` | Does not protect overslime, skips unneeded work in unbreakable. |
 | `BlastingModifier`, `LightspeedModifier`, `HydralicModifier` | 125 | `onBreakSpeed` | Provides a flat boost to break speed, wants to apply it before percentage boosts. |
