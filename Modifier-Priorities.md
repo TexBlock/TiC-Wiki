@@ -11,7 +11,7 @@
 | `BucketingModifier` | 80 | `addVolatileData`, `afterBlockUse` | Rounds capacity to the nearest bucket. |
 | Pathing, Stripping, Tilling | 75 | `afterBlockUse` | Needs to run before glowing. |
 | `OverlordModifier` | 90 | `addVolatileData` | Runs last so its after overcast, as it would make overcast way to strong to boost this large amount by a percentage. |
-| `MomentumModifier` | 75 | `onBreakSpeed` | Wants to multiply all previous speed bonuses |
+| `MomentumModifier`, `Airborne` | 75 | `onBreakSpeed` | Wants to multiply all previous speed bonuses |
 | `GlowingModifier` | 70 | `afterBlockUse` | Completely overrides block use behavior, so want to run after other block use modifiers. |
 | Multi-level `ExtraModifier` | 65 | `afterBlockUse` | Done so it displays late last in the tinker station. |
 | Multi-level `ExtraModifier` | 60 | - | Done so it displays late last in the tinker station. |
