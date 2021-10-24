@@ -9,8 +9,9 @@
 | `OvercastModifier` | 90 | `addVolatileData` | Adds a percentage boost to overslime capacity, wants to run after overslime and overforced, but not boost overlord. |
 | `OffhandAttackModifier` | 90 | `getAttackDamage`, `onEntityUse` | Reduces attack damage by a percentage, most additive boosts are 100 priority. Entity use also uses this to just be one of the first. |
 | `BucketingModifier` | 80 | `addVolatileData`, `afterBlockUse` | Rounds capacity to the nearest bucket. |
+| `OverlordModifier` | 80 | `addVolatileData` | Runs last so its after overcast, as it would make overcast way to strong to boost this large amount by a percentage. |
 | Pathing, Stripping, Tilling | 75 | `afterBlockUse` | Needs to run before glowing. |
-| `OverlordModifier` | 90 | `addVolatileData` | Runs last so its after overcast, as it would make overcast way to strong to boost this large amount by a percentage. |
+| `EnderportingModifier` | 75 | `afterEntityHit` | Wants to ensure extra hits that kill the entity are considered, such as piercing. |
 | `MomentumModifier`, `AirborneModifier` | 75 | `onBreakSpeed` | Wants to multiply all previous speed bonuses |
 | `GlowingModifier` | 70 | `afterBlockUse` | Completely overrides block use behavior, so want to run after other block use modifiers. |
 | Multi-level `ExtraModifier` | 65 | `afterBlockUse` | Done so it displays late last in the tinker station. |
