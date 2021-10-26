@@ -2,6 +2,7 @@
 | Modifier | Priority | Relevant Hooks | Comments |
 | :------- | :------- | :------------- | :------- |
 | `TannedModifier` | 200 | `onDamageTool` | Wants to be processed before all other durability hooks |
+| `SolarPoweredModifier` | 185| `onDamageTool` | Incentivizes giving up a trait slot for solar powered, makes up for it being weaker underground/at night |
 | `StoneshieldModifier` | 175 | `onDamageTool` | Wants to be processed before overslime |
 | `OverslimeModifier` | 150 | `onDamageTool` | Wants to be processed before normal durability |
 | `UnbreakableModifier` | 125 | `onDamageTool` | Does not protect overslime, skips unneeded work in unbreakable. |
