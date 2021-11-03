@@ -50,6 +50,7 @@ The following materials require another mod to provide certain ores for them to 
     * A config option is provided to disable this fix in case you change the recipes (or you can use a datapack to remove our copies of the recipes)
 * Fix tinkers chest page still referencing modifier chests
 * Fix missing localization for part swapping
+* Fix JEI not showing stack sizes for part builder recipe inputs
 
 ### Data
 
