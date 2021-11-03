@@ -62,10 +62,18 @@ The following materials require another mod to provide certain ores for them to 
 ### API
 
 * Added material render info data generator
+* Added tool defintion and tinker station slot layout data generators
 * Added new `IModifierRecipe` interface for compatibility with the new command in dynamic recipes, it is the parent interface of `IDisplayModifierRecipe`
 * Material based recipes that fail to find the material now hide in JEI and always fail
 * All relevant teleports now fire a subclass of the forge `EntityTeleportedEvent` so other mods can cancel or modify teleports
 * Modifier tool damage hook now has an entity parameter. It is nullable, but in most cases it should be non-null
+
+#### Breaking changes
+
+* Tool defintion build is now done through datapacks, so the old builders no longer exist. There was no clean way to keep the old builds and migrate to datapacks
+    * Code calling methods on tool defintions should still work, though many old methods are deprecated
+* The old Tinker Station Slot layout logic was removed, so JSON added for slots will no longer work
+    * There are no breaking changes in code as all the related classes were not in the API
 
 ## Before beta
 
