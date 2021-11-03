@@ -2,13 +2,15 @@
 
 ### Materials
 
-* Adjusted sort orders of many materials to leave more room for addon materials
-* Made bloodbone deal slightly more damage to better align with tier 2 materials
-* Made Cobalt and steel a bit more distinct by giving steel more attack to cobalts mining speed
-* Constantan now has stats closer to tier 3 harvest materials
-* Seared stone buffed to have more durability
+#### Added
 
-### Material Compatibility
+The following materials are new binding exclusive materials. This means they provide no stats, but do provide some unique traits
+
+* Added leather, string, and vines as tier 1 materials. All have traits related to durability
+* Added chain and skyslime vine as tier 2 materials. Chain is a durability related trait, while skyslime vines are harvest
+* Added enderslime vines as a "tier 4" material, with a harvest/melee trait
+
+The following materials require another mod to provide certain ores for them to show.
 
 * Added osmium as a tier 2 general material
 * Added tungsten and platinum as tier 2 harvest materials
@@ -17,21 +19,52 @@
 * Added necronium as a tier 3 weapon composite using uranium and necrotic bones
 * Added plated slimewood as a tier 3 special material using brass and slimewood
 
-### Smeltery Compatibility
+#### Changes
+
+* Adjusted sort orders of many materials to leave more room for addon materials
+* Made bloodbone deal slightly more damage to better align with tier 2 materials
+* Made cobalt and steel a bit more distinct by giving steel more attack to cobalts mining speed
+* Constantan now has stats closer to tier 3 harvest materials
+* Seared stone buffed to have more durability
+
+### Tools
+
+* Blood and pig iron now restore hunger when used as a spilling effect, for the sake of future shenanigans
+* Broad axes now use a binding instead of the large plate in the recipe
+
+### Smeltery
+
+* Gold now always gives a byproduct of copper, instead of giving silver if present. This provides a source of copper in the nether
+
+#### Compatibility
 
 * Immersive Engineering: Added wire cast and wire casting
 * Mekanism: Added melting, casting, and composite recipes for for refined obsidian and refined glowstone, along with alloying for refined obsidian
 * Thermal: Added melting, casting, and alloying for lumium, enderium, and signalum
 
+### Misc
+
+* Fix a duplication bug in part builders related to changing stack sizes of the input
+* Fix cleared glass not being accepted by many vanilla recipes.
+    * As a note for modpack makers, this fix was implemented by registering a second copy of those recipes.
+    * A config option is provided to disable this fix in case you change the recipes (or you can use a datapack to remove our copies of the recipes)
+* Fix tinkers chest page still referencing modifier chests
+* Fix missing localization for part swapping
+
 ### Data
 
 * Added new command to list all modifiers and whether they are used in recipes or traits
+* Tool definitions are now defined in datapacks
+* Tinker Station slot layouts are now defined in datapacks instead of resource packs, and have a bit more functionality. In addition, they are now separated from tools, so custom layouts can be more easily added
+* The book no longer shows tools with invalid material combinations
 
 ### API
 
 * Added material render info data generator
 * Added new `IModifierRecipe` interface for compatibility with the new command in dynamic recipes, it is the parent interface of `IDisplayModifierRecipe`
 * Material based recipes that fail to find the material now hide in JEI and always fail
+* All relevant teleports now fire a subclass of the forge `EntityTeleportedEvent` so other mods can cancel or modify teleports
+* Modifier tool damage hook now has an entity parameter. It is nullable, but in most cases it should be non-null
 
 ## Before beta
 
@@ -42,8 +75,7 @@ This section contains features that we want done before the final 1.16 update, a
 **Datapacks**
 
 * Document material creation
-
-
+* Verify which recipe formats are documented so far
 
 ### Resources
 
@@ -59,7 +91,7 @@ This section contains features that we want done before the final 1.16 update, a
 
 **Possible tool types**
 
-Tools that I would like to include, but may not make it
+Tools that I would like to include, but may not make it before the first beta
 
 * Bows/crossbows
 * Shield
@@ -69,11 +101,6 @@ Tools that I would like to include, but may not make it
 
 * Tier 1: Chorus
 * Tier 2: End Stone
-* Tier 2 compat: Whitestone (aluminum/tin/zinc + seared stone composite)
-* Tier 2 compat: Necronium (uranium + necrotic bones)
-* Tier 2 compat: Tungsten, Platinum, Osmium (need to consider a bit more on all 3)
-* Tier 3 compat: Plated Slimewood (brass + slimewood)
-* Tier 3 compat: Invar
 
 **Modifiers**
 
@@ -85,6 +112,12 @@ Tools that I would like to include, but may not make it
 * Blocking
     * Battle sign ability as a modifier
     * If used on a battle sign, upgrades to full blocking like shields
+
+### Smeltery
+
+* Ability to pour non-forge fluid containers into tanks and drains
+    * Implement using a datapack registry (possibly recipes) to produce a mapping from itemstack to fluid + container.
+    * Possibly allow the inverse, or leave that to datapacks.
 
 ### Data
 
@@ -105,6 +138,7 @@ This section just describes some content that will be in the mod eventually, but
     * Allows accessing the UI fluid tank
     * Comparator signal for tank level
     * On pulse, switches fluid order (bottom to top? Top to bottom?)
+
 
 ### Crafting
 **Multiblock**
