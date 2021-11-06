@@ -26,6 +26,7 @@ The following materials require another mod to provide certain ores for them to 
 * Made cobalt and steel a bit more distinct by giving steel more attack to cobalts mining speed
 * Constantan now has stats closer to tier 3 harvest materials
 * Seared stone buffed to have more durability
+* Material redirects now save to tool NBT, which should both be slightly more efficient and give the option to remove redirects for cleanup later
 
 ### Tools
 
@@ -35,6 +36,7 @@ The following materials require another mod to provide certain ores for them to 
 ### Smeltery
 
 * Gold now always gives a byproduct of copper, instead of giving silver if present. This provides a source of copper in the nether
+* Smeltery debug block border now shows from smeltery building blocks instead of manuals, should make the reason more clear
 
 #### Compatibility
 
@@ -48,9 +50,9 @@ The following materials require another mod to provide certain ores for them to 
 * Fix cleared glass not being accepted by many vanilla recipes.
     * As a note for modpack makers, this fix was implemented by registering a second copy of those recipes.
     * A config option is provided to disable this fix in case you change the recipes (or you can use a datapack to remove our copies of the recipes)
-* Fix tinkers chest page still referencing modifier chests
-* Fix missing localization for part swapping
+* Fix many small book errors
 * Fix JEI not showing stack sizes for part builder recipe inputs
+* Fix materials with no relevant stats showing in the book lists
 
 ### Data
 
