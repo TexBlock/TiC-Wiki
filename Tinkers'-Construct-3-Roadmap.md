@@ -132,7 +132,6 @@ Tools that I would like to include, but may not make it before the first beta
 
 ### Data
 
-* Make material redirects save to NBT
 * Texture generators
 
 ### Compat
