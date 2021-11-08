@@ -44,8 +44,15 @@ The following materials require another mod to provide certain ores for them to 
 * Mekanism: Added melting, casting, and composite recipes for for refined obsidian and refined glowstone, along with alloying for refined obsidian
 * Thermal: Added melting, casting, and alloying for lumium, enderium, and signalum
 
+### Textures
+
+* All materials now have unique textures with proper palettes due to texture generators, instead of using the tint fallback. Means much better contrast on textures (thanks RCXcrafter for palettes and the original bases)
+* New nahuatl texture to match the new part palette
+* New queens slime textures (thanks LethalChicken)
+
 ### Misc
 
+* JEI: improved rendering of custom ingredient types, now show IDs on F3+H and all ingredients render properly in bookmarks
 * Fix a duplication bug in part builders related to changing stack sizes of the input
 * Fix cleared glass not being accepted by many vanilla recipes.
     * As a note for modpack makers, this fix was implemented by registering a second copy of those recipes.
@@ -60,6 +67,8 @@ The following materials require another mod to provide certain ores for them to 
 * Tool definitions are now defined in datapacks
 * Tinker Station slot layouts are now defined in datapacks instead of resource packs, and have a bit more functionality. In addition, they are now separated from tools, so custom layouts can be more easily added
 * The book no longer shows tools with invalid material combinations
+* Added texture generators, specifically generators for material variants of part textures
+    * Currently just implement repaletting a base texture, but the system has enough flexibility that the other methods can be brought back
 
 ### API
 
@@ -93,6 +102,7 @@ This section contains features that we want done before the final 1.16 update, a
 **Worldgen**
 
 * Update ender slime island foliage to a chorus like plant
+* Added purple end slimewood variant. No logs, just planks will be available
 
 ### Tools
 
@@ -129,10 +139,6 @@ Tools that I would like to include, but may not make it before the first beta
 * Ability to pour non-forge fluid containers into tanks and drains
     * Implement using a datapack registry (possibly recipes) to produce a mapping from itemstack to fluid + container.
     * Possibly allow the inverse, or leave that to datapacks.
-
-### Data
-
-* Texture generators
 
 ### Compat
 
