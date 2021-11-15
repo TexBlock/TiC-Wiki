@@ -1,7 +1,7 @@
 Texture generators are a feature in Tinkers' Construct for mass-producing textures from a given set of base textures. While they may not end up as high quality as artist made textures, they are much easier for modders and artists alike.
 
 They are two ways to run the texture generators:
-* Datagen: can be set up similar to data generators for tags or recipes. This method is ideal for modders to use.
+* Datagen: can be set up similar to data generators for tags or recipes. This method is ideal for modders to use, and is covered by this page.
 * Command: designed for use in datapacks and resource packs. This page will cover the generator setup for modders, if you are a datapack/resource pack maker, see [[Texture Generators (Data Packs)]].
 
 ## Material Part Texture Generator
