@@ -48,6 +48,10 @@ The material sprite provider lets you define three properties for a material:
 
 If your addon adds new tools, you will likely want to reuse `TinkerMaterialSpriteProvider` to generate variants of your parts using the Tinkers' materials. It also doubles as an example of this provider.
 
+### New Stat Types
+
+If your addon adds new stat types, and you want to apply them to materials from Tinkers' Construct or an addon, simply extend the relevant material sprite provider (for instance, `TinkerMaterialSpriteProvider`) and override `addAllMaterials` (ensuring to call `super`). The builders are set up so multiple calls to `buildMaterial` with the same ID will give the same builder, meaning you can get the existing builder then add the stat type.
+
 ### Transformers
 
 By default, Tinkers' Construct provides two transformers, `RecolorSpriteTransformer` and `GreyToSpriteTransformer`. However, additional transformers can be registered by implementing `ISpriteTransformer`, allowing more complex behavior to be described. Ultimately, transformers have access to the full ARGB values of the base sprite, along with any number of additional sprites you wish to include.
