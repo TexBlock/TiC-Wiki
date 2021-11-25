@@ -1,4 +1,4 @@
-Tinkers' Construct allows you to integrate your mod partially through IMCs. This page contains the supported IMCs and how to use them.
+Tinkers' Construct 2 (1.12) allows you to integrate your mod partially through IMCs. This page contains the supported IMCs and how to use them.
 
 **ALL IMCs HAVE TO BE SENT DURING PREINIT**
 
