@@ -209,7 +209,7 @@ For a full list of modifiers and traits, see [this spreadsheet](https://docs.goo
     * Likely we will leave out the interactions, as the main use (multiplying ingots) is coming to vanilla in 1.17
 * Embossments were removed, but a similar mechanic will return with the soul forge
 * Modifier recipes changed. Look for recipes in JEI, do not make issues about modifiers being missing because the recipe changed
-* Removing modifiers from existing tools is planned, but currently not implemented
+* Removing modifiers is possible using a wet sponge. A nicer UI to remove modifiers is planned.
 
 ## Tools
 
