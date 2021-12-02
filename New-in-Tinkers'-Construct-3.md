@@ -19,7 +19,7 @@ Note that not everything on this page is fully implemented. For information abou
   + [Broad](#broad)
   + [Armor](#armor)
   + [Ranged](#ranged)
-  + [Tinkers' Complement Tools](#tinkers--complement-tools)
+  + [Treasure](#treasure)
   + [Removed Tools](#removed-tools)
 
 **[Multiblocks](#multiblocks)**
@@ -303,9 +303,9 @@ These weapons make use of drawspeed and projectile behavior
     * Can be thrown for a ranged attack
     * Takes the role of the vanilla trident
 
-### Undecided
+### Treasure
 
-The following tools are not removed as we liked them too much to abandon them. However, they do not precisely fit in our tool tiers. They may end up in the addon Tinkers' Complement to serve as examples of an addon adding new tools.
+The following tools will be included as treasure tools. These instead of having materials will be found as loot from mobs or dungeons with randomized stats. It is currently undecided whether this feature will be an addon or part of the main mod.
 
 * *Battle Sign*:
     * Cross between a shield and a melee weapon
@@ -329,10 +329,9 @@ These tools are not returning in Tinkers Construct 3.
 * *Longswords*
     * Were basically a reskin of the sword with minor stat changes that most people just used for the leap ability
     * Leap returned as a slime sling variant
-* *Longbows*
-    * Were basically a reskin of the short bow with more expensive parts and slightly different stats
-    * Cross bow is being declared the large version of the bow
-    * Bow will have modifiers that make its stats closer to the longbows original stats
+* *Shortbows*
+    * Was just different stats compared to the longbow
+    * Crossbow fits well as a small bow variant, and longbow as a broad variant, so shortbows felt like the least interesting bow variant
 * *Rapiers*
     * Ended up being too similar to the dagger
     * The armor pierce ability was too weak against monsters, and too strong against players, the piercing modifier should be a good compromise
