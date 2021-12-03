@@ -49,6 +49,7 @@ Note that not all planned modifiers are fully implemented. Notably most of the p
     * *Soulbound* - causes the armor to remain in the inventory on death
     * *Thorns* - causes attackers to sometimes take damage
     * *Respiration* - Helmet upgrade - Decreases rate of air consumption underwater
+    * *The One Probe* - Helmet upgrade - Compatibility, grants access to the One Probe UI while wearing
     * *Haste* - Chestplate upgrade - Increases mining speed of held tool
     * *Power* - Chestplate upgrade - Increases attack damage of held tool
     * *Experienced* - Leggings upgrade - Increases experience gained
@@ -85,6 +86,7 @@ Note that not all planned modifiers are fully implemented. Notably most of the p
 * New modifiers
     * *Nohanded* - Slotless - Upgraded form of offhanded, entirely disables tool interaction ability. Indented to allow a tool in the main hand and using a chestplate interaction ability in the offhand
     * *Sticky* - Upgrade - Causes slowness on the attacked target
+    * *The One Probe* - Upgrade - Compatibility, grants access to the One Probe UI while holding
 * Changes
     * *Severing* - Fix wither skeleton being marked rare instead of wither
     * *Spilling* - Water spilling effect now extinguishes fire, perfect for a spilling helmet or a "healing" sword
