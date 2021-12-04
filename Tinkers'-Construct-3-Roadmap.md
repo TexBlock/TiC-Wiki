@@ -2,8 +2,7 @@
 
 ### Armor
 
-* Added two sets of modifiable armor, travelers and plate
-* In the future, a third set is planned as the highly modifiable set, but that is not yet implemented
+* Added two and a half sets of modifiable armor: travelers and plate, plus half of the slimesuit
 
 **Travelers Armor**
 
@@ -15,9 +14,10 @@
 * Nether armor set, made from manyullyn and chain
 * Higher armor and high number of defense slots, but few upgrade slots
 
-**Slime Boots**
+**Slime Suit**
 
-* Removed, replaced with a new boot modifier
+* Slimeskull is a new helmet made from a mob head and enderslime. Different heads grant different abilities
+* Slimeboots are more expensive now, but also support modifiers and grant leaping I
 
 ### Modifiers
 
