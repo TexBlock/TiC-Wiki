@@ -16,8 +16,10 @@
 
 **Slime Suit**
 
-* Slimeskull is a new helmet made from a mob head and enderslime. Different heads grant different abilities
-* Slimeboots are more expensive now, but also support modifiers and grant leaping I
+* Slimeskull is a new helmet made from a mob head and enderslime. Different heads grant different abilities.
+* Slimelytra is a modifiable elytra from an elytra and enderslime.
+* Slimeshell is leggings made from a shulker shell and enderslime. Its ability is not yet implemented, so for now it just grants protection (since the shell is hard).
+* Slimeboots are more expensive now, but also support modifiers and grant leaping I.
 
 ### Modifiers
 
