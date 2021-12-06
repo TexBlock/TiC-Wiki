@@ -145,10 +145,6 @@ This section contains features that we want done before the final 1.16 update, a
 
 ### Tools
 
-**Tool types**
-
-* Slime Suit armor
-
 **Possible tool types**
 
 Tools that I would like to include, but may not make it before the first beta
@@ -159,7 +155,7 @@ Tools that I would like to include, but may not make it before the first beta
 
 **Materials**
 
-* Tier 1: Chorus
+* Tier 1: Chorus (partially implemented as slimeshells use it to repair)
 * Tier 2: End Stone
 
 **Modifiers**
