@@ -93,9 +93,18 @@ Note that not all planned modifiers are fully implemented. Notably most of the p
     * *Severing* - Fix wither skeleton being marked rare instead of wither
     * *Spilling* - Water spilling effect now extinguishes fire, perfect for a spilling helmet or a "healing" sword
 
+### Recipes
+
+* Fix part builder not considering containers of input items
+
 ### Commands
 
 * Fix slots command `set` argument syntax being incorrect
+
+### JEI
+
+* Tool parts now show the material ID in the mod name area of the tooltip
+* Added config option (default true) to show modifier "ingredients" in the JEI ingredient list. They are not items, but are useful for recipe lookup
 
 ### Books
 
@@ -111,6 +120,9 @@ Note that not all planned modifiers are fully implemented. Notably most of the p
 * Many armor related modifier hooks
 * Several new armor related modifier tags, and the new `HELD` tag to make a modifier only work on tools held in either hand (non-armor)
 
+**Tool Definition**
+
+* It is now possible to add a tool with no tool parts, but with stat types for each part
 
 
 ## Before beta
