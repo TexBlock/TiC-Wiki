@@ -33,8 +33,6 @@ Tools that I would like to include, but may not make it before the first beta
 
 **Modifiers**
 
-* Boot walk modifiers
-* Legging inventory modifiers
 * Mending
     * New general ability
     * Requires something from the end to craft, or maybe soul forge
