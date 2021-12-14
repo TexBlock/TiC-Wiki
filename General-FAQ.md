@@ -6,7 +6,7 @@ This FAQ is for general questions related to SlimeKnight's mods. For questions a
 
 - [Can you backport Tinkers' Construct to X?](#can-you-backport-tinkers-construct-to-x)
 - [What versions of Minecraft do you support?](#what-versions-of-minecraft-do-you-support)
-- [What are your plans for 1.17?](#what-are-your-plans-for-117)
+- [What are your plans for 1.17/1.18?](#what-are-your-plans-for-117-118)
 - [Do you plan to port the mod to Fabric, Bedrock, or any other platform besides Forge?](#do-you-plan-to-port-the-mod-to-fabric-bedrock-or-any-other-platform-besides-forge)
 - [I found a bug, what do I do?](#i-found-a-bug--what-do-i-do)
 - [I have a suggestion, can I share it?](#i-have-a-suggestion-can-i-share-it)
@@ -30,9 +30,11 @@ We currently support just 1.16, both for new features and for bug fixes. We no l
 
 If you want help with gameplay, you are free to ask on [our discord](https://discord.gg/njGrvuh), though note we may be limited help with 1.7.10 or 1.12 due to how old those versions are. Additionally, anything older than 1.7.10 and any version between 1.8 and 1.11 are entirely unsupported. Make sure to mention what version you are talking about if asking about any version other than 1.16, as otherwise we will answer for 1.16.
 
-## What are your plans for 1.17?
+## What are your plans for 1.17/1.18?
 
-We will continue to work on the 1.16 version of the mod until 1.17 Forge is a bit more stable. After that we will discuss whether we want to wait for 1.18 or update to 1.17. Our decision will likely depend on the decision of a couple other major mods.
+Since 1.18 is released, we will most likely skip 1.17, as there is little sense porting to a version then dropping support shortly after.
+
+As a result, we will target 1.18 directly for the next port. Currently we are waiting on a bit more stability in Forge, along with a few more features to finish in the 1.16.5 versions.
 
 And because it has to be said for some reason even though it should be obvious, yes, any of our mods that add copper will switch to the vanilla ore.
 
@@ -50,7 +52,7 @@ If you are interested in making a port to Fabric, Bedrock, or any other platform
 
 ## I found a bug, what do I do?
 
-Start by updating your mods to the latest version, as your bug is possibly fixed in a later version.
+Start by updating your mods to the latest version, as your bug is possibly fixed in a later version. Also try testing with just Tinkers' Construct installed to determine if its a mod conflict, as that can be valuable information for fixing the issue.
 
 If the bug still happens in an up to date pack, you can try searching [our issue tracker](/SlimeKnights/TinkersConstruct/issues) to see if its a known issue, then ask on [our discord](https://discord.gg/njGrvuh) for help debugging it.
 
