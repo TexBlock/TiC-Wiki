@@ -121,3 +121,22 @@ This recipe causes direct damage to a tool. Notably, it does not interact with a
 * `type` (string): Always `tconstruct:tinker_station_damaging`
 * `ingredient` ([[Ingredient|Common-JSON-Value-Types#ingredient]]): Ingredient consumed for damaging.
 * `damage_amount` (integer): Amount to damage the tool by
+
+### Examples
+
+Defines damaging the tool by 25 using a potion of harming in the tinker station.
+
+```json
+{
+  "type": "tconstruct:tinker_station_damaging",
+  "ingredient": {
+    "type": "forge:nbt",
+    "item": "minecraft:potion",
+    "count": 1,
+    "nbt": "{Potion:\"minecraft:harming\"}"
+  },
+  "damage_amount": 25
+}
+```
+
+More examples can be found in `TConstruct.jar/data/tconstruct/recipes/tables/tinker_station_damaging/`
