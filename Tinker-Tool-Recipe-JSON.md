@@ -1,5 +1,14 @@
 These recipes define fundamental tool building related recipes.
 
+<table>
+  <thead><th>Table of Contents</th></thead>
+  <tbody><td>
+
+- [Tool Building](#tool-building)
+- [Part Swapping](#part-swapping)
+</td>
+</table>
+
 ## Tool Building
 
 Recipe for creating a tool. Currently just defines the tool as craftable from tool parts, though in the future will allow specifying other items required to create the tool. If a tool is defined with more than 3 parts, it must be created in the anvil.
