@@ -34,4 +34,4 @@ More examples in `TConstruct.jar/data/tconstruct/recipes/tools/building/`
 
 This recipe allows part swapping for any tool with swappable parts. It cannot be configured, but can be disabled to disable part swapping.
 
-It simply has one key: `type`, which is set to `tconstruct:tinker_station_part_swapping`
+It simply has one key: `type`, which is set to `tconstruct:tinker_station_part_swapping`. The recipe is defined in `TConstruct.jar/data/tconstruct/recipes/tables/tinker_station_part_swapping`
