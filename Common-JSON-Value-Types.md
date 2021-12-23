@@ -15,6 +15,7 @@
   * [ModifierEntry](#modifierentry)
   * [ModifierMatch](#modifiermatch)
   * [SlotCount](#slotcount)
+  * [RandomItem](#randomitem)
 </td>
 </table>
 
