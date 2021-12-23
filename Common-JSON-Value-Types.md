@@ -38,11 +38,21 @@ Some JSON specifies resource locations belonging to particular registries:
 * **Fluid**: Registry entry in fluid registry. For example `minecraft:water` or `tconstruct:molten_iron`.
 * **Modifier**: Registry entry in modifier registry. For example `tconstruct:haste` or `tconstruct:revitalized`.
 * **MaterialId**: Represents a specific material registered through a datapack. See `data/<domain>/materials/` for material definitions.
+* **Tag**: Tag ID for some registry. For example, the item tag `forge:ingots/copper` or the block tag `tconstruct:planklike`.
 
 ### Ingredient
 Vanilla recipe input. See [Mantle's wiki](/SlimeKnights/Mantle/wiki/Recipe-Components#ingredient) for more info. In addition to ingredients defined by vanilla or Mantle, Tinkers' Construct defines several new types of ingredients.
 
-####
+#### Material Ingredient
+
+This ingredient serves two purposes: creating an ingredient that matches a material item with a specific material, and creating an ingredient that matches any material for a material item but displays all material variants in JEI.
+
+**Keys**:
+
+* `type` (string): Always `tconstruct:material`.
+* `item` ([Item](#resourcelocation)): Item matched by this ingredient. Should be a material item.
+* `tag` ([Item Tag](#resourcelocation)): Makes the ingredient match any item in this tag.
+* `tag` ([MaterialId](#resourcelocation)): If set, the ingredient must have this material. If unset any material is valid and the display list will expand to show all material variants.
 
 ### FluidIngredient
 
