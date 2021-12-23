@@ -1,5 +1,17 @@
 Casting recipes allow converting a fluid and an optional item into an item.
 
+<table>
+  <thead><th>Table of Contents</th></thead>
+  <tbody><td>
+
+- [Item Casting](#item-casting)
+- [Material Fluid](#material-fluid)
+- [Material Casting](#material-casting)
+- [Composite Casting](#composite-casting)
+- [Container Filling](#container-filling)
+</td>
+</table>
+
 ## Item Casting
 
 Basic casting recipe type. Casts a fluid onto an optional cast to produce a result.
