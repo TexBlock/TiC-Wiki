@@ -4,11 +4,13 @@ This recipe defines head and other item drops for entities from the severing mod
   <thead><th>Table of Contents</th></thead>
   <tbody><td>
 
-- [Tinker Station Repair](#tinker-station-repair)
-- [Repair Kit](#repair-kit)
-- [Specialized Repair](#specialized-repair)
-- [Modifier Repair](#modifier-repair)
-- [Damaging Recipe](#damaging-recipe)
+- [Severing Recipe](#severing-recipe)
+- [Ageable Severing recipe](#ageable-severing-recipe)
+- [Special Severing Recipes](#special-severing-recipes)
+    - [Mooshroom](#mooshroom)
+    - [Player](#player)
+    - [Sheep](#sheep)
+    - [Snow Golem](#snow-golem)
 </td>
 </table>
 
