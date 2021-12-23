@@ -28,4 +28,4 @@ Melts any of endermen, endermites, or the enderdragon into 10 mb of molten ender
 }
 ```
 
-More examples in `.jar/data/tconstruct/recipes/smeltery/entity_melting/`
+More examples in `TConstruct.jar/data/tconstruct/recipes/smeltery/entity_melting/`
