@@ -1,4 +1,12 @@
 This recipe defines melting an item in the smeltery, melter, or foundry to produce a fluid.
+<table>
+  <thead><th>Table of Contents</th></thead>
+  <tbody><td>
+
+- [Item Melting](#item-melting)
+- [Material Melting](#material-melting)
+</td>
+</table>
 
 ## Item Melting
 
