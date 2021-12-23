@@ -8,6 +8,7 @@ Tools can be repaired in both the Tinker Station and the Crafting table. These r
 - [Repair Kit](#repair-kit)
 - [Specialized Repair](#specialized-repair)
 - [Modifier Repair](#modifier-repair)
+- [Damaging Recipe](#damaging-recipe)
 </td>
 </table>
 
@@ -110,3 +111,13 @@ Allows repairing any tool with the stringy modifier using string in the crafting
   "repair_amount": 25
 }
 ```
+
+## Damaging Recipe
+
+This recipe causes direct damage to a tool. Notably, it does not interact with any modifiers, so even unbreakable tools can be damaged.
+
+### Keys
+
+* `type` (string): Always `tconstruct:tinker_station_damaging`
+* `ingredient` ([[Ingredient|Common-JSON-Value-Types#ingredient]]): Ingredient consumed for damaging.
+* `damage_amount` (integer): Amount to damage the tool by
