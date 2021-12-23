@@ -4,11 +4,9 @@ Salvage is the method for removing modifiers from tools and restoring their slot
   <thead><th>Table of Contents</th></thead>
   <tbody><td>
 
-- [Tinker Station Repair](#tinker-station-repair)
-- [Repair Kit](#repair-kit)
-- [Specialized Repair](#specialized-repair)
-- [Modifier Repair](#modifier-repair)
-- [Damaging Recipe](#damaging-recipe)
+- [Modifier Removal](#modifier-removal)
+- [Salvage Recipe](#salvage-recipe)
+- [Incremental Salvage Recipe](#incremental-salvage-recipe)
 </td>
 </table>
 
