@@ -1,4 +1,4 @@
-Recipe JSON to convert a list of fluids into a single fluid output. Examples can be found in `TConstruct.jar/data/tconstruct/recipes/smeltery/alloys/`.
+Recipe JSON to convert a list of fluids into a single fluid output.
 
 ### Keys
 * `type` (string): Must be "tconstruct:alloy".
@@ -32,3 +32,4 @@ Alloys 3 ingots of copper and 1 ingot of gold to produce 4 ingots of rose gold. 
   "temperature": 550
 }
 ```
+More examples can be found in `TConstruct.jar/data/tconstruct/recipes/smeltery/alloys/`.
