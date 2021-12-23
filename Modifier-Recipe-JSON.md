@@ -63,7 +63,7 @@ More examples can be found in `TConstruct.jar/data/tconstruct/recipes/tools/modi
 
 ## Incremental Modifiers
 
-Modifier recipe that can be applied incrementally, meaning a partial amount is applied granting a partial effect.
+Modifier recipe that can be applied incrementally, meaning a partial amount is applied granting a partial effect. For modifiers that do not implement incremental behavior, this will not function as expected.
 
 ### Keys
 
