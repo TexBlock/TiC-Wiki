@@ -167,3 +167,14 @@ Requires 2 modifier slots of type `upgrades`:
 ```json
 "slots": {"upgrades": 2}
 ```
+
+### RandomItem
+
+Represents an item with a random chance and stack size. Can be constant (always returns the given item), range (returns between `min` and `max` items), or chance (has a `chance` percent chance of the result).
+
+#### Keys
+
+* *All keys from [ItemOutput](#itemoutput)*
+* `chance` (float): Number between 0 and 1 for the percent chance of this item.
+* `min` (integer): Minimum number of items to produce. Maximum will be the count of the item
+* `max` (integer): Alias for `count` as `min` and `max` looks cleaner than `min` and `count`.
