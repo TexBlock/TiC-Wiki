@@ -10,7 +10,7 @@ Recipe JSON to convert a list of fluids into a single fluid output.
 * `result` ([[FluidStack|Common-JSON-Value-Types#fluidstack]]). The recipe's output. Cannot be contained in any input.
 
 ### Example
-Alloys 3 ingots of copper and 1 ingot of gold to produce 4 ingots of rose gold. Requires a fuel of at least 550 degrees to melt.
+Alloys 3 ingots (432 mb) of copper and 1 ingot (144 mb) of gold to produce 4 ingots (576 mb) of rose gold. Requires a fuel of at least 550 degrees to melt.
 
 ```json
 {
