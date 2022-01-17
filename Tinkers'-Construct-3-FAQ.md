@@ -61,12 +61,9 @@ There are 4 ways to get additional upgrade slots:
 * Rose gold grants +1 upgrade slot per rose gold tool part
 * The gilded modifier uses a golden apple to trade 1 ability slot for 2 upgrade slots. This can be done multiple times.
 
-Ability slots can only be increased in 2 ways:
+Ability slots can only be increased in 1 way: the draconic modifier allows giving a tool an extra ability slot. Note draconic has two recipes.
 
-* Swords start with 2 ability slots, compared to all other tools that start with just 1.
-* The draconic modifier allows giving a tool an extra ability slot using a dragon head.
-
-This means most tools have a maximum of 10 upgrade slots and 2 ability slots, or 14 upgrade slots if gilded is used. Swords have a maximum of 9 upgrade slots and 3 ability slots, or 15 upgrade slots if gilded is used.
+This means most tools have a maximum of 10 upgrade slots and 2 ability slots, or 14 upgrade slots if gilded is used.
 
 ## How do I add luck to my tool?
 
