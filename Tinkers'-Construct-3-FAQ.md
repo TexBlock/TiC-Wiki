@@ -49,7 +49,7 @@ The stencil table was merged with the part builder in an interface similar to th
 Modifiers are divided into 4 major types:
 * *Traits*: Inert abilities based on the tools construction. Most small tools gain 3 traits from the materials, and large tools 4 traits. In addition, some tool types have additional traits, such as cleavers granting beheading or pickaxes piercing.
 * *Upgrades*: Classic type of modifier slot from previous versions; many classic modifiers such as quartz and haste use this slot type. Most small tools start with 3 upgrade slots, large tools start with 2 upgrade slots, and more can be added through other modifier types.
-* *Ability*: More limited slot slot type for stronger, more exclusive modifiers such as silk touch, autosmelt, or unbreakable. Most tools start with 1 ability slot, swords start with 2 ability slots, and an additional ability slot can be added to all tools though a slotless modifier.
+* *Ability*: More limited slot slot type for stronger, more exclusive modifiers such as silk touch, autosmelt, or unbreakable. Most tools start with 1 ability slot, and an additional ability slot can be added to all tools though a slotless modifier.
 * *Slotless*: Modifiers that can be added to a tool through recipes. Unlike upgrades or abilities, there is no limit to the number of slotless modifiers a tool may have.
 
 ## How do I add more modifier slots?
