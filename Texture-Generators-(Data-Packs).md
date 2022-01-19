@@ -31,7 +31,8 @@ This file controls which textures will be generated. It is located at `assets/<m
 * `replace`: If `true`, will ignore copies of this file for this domain in lower resource packs. If `false`, will merge with them. Note if you intend to disable all textures set by mods, you will need to set this to `true` for each mod ID providing a copy of the file.
 * `parts`: Array of part textures
     * *A JSON object*
-        * `path`: Path to the texture, relative to `assets/<mod_id>/textures/item/tool/`
+        * `path`: Path to the texture.
+        * `baseFolder`: If true, textures are relative to `assets/<mod_id>/textures/`, false makes them relative to `assets/<mod_id>/textures/item/tool/` (default). Upcoming in next 1.16 build.
         * `statType`: Stat type for the texture. If the material render info does not support this stat type, this pairing will be skipped.
 
 ## Material Render Info
